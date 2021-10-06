@@ -1,0 +1,9 @@
+RewriteEngine on
+# not rewrite css, js and images
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png|svg)$ [NC]
+
+RewriteRule example controllers/example.php [NC,L]
+RewriteRule ^contact controllers/contact.php [L]
+
+# ^$ checks for empty string to redirect to index
+RewriteRule ^$ controllers/index.php [L]
