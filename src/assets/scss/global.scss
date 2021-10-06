@@ -1,4 +1,21 @@
 // Import Variable File
 @import "./variables.scss";
 
+@import "./components/buttons.scss";
+
 // Here you can include the styles that will be used in all the pages, or use this file to create style components
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+a{
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  text-decoration:none;
+}
+button{
+  cursor:pointer;
+  border: none;
+}

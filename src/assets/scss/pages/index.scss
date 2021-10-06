@@ -1,2 +1,6 @@
 // Import Global styling
+@import "./../variables.scss";
 @import "./../global.scss";
+
+@import "../components/menu.scss";
+@import "../sections/hero.scss";

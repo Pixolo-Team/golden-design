@@ -9,71 +9,67 @@
     /*	============================== #Colors ==================================== */
 
     // Brand Colors
-    --color-primary: #222B78;
-    --color-primary-light: #384086;
-    --color-primary-dark: #1e266a;
-    --color-primary-rgb: 34,43,120;
-    --color-primary-contrast: #fff;
+    --color-primary: #E9635A;
+    --color-primary-light: #EE948E;
+    --color-primary-dark: #D45249;
+    --color-primary-rgb: 233, 99, 90;
+    --color-primary-contrast: #FFFFFF;
 
-    --color-secondary: #C30C69;
-    --color-secondary-light: #c92478;
-    --color-secondary-dark:#ac0b5c;
-    --color-secondary-rgb: 195, 12, 105;
+    --color-secondary: #687E8C;
+    --color-secondary-light: #8C9FAB;
+    --color-secondary-dark:#405F73;
+    --color-secondary-rgb: 104, 126, 140;
     --color-secondary-contrast: #fff;
 
     // Text Colors
-    --color-text-primary: #242424;
-    --color-text-primary-light: #3a3a3a;
-    --color-text-primary-dark: #202020;
-    --color-text-secondary: #fefefe;
-    --color-text-secondary-light: #fff;
-    --color-text-secondary-dark: #e0e0e0;
+    --color-text-primary: #41303E;
+    --color-text-primary-light: #7E7E7E;
+    --color-text-secondary: #FFFFFF;
 
     // Other Colors Required in the project
-    --color-blue: #0071a9;
-    --color-green: #21a947;
-    --color-red: #a9000a;
+    --color-blue: #5659D3;
+    --color-green: #469E59;
+    --color-yellow:#F6AB2F ;
+    --color-red: #E62D2D;     
 
+    /*	============================== #background color ==================================== */
+    --color-background: #F5F4F5;
+    --color-background-thin: #ECEAEB;
+    --color-background-light: #D9D6D8;
+    --color-background-dark: #2A2929;
 
     /*	============================== #Font Families ==================================== */
     // Primary Font
-    --font-primary: "Roboto", sans-serif;
+    --font-primary: "Glory",sans-serif;
 
     // If the Font is not a Scalable Font, then below variables are needed
-    --font-primary-thin: "Roboto Thin", sans-serif;
-    --font-primary-light: "Roboto Light", sans-serif;
-    --font-primary-medium: "Roboto Medium", sans-serif;
-    --font-primary-semi-bold: "Roboto Semi Bold", sans-serif;
-    --font-primary-bold: "Roboto Bold", sans-serif;
-    --font-primary-black: "Roboto Black", sans-serif;
-    
+    --font-primary-thin: 400 1em "Gilroy-UltraLight", sans-serif;
+    --font-primary-light: 400 1em "Gilroy-Light",sans-serif;
+    --font-primary-regular: 400 1em "Gilroy-Regular",sans-serif;
+    --font-primary-medium: 400 1em "Gilroy-Medium",sans-serif;
+    --font-primary-semi-bold: 400 1em "Gilroy-SemiBold",sans-serif;
+    --font-primary-bold: 400 1em "Gilroy-ExtraBold",sans-serif;
+    --font-primary-black: 400 1em "Gilroy-Black",sans-serif;
+
     // Secondary Font
     --font-secondary: "Roboto", sans-serif;
 
     // If the Font is not a Scalable Font, then below variables are needed
-    --font-secondary-thin: "Roboto Thin", sans-serif;
-    --font-secondary-light: "Roboto Light", sans-serif;
-    --font-secondary-medium: "Roboto Medium", sans-serif;
-    --font-secondary-semi-bold: "Roboto Semi Bold", sans-serif;
-    --font-secondary-bold: "Roboto Bold", sans-serif;
-    --font-secondary-black: "Roboto Black", sans-serif;
+    --font-secondary-thin: 200 1em Roboto,sans-serif;
+    --font-secondary-light: 300 1em Roboto, sans-serif;
+    --font-secondary-regular: 400 1em Roboto, sans-serif;
+    --font-secondary-medium: 500 1em Roboto, sans-serif;
+    --font-secondary-bold: 700 1em Roboto, sans-serif;
+    --font-secondary-black: 900 1em Roboto, sans-serif;
 
 
     /*	============================== #Font Sizes ==================================== */
     --font-tiny: 0.75em;
     --font-small: 0.875em;
     --font-regular: 1em;
-    --font-large: 1.25em;
-    --font-xlarge: 1.8em;
+    --font-medium:1.25em;
+    --font-large: 2.1875em;
+    --font-xlarge: 3.4375em;
     --font-xxlarge: 3.75em;
-
-
-    /*	============================== #Spacing ==================================== */
-    --space-tiny: 5px;
-    --space-small: 10px;
-    --space-regular: 15px; 
-    --space-large: 30px;
-    --space-xlarge: 45px;
-    --space-xxlarge: 60px;
     
 }
