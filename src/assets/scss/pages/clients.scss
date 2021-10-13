@@ -1,0 +1,74 @@
+// Import Global styling
+@import "./../variables.scss";
+@import "./../global.scss";
+
+// Components
+@import "../components/buttons.scss";
+
+@import "../components/menu.scss";
+@import "../sections/client-hero.scss";
+@import "../sections/footer.scss";
+
+// Client Logo Section
+.clients-title {
+  color: var(--color-text-primary);
+  font: var(--font-primary-semi-bold);
+  font-size: var(--font-large);
+  margin-bottom: 80px;
+  text-align: center;
+}
+.clients-logo-slider {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  .client-logo {
+    width: 10%;
+  }
+}
+
+// Client Item
+.client-item {
+  align-items: center;
+  display: flex;
+  margin-top: 165px;
+  &:nth-of-type(2n) {
+    flex-direction: row-reverse;
+    .client-info {
+      padding: 0 0 0 75px;
+    }
+  }
+  .client-info {
+    padding: 0 75px 0 0;
+    width: 55%;
+    .client-title {
+      color: var(--color-text-primary);
+      font: var(--font-primary-semi-bold);
+      font-size: var(--font-large);
+    }
+    .client-img {
+      margin: 32px 0;
+      max-height: 150px;
+      max-width: 150px;
+    }
+    .client-desc {
+      color: var(--color-text-primary-light);
+      font: var(--font-primary-light);
+      font-size: var(--font-medium);
+      line-height: 31.54px;
+    }
+  }
+  .client-images {
+    align-items: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    .client-img {
+      border: 2px solid var(--color-primary);
+      border-radius: 10px;
+      display: block;
+      margin: 10px 0;
+      width: 48%;
+    }
+  }
+}
