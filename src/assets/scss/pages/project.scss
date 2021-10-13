@@ -1,0 +1,11 @@
+// Import Global styling
+@import "./../variables.scss";
+@import "./../global.scss";
+
+// Components
+@import "../components/buttons.scss";
+
+@import "../components/menu.scss";
+@import "../sections/projects-hero.scss";
+@import "../sections/project-list.scss";
+@import "../sections/footer.scss";

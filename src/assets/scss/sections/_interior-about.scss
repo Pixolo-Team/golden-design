@@ -1,0 +1,15 @@
+.interior{
+    text-align: center;
+}
+.interior-heading{
+font: var(--font-primary-bold);
+font-size: var(--font-large);
+color: var(--color-text-primary);
+}
+.interior-passage{
+font: var(--font-primary-regular);
+font-size: var(--font-medium);
+color: var(--color-text-primary);
+line-height: 36px;
+margin-top: 35px;
+}

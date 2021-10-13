@@ -1,0 +1,28 @@
+.orders-page-head-line{
+    font: var(--font-primary-bold);
+    font-size: var(--font-large);
+    color: var(--color-text-primary);
+    text-align: center;
+    margin: 60px;
+    }
+    .orders-main-svg{
+        display: flex;
+        justify-content: center;
+        .orders-svg-image-section{
+         background-color: var(--color-background-light);
+         border-radius: 24px;
+         padding: 30px;
+         text-align: center;
+         margin: 0px 20px;
+         width: 240px;
+         .orders-svg-img{
+            width: 35%;
+            margin-bottom: 14px;
+         }
+        }
+    }
+.orders-svg-image-line{
+font: var(--font-primary-bold);
+font-size: var(--font-medium);
+color: var(--color-text-primary);
+}

@@ -19,3 +19,14 @@ button{
   cursor:pointer;
   border: none;
 }
+body{
+  background-color: var(--color-background);
+}
+.section{
+  max-width: 1400px;
+  margin: auto;
+  padding: 50px 60px;
+}
+.tint-section{
+  background-color: var(--color-background-tint);
+}

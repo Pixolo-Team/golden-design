@@ -1,0 +1,90 @@
+.works-title {
+  color: var(--color-text-primary);
+  font: var(--font-primary-semi-bold);
+  font-size: var(--font-large);
+  text-align: center;
+}
+.work-number-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  .work-number-link {
+    margin: 0 20px;
+    text-align: center;
+    width: 7em;
+    .works-number {
+      align-items: center;
+      background-color: var(--color-primary);
+      border-radius: 58px;
+      display: inline-flex;
+      font: var(--font-primary-semi-bold);
+      font-size: var(--font-medium);
+      height: 58px;
+      justify-content: center;
+      width: 58px;
+    }
+    .works-label {
+      color: var(--color-primary);
+      font: var(--font-primary-bold);
+      font-size: var(--font-regular);
+      margin-top: 17px;
+    }
+  }
+}
+
+.works-slider {
+  margin-top: 50px;
+  text-align: center;
+  .work-slider-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .work-image {
+      border-radius: 40px;
+    }
+  }
+}
+
+.work-box {
+  background-color: var(--color-text-secondary);
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: -110px;
+  padding: 35px 56px;
+  position: relative;
+  text-align: left;
+  width: 60%;
+  .work-title {
+    color: var(--color-text-primary);
+    font: var(--font-primary-bold);
+    font-size: var(--font-medium);
+  }
+  .work-desc {
+    color: var(--color-text-primary);
+    font: var(--font-secondary-regular);
+    font-size: var(--font-regular);
+    margin-top: 2px;
+  }
+}
+
+.loader-parent {
+  align-items: center;
+  background-color: var(--color-background-light);
+  border-radius: 30px;
+  display: flex;
+  height: 30px;
+  margin-top: 20px;
+  overflow: hidden;
+  width: 100%;
+  .loader-fill {
+    background-color: var(--color-primary);
+    height: 100%;
+  }
+  .loader-value {
+    color: var(--color-primary-contrast);
+    font: var(--font-primary-semi-bold);
+    font-size: var(--font-regular);
+    margin-left: -33px;
+  }
+}

@@ -5,3 +5,20 @@
   padding:10px 30px;
   font: var(--font-primary-semi-bold);
 }
+.primary-link{
+  font-size: var(--font-regular);
+  font: var(--font-primary-semi-bold);
+  color: var(--color-primary);
+  text-align: left;
+  position: relative;
+  &::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: var(--color-primary);
+    position: absolute;
+    border-radius: 5px;
+    right: -10px;
+    top: 6px;
+  }
+}

@@ -1,0 +1,33 @@
+.aim-bg-color{
+    background-color: var(--color-background-light);
+.aim-and-design{
+display: flex;
+.aim-main{
+    padding: 50px;
+.aim-heading{
+font: var(--font-primary-bold);
+font-size: var(--font-large);
+margin-bottom: 12px;
+display: inline-block;
+}
+.aim-discription{
+font: var(--font-primary-medium);
+line-height: 1.875em;
+}
+
+}
+}
+}
+.dotted-heading{
+    position: relative;
+    &::after{
+      content: "";
+      width: 9px;
+      height: 9px;
+      background: var(--color-primary);
+      position: absolute;
+      border-radius: 5px;
+      right: -15px;
+      top: 26px;
+    }
+}

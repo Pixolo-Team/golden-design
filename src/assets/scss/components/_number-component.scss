@@ -1,0 +1,21 @@
+.left-line-box{
+    border-left: 8px solid;
+    border-color: var(--color-primary);
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 25px 25px;
+}
+.numbers{
+font: var(--font-primary-bold);
+font-size: var(--font-xlarge);
+color: var(--color-text-primary);
+margin-left: 10px;
+}
+.numbers-discription{
+font: var(--font-primary-medium);
+font-size: var(--font-medium);
+color: var(--color-text-primary);
+margin-left: 10px;
+}

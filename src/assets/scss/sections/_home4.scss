@@ -1,0 +1,79 @@
+.big-thin-title {
+    font: var(--font-primary-light);
+    font-size: var(--font-xlarge);
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+    &::after{
+      content: "";
+      height: 15px;
+      width: 15px;
+      background-color: var(--color-primary);
+      border-radius: 50%;
+      position: absolute;
+      top: 33px;
+      right: -22px;
+    }
+}
+
+.sec4-second-half{
+padding:50px;
+margin-bottom: 10px;
+}
+.sec4-second-half-division{
+display:flex;
+}
+.sec4-second-half1{
+font: var(--font-secondary-regular);
+width:50%;
+}
+.sec4-second-half2 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+.image1{
+width:100%;
+}
+.siri-icon{
+  margin:15px;
+}
+.sec4-paragraph{
+  margin-bottom:22px;
+  font: var(--font-secondary-regular);
+  display: inline-block;
+}
+.tech-list {
+  list-style: none;
+  margin-left:15px;
+  line-height: 1.635em;
+  font: var(--font-primary-semi-bold);
+  .tech-list-item{
+    position: relative;
+    &::before{
+      content: "";
+      background: var(--color-primary);
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 15px;
+      left: -15px;
+      top: 8px;
+    }
+  }
+}
+.primary-link::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: var(--color-primary);
+  position: absolute;
+  border-radius: 5px;
+  right: -10px;
+  top: 6px;
+}
