@@ -1,0 +1,14 @@
+.client-img-wrap {
+  &::after {
+    background-color: rgba(0, 0, 0, 0.34);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+.client-hero-img {
+  position: relative;
+  width: 100%;
+}

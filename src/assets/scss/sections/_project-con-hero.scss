@@ -1,0 +1,50 @@
+.projects-hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.54) 100%
+    ),
+    url(../images/projects/projects-hero.jpg);
+  background-size: cover;
+  color: var(--color-text-secondary);
+  padding-top: 275px;
+  .inner-head {
+    font: var(--font-primary-bold);
+    font-size: var(--font-xlarge);
+    text-align: left;
+    width: 60%;
+  }
+  .hero-sub-head {
+    font: var(--font-primary-medium);
+    font-size: var(--font-medium);
+  }
+}
+.project-user {
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+  .project-user-img {
+    border: 3px solid var(--color-primary);
+    border-radius: 50px;
+    height: 57px;
+    width: 57px;
+  }
+  .project-user-info {
+    color: var(--color-text-secondary);
+    margin-left: 14px;
+    .project-u-name {
+      font: var(--font-primary-bold);
+      font-size: var(--font-medium);
+    }
+    .project-u-date {
+      font: var(--font-primary-medium);
+    }
+  }
+}
+.project-desc {
+  color: var(--color-text-primary-light);
+  font: var(--font-primary-light);
+  font-size: var(--font-medium);
+  line-height: 38px;
+  width: 65%;
+}
