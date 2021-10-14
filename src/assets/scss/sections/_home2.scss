@@ -2,6 +2,7 @@
   font: var(--font-primary-medium);
   font-size: var(--font-xlarge);
   text-align: center;
+  margin-top: 66px;
 }
 
 .sec2-line2 {
@@ -45,5 +46,24 @@
       font-size: var(--font-small);
       color: var(--color-text-primary-light);
       margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 697px){
+  .sec2-line1{
+    font-size: var(--font-large);
+  }
+  .sec2-line2{
+    font-size: var(--font-regular);
+  }
+  .image-wrapper{
+    flex-direction: column;
+  }
+  .section2-box{
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .sec2-box-line1{
+    font-size: var(--font-regular);
   }
 }

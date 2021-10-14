@@ -7,11 +7,11 @@
             font: var(--font-primary-bold);
             font-size: var(--font-xlarge);
         }
-        .project-line2{
-            font: var(--font-secondary-regular);
-            font-size: var(--font-medium);
-        }
     }
+}
+.project-line2{
+    font: var(--font-secondary-regular);
+    font-size: var(--font-medium);
 }
 .project-image-section{
     margin: 50px 0px;
@@ -53,4 +53,16 @@
     height: 68px;
     display: block;
     margin: auto;
+}
+
+@media only screen and (max-width: 697px) {
+    .project-line2{
+        font-size: var(--font-regular);
+    }
+.rounded-button{
+    margin: auto;
+    padding: 15px 40px;
+    border-radius: 51px;
+    margin-top: 20px;
+}
 }

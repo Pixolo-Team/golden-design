@@ -19,12 +19,7 @@
   display: flex;
   justify-content: space-between;
   padding: 85px 0px;
-  .client-videos-img-section {
-    width: 28%;
-    background: var(--color-primary-contrast);
-    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
-    border-radius: 12px;
-    overflow: hidden;
+}
     .client-video-image {
       position: relative;
     }
@@ -55,15 +50,7 @@
         }
       }
     }
-    .clients-video-description {
-      background-color: var(--color-primary-contrast);
-      padding: 2px 15px 15px;
-      .clients-video-description1 {
-        font: var(--font-secondary-regular);
-        font-size: var(--font-medium);
-        color: var(--color-text-primary);
-        text-align: center;
-        .quote-mark {
+    .quote-mark {
           font: var(--font-primary-black);
           color: var(--color-primary);
           font-size: var(--font-large);
@@ -73,7 +60,6 @@
           font: var(--font-primary-bold);
           color: var(--color-primary);
         }
-      }
       .clients-video-description2 {
         font: var(--font-primary-bold);
         font-size: var(--font-medium);
@@ -87,6 +73,40 @@
         text-align: center;
         margin-top: 1px;
       }
+    .client-videos-img-section {
+      width: 28%;
+      background: var(--color-primary-contrast);
+      box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+      border-radius: 12px;
+      overflow: hidden;
     }
+    .clients-video-description {
+      padding: 5px 19px 20px;
+    }
+    .clients-video-description1 {
+      font: var(--font-secondary-regular);
+      font-size: var(--font-medium);
+      color: var(--color-text-primary);
+      text-align: center;
+    }
+
+@media only screen and (max-width: 697px){
+  .description-line-2{
+    margin-bottom: 40px;
+  }
+  .clients-videos-sec2{
+    overflow-x: scroll;
+    display: block;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .client-videos-img-section{
+    display: inline-block;
+    width: 90%;
+    margin-right: 12px;
+  }
+  .clients-video-description1{
+    white-space: break-spaces;
+    text-align: left;
   }
 }

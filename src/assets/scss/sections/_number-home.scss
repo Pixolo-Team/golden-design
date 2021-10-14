@@ -17,3 +17,15 @@
       right: -22px;
     }
 }
+
+@media only screen and (max-width: 697px){
+  .big-thin-title{
+  margin-top: 50px;
+  font-size: var(--font-large);
+  }
+  .number-box{
+display: flex;
+flex-wrap:wrap ;
+  }
+
+}
