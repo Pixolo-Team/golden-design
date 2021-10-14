@@ -8,7 +8,7 @@
 }
 .menu-bar{
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   background-color: var(--color-background-dark);
   padding: 4px 20px;

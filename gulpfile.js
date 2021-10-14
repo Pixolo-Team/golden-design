@@ -74,7 +74,7 @@ var onError = function (err) {
 gulp.task("browser-sync", function () {
   console.log("Start Server");
   browserSync.init({
-    proxy: "localhost/twig-php-framework/dist/",
+    proxy: "localhost/golden-design/dist/",
   });
 });
 

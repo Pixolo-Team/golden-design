@@ -1,0 +1,19 @@
+.big-thin-title {
+    font: var(--font-primary-light);
+    font-size: var(--font-xlarge);
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+    &::after{
+      content: "";
+      height: 15px;
+      width: 15px;
+      background-color: var(--color-primary);
+      border-radius: 50%;
+      position: absolute;
+      top: 33px;
+      right: -22px;
+    }
+}
