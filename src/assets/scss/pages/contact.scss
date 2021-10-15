@@ -41,3 +41,23 @@
   position: relative;
   top: 0;
 }
+@media screen and (max-width: 697px) {
+  .contact-numbers {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .number-item {
+    margin: 20px 10px;
+  }
+  .map-form-wrap {
+    flex-direction: column;
+  }
+  .map-wrapper {
+    width: 100%;
+  }
+  .form-wrapper {
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+  }
+}

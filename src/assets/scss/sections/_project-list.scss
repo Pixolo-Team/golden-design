@@ -1,5 +1,13 @@
 .list-wrapper {
   width: 65%;
 }
-
+.rounded-button {
+  margin: 20px auto;
+  display: block;
+}
+@media screen and (max-width: 697px) {
+  .list-wrapper {
+    width: 100%;
+  }
+}
 @import "../components/project-item.scss";

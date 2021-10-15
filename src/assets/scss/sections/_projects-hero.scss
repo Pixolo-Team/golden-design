@@ -7,11 +7,17 @@
     url(../images/projects/projects-hero.jpg);
   background-size: cover;
   padding-top: 275px;
+}
+.inner-head {
+  color: var(--color-text-secondary);
+  font: var(--font-primary-bold);
+  font-size: var(--font-xlarge);
+  text-align: left;
+  width: 60%;
+}
+@media screen and (max-width: 697px) {
   .inner-head {
-    color: var(--color-text-secondary);
-    font: var(--font-primary-bold);
-    font-size: var(--font-xlarge);
-    text-align: left;
-    width: 60%;
+    font-size: var(--font-large);
+    width: 100%;
   }
 }
