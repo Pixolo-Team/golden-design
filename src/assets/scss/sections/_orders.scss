@@ -16,10 +16,16 @@
         text-align: center;
         margin: 0px 20px;
         width: 240px;
+        &:hover{
+            .orders-svg-img{
+                transform: rotate(10deg);
+            }
+        }
        }
        .orders-svg-img{
         width: 35%;
         margin-bottom: 14px;
+        transition: transform 0.4s;
      }
 .orders-svg-image-line{
 font: var(--font-primary-bold);

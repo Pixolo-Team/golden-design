@@ -47,16 +47,7 @@
     }
   }
 }
-.primary-link::after {
-  content: "";
-  width: 5px;
-  height: 5px;
-  background: var(--color-primary);
-  position: absolute;
-  border-radius: 5px;
-  right: -10px;
-  top: 6px;
-}
+
 
 @media only screen and (max-width: 697px) {
   .sec4-second-half{
