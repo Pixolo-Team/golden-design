@@ -1,5 +1,6 @@
 .interior{
     text-align: center;
+    background-color: #ffffff;
 }
 .interior-heading{
 font: var(--font-primary-bold);
@@ -12,4 +13,15 @@ font-size: var(--font-medium);
 color: var(--color-text-primary);
 line-height: 36px;
 margin-top: 35px;
+}
+
+@media only screen and (max-width: 697px){
+    .interior-heading{
+        font-size: var(--font-medium);
+    }
+    .interior-passage{
+        font-size: var(--font-regular);
+        line-height: 26px;
+        margin-top: 16px;
+    }
 }

@@ -47,3 +47,8 @@
   font: var(--font-primary-regular);
   font-size: var(--font-small);
 }
+@media screen and (max-width: 697px) {
+  .form-title {
+    font-size: var(--font-medium);
+  }
+}

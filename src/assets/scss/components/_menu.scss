@@ -1,12 +1,12 @@
-.covid-popup{
+.covid-popup {
   background-color: var(--color-background-light);
-  padding:12px 20px;
+  padding: 12px 20px;
 }
-.covid-msg{
-  color:var(--color-text-primary);
+.covid-msg {
+  color: var(--color-text-primary);
   font: var(--font-primary-medium);
 }
-.menu-bar{
+.menu-bar {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -14,35 +14,35 @@
   padding: 4px 20px;
   align-items: center;
 }
-.logo{
-
+.logo {
 }
-.menu-item{
+.menu-item {
 }
-.menu-element{
+.menu-element {
   padding: 26px 15px;
   font: var(--font-primary-semi-bold);
-  &:hover{
+  &:hover {
     color: var(--color-primary);
   }
-  &.active{
+  &.active {
     border-bottom: 6px var(--color-primary) solid;
   }
 }
-.mobile-button{
+.mobile-button {
   display: none;
 }
 
 @media only screen and (max-width: 697px) {
-  .menu-item{
+  .menu-item {
     display: none;
   }
-  .mobile-button{
+  .mobile-button {
     display: block;
     background-color: var(--color-primary);
-    color:var(--color-primary-contrast);
-    padding:10px 30px;
+    color: var(--color-primary-contrast);
+    padding: 10px 30px;
     font: var(--font-primary-semi-bold);
     width: 100%;
+    text-align: center;
   }
 }
