@@ -1,14 +1,23 @@
 <div class="aim-bg-color">
+{% set goal=[
+    {
+        title: "Our Aim",
+        description: "It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.",
+        description_2: "It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying."
+    },
+    {
+        title: "Why we Design",
+        description: "It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.",
+        description_2: "It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying."
+    },
+]%}
 <div class="section aim-and-design">
+    {% for aim in goal %}
     <div class="aim-main">
-        <h2 class="aim-heading dotted-heading">Our Aim</h2>
-        <p class="aim-discription">It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.</p>
-            <p class="aim-discription">It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.</p>
+        <h2 class="aim-heading dotted-heading">{{ aim.title }}</h2>
+        <p class="aim-discription">{{ aim.description }}</p>
+            <p class="aim-discription">{{ aim.description_2 }}</p>
     </div>
-    <div class="aim-main">
-        <h2 class="aim-heading dotted-heading">Why we Design</h2>
-        <p class="aim-discription">It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.</p>
-        <p class="aim-discription">It all started when college friends, Lingraj and Chandan, set upon their journeys to design their dream homes. It didn’t take them long to realise how fragmented the industry was and how factors like identifying.</p>
-    </div>
+    {% endfor %}
 </div>
 </div>

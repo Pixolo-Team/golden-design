@@ -2,38 +2,39 @@
   <p class="sec2-line1">We are best when we Design</p>
   <p class="sec2-line2">We expertise in these art forms</p>
 
+  {% set IMG_PATH="assets/images/home/home-sec2/" %}
+
+  {% set expertise=[
+    {
+      title: "Bathroom Designs",
+      img: "sec2-img2.jpg",
+      description: "Bathroom’s are spaces we have for our self, the palce where we spend
+      some alone time. The vibes in this space is probably the most under
+      rate space in the Home."
+    },
+    {
+      title: "Living Room Spaces",
+      img: "sec2-img2.jpg",
+      description: "Living Rooms are truly the place where we live, its that place in your
+      house where you memories with friends and family. Who doesn’t want
+      teir memories to look good ?"
+    }
+  ]%}
+
   <div class="image-wrapper">
+    {% for data in expertise %}
     <div class="section2-box">
       <img
         class="box-image"
-        src="assets/images/home/home-sec2/sec2-img2.jpg"
+        src={{ IMG_PATH }}{{ data.img }}
       />
       <img class="sec2-logo" src="assets/images/brand/logo.svg">
       <div class="sec2-text-wrapper">
-        <p class="sec2-box-line1">Bathroom Designs</p>
-        <p class="sec2-box-line2">
-          Bathroom’s are spaces we have for our self, the palce where we spend
-          some alone time. The vibes in this space is probably the most under
-          rate space in the Home.
-        </p>
+        <p class="sec2-box-line1">{{ data.title }}</p>
+        <p class="sec2-box-line2">{{ data.description }}</p>
         <a class="primary-link">View Designs</a>
       </div>
     </div>
-    <div class="section2-box">
-      <img
-        class="box-image"
-        src="assets/images/home/home-sec2/sec2-img2.jpg"
-      />
-      <img class="sec2-logo" src="assets/images/brand/logo.svg">
-      <div class="sec2-text-wrapper">
-        <p class="sec2-box-line1">Living Room Spaces</p>
-        <p class="sec2-box-line2">
-          Living Rooms are truly the place where we live, its that place in your
-          house where you memories with friends and family. Who doesn’t want
-          teir memories to look good ?
-        </p>
-        <a class="primary-link">View Designs</a>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
