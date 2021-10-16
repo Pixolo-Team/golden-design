@@ -60,3 +60,9 @@ display: block;
     right: 22px;
     top: 81px;
    }
+
+   @media only screen and (max-width: 697px){
+.footer-section{
+    background-image: none;
+}
+   }
