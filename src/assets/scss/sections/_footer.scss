@@ -9,16 +9,25 @@
 .img-social-media {
   padding: 20px 0;
 }
-.svg-circle {
-  border-radius: 50%;
-  height: 49px;
-  width: 49px;
-  border: 2px solid #ffffff;
-  padding: 7px;
-  margin: 22px 5px;
-  transition: transform 0.4;
+.social-media-icon{
+  display: inline-block;
   &:hover{
-    transform: scale(1.1);
+    .svg-circle{
+      border: 2px solid var(--color-primary);
+      transform: scale(1.1);
+      path{
+      stroke: var(--color-primary);
+      }
+    }
+  }
+  .svg-circle {
+    border-radius: 50%;
+    height: 49px;
+    width: 49px;
+    border: 2px solid #ffffff;
+    padding: 7px;
+    margin: 22px 5px;
+    transition: transform 0.4;
   }
 }
 .footer-bottom {
