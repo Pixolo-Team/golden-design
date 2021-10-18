@@ -1,7 +1,10 @@
 {% include '../components/_menu.html' with {activeMenu:'home'} %}
+
+{% for slider in sliders %}
 <div class="hero-image-background">
   <div class="hero-content">
-    <p class="bg-description">The trendiest Living Rooms to live in</p>
+    <p class="bg-description">{{ slider.description }}</p>
     <button type="button" class="rounded-button">BOOK A MEETING</button>
   </div>
 </div>
+{% endfor %}

@@ -1,0 +1,15 @@
+{
+  "counts": [
+    { "value": 24, "title": "Redesigned Homes" },
+    { "value": 24, "title": "Redesigned Kitchens" }
+  ],
+  "testimonials": [
+    {
+      "review": "",
+      "client_name": "",
+      "client_work": "",
+      "client_image": ""
+    }
+  ],
+  "work_tour": [{ "title": "", "location": "", "image": "" }]
+}

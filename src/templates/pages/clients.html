@@ -1,3 +1,88 @@
+{% set BASE_IMG_PATH="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/" %}
+
+{% set clients=[
+  {
+    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    title: "Designing of the most famous Ice Cream Chain",
+    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type
+    and scrambled it to make a type specimen book.",
+    images: [
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+    ]
+  },
+  {
+    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    title: "Designing of the most famous Ice Cream Chain",
+    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type
+    and scrambled it to make a type specimen book.",
+    images: [
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+    ]
+  },
+  {
+    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    title: "Designing of the most famous Ice Cream Chain",
+    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type
+    and scrambled it to make a type specimen book.",
+    images: [
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+    ]
+  },
+  {
+    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    title: "Designing of the most famous Ice Cream Chain",
+    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type
+    and scrambled it to make a type specimen book.",
+    images: [
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+    ]
+  },
+  {
+    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    title: "Designing of the most famous Ice Cream Chain",
+    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printer took a galley of type
+    and scrambled it to make a type specimen book.",
+    images: [
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+      "the-inside-of-the-shop.jpg",
+    ]
+  },
+]%}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,219 +110,42 @@
     <div class="section">
       <p class="clients-title">Our Major Clients</p>
       <div class="clients-logo-slider">
-        <img
-          class="client-logo"
-          src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-        />
-        <img
-          class="client-logo"
-          src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-        />
-        <img
-          class="client-logo"
-          src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-        />
-        <img
-          class="client-logo"
-          src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-        />
-        <img
-          class="client-logo"
-          src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-        />
+        {% for client in clients %}
+          <img
+            class="client-logo"
+            src={{ client.logo }}
+          />
+        {% endfor %}
       </div>
     </div>
 
     <!-- Client Items Section -->
     <div class="section">
       <!-- Client Item Start -->
+      {% for client in clients %}
       <div class="client-item">
         <div class="client-info">
           <p class="client-title">
-            Designing of the most famous Ice Cream Chain
+            {{ client.title }}
           </p>
           <img
             class="client-img"
-            src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
+            src={{ client.img }}
           />
           <p class="client-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            {{ client.description }}
           </p>
         </div>
         <div class="client-images">
+          {% for image in client.images %}
           <img
             class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
+            src={{ BASE_IMG_PATH }}{{ image }}
           />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
+          {% endfor %}
         </div>
       </div>
-      <!-- Client Item End -->
-
-      <!-- Client Item Start -->
-      <div class="client-item">
-        <div class="client-info">
-          <p class="client-title">
-            Designing of the most famous Ice Cream Chain
-          </p>
-          <img
-            class="client-img"
-            src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-          />
-          <p class="client-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </div>
-        <div class="client-images">
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-        </div>
-      </div>
-      <!-- Client Item End -->
-
-      <!-- Client Item Start -->
-      <div class="client-item">
-        <div class="client-info">
-          <p class="client-title">
-            Designing of the most famous Ice Cream Chain
-          </p>
-          <img
-            class="client-img"
-            src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-          />
-          <p class="client-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </div>
-        <div class="client-images">
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-        </div>
-      </div>
-      <!-- Client Item End -->
-
-      <!-- Client Item Start -->
-      <div class="client-item">
-        <div class="client-info">
-          <p class="client-title">
-            Designing of the most famous Ice Cream Chain
-          </p>
-          <img
-            class="client-img"
-            src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-          />
-          <p class="client-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </div>
-        <div class="client-images">
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-        </div>
-      </div>
-      <!-- Client Item End -->
-
-      <!-- Client Item Start -->
-      <div class="client-item">
-        <div class="client-info">
-          <p class="client-title">
-            Designing of the most famous Ice Cream Chain
-          </p>
-          <img
-            class="client-img"
-            src="https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png"
-          />
-          <p class="client-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </div>
-        <div class="client-images">
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-          <img
-            class="client-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/the-inside-of-the-shop.jpg"
-          />
-        </div>
-      </div>
+      {% endfor %}
       <!-- Client Item End -->
     </div>
 
