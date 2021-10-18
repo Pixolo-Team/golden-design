@@ -6,17 +6,23 @@
   padding: 4px 20px;
   align-items: center;
 }
-.menu-item {
+.logo {
+  display: flex;
+    padding: 2px 0;
 }
 .menu-element {
-  padding: 26px 15px;
+  padding: 24px 16px;
   font: var(--font-primary-semi-bold);
+  margin: 0 30px 0 10px;
   &:hover {
     color: var(--color-primary);
   }
   &.active {
     border-bottom: 6px var(--color-primary) solid;
   }
+}
+.menu-btn{
+  margin-left: 21px;
 }
 .mobile-button {
   display: none;
@@ -34,5 +40,6 @@
     font: var(--font-primary-semi-bold);
     width: 100%;
     text-align: center;
+    margin: auto;
   }
 }

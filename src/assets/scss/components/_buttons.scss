@@ -1,18 +1,25 @@
 .rounded-button{
   background-color: var(--color-primary);
-  border-radius: 20px;
+  border-radius: 25px;
   color:var(--color-primary-contrast);
-  padding:10px 30px;
+  padding:12px 32px;
   font: var(--font-primary-semi-bold);
+  font-size: var(--font-medium);
   transition: transform 0.4s ease-out;
   transform: scale(1);
   display: inline-block;
   &:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
+  }
+  &:active {
+    opacity: 0.7;
   }
 }
-
-
+@media only screen and (max-width: 697px) {
+  .rounded-button{
+    margin: 35px auto;
+  }
+}
 
 .primary-link{
   font-size: var(--font-regular);
@@ -23,6 +30,9 @@
   &:hover{
     &:after{
       right: -20px;
+    }
+    &:active {
+      opacity: 0.8;
     }
   }
   &:after{

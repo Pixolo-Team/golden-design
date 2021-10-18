@@ -64,6 +64,9 @@
     &:hover{
         opacity: 0.5;
     }
+    &:active{
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 697px) {
@@ -71,9 +74,7 @@
         font-size: var(--font-regular);
     }
 .rounded-button{
-    margin: auto;
     padding: 15px 40px;
     border-radius: 51px;
-    margin-top: 20px;
 }
 }

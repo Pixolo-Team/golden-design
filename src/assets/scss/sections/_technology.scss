@@ -1,6 +1,5 @@
 .sec4-second-half {
-  padding: 50px;
-  margin-bottom: 10px;
+  padding: 95px 78px 140px 78px;
 }
 .sec4-second-half-division {
   display: flex;
@@ -8,6 +7,7 @@
 .sec4-second-half1 {
   font: var(--font-secondary-regular);
   width: 50%;
+  padding-right: 93px;
 }
 .sec4-second-half2 {
   width: 50%;
@@ -27,6 +27,7 @@
   margin-bottom: 22px;
   font: var(--font-secondary-regular);
   display: inline-block;
+  line-height: 1.625em;
 }
 .tech-list {
   list-style: none;
@@ -35,6 +36,7 @@
   font: var(--font-primary-semi-bold);
   .tech-list-item {
     position: relative;
+    margin-bottom: 20px;
     &::before {
       content: "";
       background: var(--color-primary);
@@ -58,6 +60,7 @@
   }
   .sec4-second-half1 {
     width: 100%;
+    padding: 0;
   }
   .sec4-second-half2 {
     width: 100%;
