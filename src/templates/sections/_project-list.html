@@ -1,7 +1,8 @@
 <div class="section form-section">
   <div class="list-wrapper">
-    {% include '../components/_project-item.html' %} {% include
-    '../components/_project-item.html' %}
+    {% for i in 0 .. 1 %}
+      {% include '../components/_project-item.html' %}
+    {% endfor %}
     <button type="button" class="rounded-button">View All Projects</button>
   </div>
   <div class="mobile-hide">
