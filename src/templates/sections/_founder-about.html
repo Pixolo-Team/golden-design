@@ -16,8 +16,8 @@
     }
 ]%}
     <p class="founder-page-heading">Meet the founders</p>
-    {% for founder in founders %}
     <div class="founder-division">
+        {% for founder in founders %}
         <div class="founder-division-part">
             <img class="founder-image" src="assets/images/about us/founder.jpg" />
             <div class="founder-heading">
@@ -36,6 +36,6 @@
                 <p class="svg-description">{{ founder.svg_description }}</p>
             </div>
         </div>
+        {% endfor %}
         </div>
-    {% endfor %}
 </div>

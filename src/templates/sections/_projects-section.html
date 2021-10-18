@@ -1,18 +1,21 @@
+{% set projects=[
+  {
+    img: "assets/images/home/_projects-section/gallery-design.png",
+    name: "Greenery Gallery Design",
+    location: "In Chembur, Mumbai"
+  },
+  {
+    img: "assets/images/home/_projects-section/gallery-design.png",
+    name: "Greenery Gallery Design",
+    location: "In Chembur, Mumbai"
+  },
+  {
+    img: "assets/images/home/_projects-section/gallery-design.png",
+    name: "Greenery Gallery Design",
+    location: "In Chembur, Mumbai"
+  },
+]%}
 <div class="section">
-  {% set projects=[
-    {
-      name: "Greenery Gallery Design",
-      location: "In Chembur, Mumbai"
-    },
-    {
-      name: "Greenery Gallery Design",
-      location: "In Chembur, Mumbai"
-    },
-    {
-      name: "Greenery Gallery Design",
-      location: "In Chembur, Mumbai"
-    },
-  ]%}
   <div class="project-discription">
     <div class="project-lines">
       <p class="project-line1">A tour of our work</p>
@@ -23,15 +26,16 @@
     </div>
     <button type="button" class="rounded-button mobile-hide">Get free consultation</button>
   </div>
-  {% for project in projects %}
   <div class="project-image-section">
-    <div class="project-bg-image">
+    {% for project in projects %}
+    <div class="project-bg-image" style="background-image:{{ project.img }}">
       <div class="project-image-lines">
         <p class="image-line-1">{{ project.name }}</p>
         <p class="image-line-2">{{ project.location }}</p>
       </div>
     </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
   <button type="button" class="rectangular-button">VIEW ALL PROJECTS</button>
 </div>
 <button type="button" class="rounded-button desktop-hide">Get free consultation</button>

@@ -1,14 +1,13 @@
 <div class="tint-section">
 <div class="section section3">
     <div class="sec3-image-wrapper">
-        <img class="sec3-image" src="assets/images/home/home-sec3/sec3-image.jpg"/>
-        <img class="sec3-image" src="assets/images/home/home-sec3/sec3-image.jpg"/>
-        <img class="sec3-image" src="assets/images/home/home-sec3/sec3-image.jpg"/>
-        <img class="sec3-image" src="assets/images/home/home-sec3/sec3-image.jpg"/>
+        {% for img in data.images %}
+            <img class="sec3-image" src="assets/images/home/home-sec3/{{ img }}" />
+        {% endfor %}
     </div>
     <div class="sec3-paragraph">
-        <p class="sec3-line1">Modular Kitchen Designs like never seen before</p>
-        <p class="sec3-line2">Our kitchen designs are modular, and extra ordinary in shape. You cook the food, we cook the kitchen.</p>
+        <p class="sec3-line1">{{ data.title }}</p>
+        <p class="sec3-line2">{{ data.description }}</p>
         <a class="primary-link">Read More</a>
     </div>
 </div>

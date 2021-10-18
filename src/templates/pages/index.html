@@ -4,6 +4,38 @@
     img: "1.jpg",
   },
 ]%}
+{% set works_ad={
+  kitchen: {
+    title: "Modular Kitchen Designs like never seen before",
+    description: "Our kitchen designs are modular, and extra ordinary in shape. You cook the food, we cook the kitchen.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  },
+  living_room: {
+    title: "Modular Living Room Designs like never seen before",
+    description: "Our living room designs are modular, and extra ordinary in shape. Make you feel good.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  },
+  bathroom: {
+    title: "Modular Bathroom Designs like never seen before",
+    description: "Our bathroom designs are modular, and extra ordinary in shape. You cook the water, we do nothing.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  }
+}%}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,16 +59,16 @@
   <body>
     {% include '../sections/_hero.html' with sliders %} 
     {% include '../sections/_home2.html' %} 
-    {% include '../sections/_home3.html' %}
+    {% include '../sections/_home3.html' with {data:works_ad.kitchen} %}
     {% include '../sections/_number-home.html' %}
     {% include '../sections/_home4.html' %}
-    {% include '../sections/_home3.html' %}
+    {% include '../sections/_home3.html' with {data:works_ad.living_room} %}
     {% include '../sections/_how-it-works.html' %}
     {% include '../sections/_home6.html' %}
     {% include '../sections/_projects-section.html' %}
     {% include '../sections/_orders.html' %}
     {% include '../sections/_client-videos.html' %}
-    {% include '../sections/_home3.html' %}
+    {% include '../sections/_home3.html' with {data:works_ad.bathroom} %}
     {% include '../sections/_faq.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
