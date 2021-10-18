@@ -1,17 +1,12 @@
-<div class="covid-popup">
-  <p class="covid-msg">
-  All of our employees are vaccinated with atleast one dose of the Covid Vaccination
-  </p>
-</div>
 <div class="menu-bar">
 <div class="logo">
   <img src="assets/images/brand/golden-design-logo.png" />
 </div>
 <div class="menu-item">
-  <a href="./" target="_new" class="menu-element active">Home</a>
-  <a href="about-us" target="_new" class="menu-element">About Us</a>
-  <a href="projects" target="_new" class="menu-element">Projects</a>
-  <a href="clients" target="_new" class="menu-element">Clients</a>
+  <a href="./" target="_new" class="menu-element {%if activeMenu=='home'%}active{%endif%}">Home</a>
+  <a href="about-us" target="_new" class="menu-element {%if activeMenu=='about'%}active{%endif%}">About Us</a>
+  <a href="projects" target="_new" class="menu-element {%if activeMenu=='projects'%}active{%endif%}">Projects</a>
+  <a href="clients" target="_new" class="menu-element {%if activeMenu=='clients'%}active{%endif%}">Clients</a>
   <a type="button" class="rounded-button" href="contact">Free Consulation</a>
   </div>
 </div>
