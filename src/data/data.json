@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "image": "",
+    "title": "",
+    "location": "",
+    "description": "",
+    "customer_details": {
+      "name": "",
+      "date": "",
+      "profile_photo": ""
+    }
+  }
+]
