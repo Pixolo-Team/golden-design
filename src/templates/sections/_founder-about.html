@@ -2,17 +2,17 @@
 {% set founders=[
     {
         name: "Lingraj",
-        title: "Co-founder and CEO",
+        designation: "Co-founder and CEO",
         description: "A dreamer and a chess master of the startup world, Lingraj always keeps you guessing about his next move. With years of experience in leading worldwide product marketing functions and a deep knowledge of consumers, he uses his expertise to lead Livspace.",
         description_2: "Lingraj has worked as the Global Head of Product Marketing for the e-commerce team at Google. He completed his bachelors degree from IIT Mumbai and received his MBA from London Business School.",
-        svg_description: "Designing your houses is the best thing I could ever think of doing in my life.",
+        quote: "Designing your houses is the best thing I could ever think of doing in my life.",
     },
     {
         name: "Lingraj",
-        title: "Co-founder and CEO",
+        designation: "Co-founder and CEO",
         description: "A dreamer and a chess master of the startup world, Lingraj always keeps you guessing about his next move. With years of experience in leading worldwide product marketing functions and a deep knowledge of consumers, he uses his expertise to lead Livspace.",
         description_2: "Lingraj has worked as the Global Head of Product Marketing for the e-commerce team at Google. He completed his bachelors degree from IIT Mumbai and received his MBA from London Business School.",
-        svg_description: "Designing your houses is the best thing I could ever think of doing in my life."
+        quote: "Designing your houses is the best thing I could ever think of doing in my life."
     }
 ]%}
     <p class="founder-page-heading">Meet the founders</p>
@@ -22,7 +22,7 @@
             <img class="founder-image" src="assets/images/about us/founder.jpg" />
             <div class="founder-heading">
                 <p class="founder-heading-1">{{ founder.name }}</p>
-                <p class="founder-heading-2">{{ founder.title }}</p>
+                <p class="founder-heading-2">{{ founder.designation }}</p>
             </div>
             <div class="founder-description">
                 <p class="founder-description-1">{{ founder.description }}</p>
@@ -33,7 +33,7 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.0345 14.0552C28.0346 14.0426 28.0346 14.0299 28.0346 14.0173C28.0346 6.27575 21.7588 0 14.0173 0C6.27575 0 0 6.27575 0 14.0173C0 20.7915 4.80534 26.4433 11.1932 27.75C11.113 30.4965 9.80111 35.6893 4.89852 38.4347L5.53909 38.9999C13.4521 38.0956 28.3059 30.3333 28.0346 14.0552L28.0345 14.0552Z" fill="#E9635A"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M61.804 14.0651C61.8041 14.0491 61.8041 14.0332 61.8041 14.0173C61.8041 6.27575 55.5283 0 47.7868 0C40.0453 0 33.7695 6.27575 33.7695 14.0173C33.7695 20.7914 38.5747 26.4431 44.9625 27.7499C44.8823 30.4964 43.5704 35.6892 38.6678 38.4347L39.3084 38.9999C47.2198 38.0958 62.0692 30.3365 61.804 14.0651Z" fill="#E9635A"/>
                     </svg>
-                <p class="svg-description">{{ founder.svg_description }}</p>
+                <p class="svg-description">{{ founder.quote }}</p>
             </div>
         </div>
         {% endfor %}

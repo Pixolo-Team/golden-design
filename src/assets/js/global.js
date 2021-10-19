@@ -1,10 +1,12 @@
+var data;
 fetch("https://goldendesigninteriors.com/data/website-data.json")
     .then((response) => {
         if (response.status !== 200) {
             console.log("Request failed.", response.status);
             return;
         }
-        response.json().then((data) => {
+        response.json().then((responseData) => {
+            data = responseData;
             for (count of data.counts) {
                 console.log(document.getElementsByClassName("number-box").length);
                 document.getElementsByClassName("number-box")[0].innerHTML += `
@@ -13,7 +15,6 @@ fetch("https://goldendesigninteriors.com/data/website-data.json")
                         <div class="numbers-discription">${count.title}</div>
                     </div>
                 `;
-               
             }
         })
     })

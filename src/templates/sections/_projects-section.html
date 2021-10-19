@@ -1,16 +1,17 @@
+{% set IMG_PATH="assets/images/home/_projects-section/" %}
 {% set projects=[
   {
-    img: "assets/images/home/_projects-section/gallery-design.png",
+    img: "gallery-design.png",
     name: "Greenery Gallery Design",
     location: "In Chembur, Mumbai"
   },
   {
-    img: "assets/images/home/_projects-section/gallery-design.png",
+    img: "gallery-design.png",
     name: "Greenery Gallery Design",
     location: "In Chembur, Mumbai"
   },
   {
-    img: "assets/images/home/_projects-section/gallery-design.png",
+    img: "gallery-design.png",
     name: "Greenery Gallery Design",
     location: "In Chembur, Mumbai"
   },
@@ -28,7 +29,7 @@
   </div>
   <div class="project-image-section">
     {% for project in projects %}
-    <div class="project-bg-image" style="background-image:{{ project.img }}">
+    <div class="project-bg-image" style="background-image:{{ IMG_PATH }}{{ project.img }}">
       <div class="project-image-lines">
         <p class="image-line-1">{{ project.name }}</p>
         <p class="image-line-2">{{ project.location }}</p>

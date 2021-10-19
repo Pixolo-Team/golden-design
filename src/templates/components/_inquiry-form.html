@@ -2,18 +2,52 @@
   <div class="inq-form">
     <p class="form-title">Talk to our designer</p>
     <div class="input-wrap">
-      <input type="text" class="gdi-input" placeholder="Name" />
-      <input type="text" class="gdi-input" placeholder="Email" />
-      <input type="text" class="gdi-input" placeholder="Phone Number" />
+      <input type="email" class="gdi-input" id="name" placeholder="Name" required />
+      <input type="text" class="gdi-input" id="email" placeholder="Email" required />
+      <input type="text" class="gdi-input" id="phone" placeholder="Phone Number" />
       <textarea
         type="text"
+        id="message"
         class="gdi-input gdi-ta"
         placeholder="Service Needed"
+        required
       ></textarea>
-      <button class="rounded-button" type="submit">REACH OUT TO US</button>
+      <p id="form-error" style="color: red"></p>
+      <button class="rounded-button" id="submit" type="submit">REACH OUT TO US</button>
     </div>
     <p class="form-disclaimer">
       By submitting you agree to share your contact details with us.
     </p>
   </div>
 </div>
+
+<script>
+  $('#submit').click(() => {
+    $('#form-error').text("");
+    let nameValue = $('#name').val();
+    let emailValue = $('#email').val();
+    let phoneValue = $('#phone').val();
+    let messageValue = $('#message').val();
+    if (!nameValue.trim()) {
+      $('#form-error').text("Name field cannot be left empty");
+      return;
+    }
+    if (!emailValue.trim()) {
+      $('#form-error').text("Email field cannot be left empty");
+      return;
+    }
+    if (!messageValue.trim()) {
+      $('#form-error').text("Message field cannot be left empty");
+      return;
+    }
+    let regex = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
+    if (!regex.test(emailValue)) {
+      $('#form-error').text("Please enter a valid email Id");
+      return;
+    }
+    $.post("https://goldendesigninteriors.com/mail.php", { "message": messageValue, "name": nameValue, "email": emailValue, "phone": phoneValue}) 
+      .done((response) => {
+        $('#form-error').text(response);
+    })
+  })
+</script>
