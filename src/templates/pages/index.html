@@ -57,18 +57,27 @@
     />
   </head>
   <body>
+    <div class="covid-popup">
+      <p class="covid-msg">
+      All of our employees are vaccinated with atleast one dose of the Covid Vaccination
+      </p>
+    </div>
+ 
     {% include '../sections/_hero.html' with sliders %} 
+
     {% include '../sections/_home2.html' %} 
-    {% include '../sections/_home3.html' with {data:works_ad.kitchen} %}
+
+    {% include '../sections/_home3.html' with {data:works_ad.kitchen,sectionClass:'tint-bg-section'} %}
     {% include '../sections/_number-home.html' %}
     {% include '../sections/_home4.html' %}
-    {% include '../sections/_home3.html' with {data:works_ad.living_room} %}
+    {% include '../sections/_home3.html' with {data:works_ad.living_room,sectionClass:'primary-bg-section'} %}
+
     {% include '../sections/_how-it-works.html' %}
     {% include '../sections/_home6.html' %}
     {% include '../sections/_projects-section.html' %}
     {% include '../sections/_orders.html' %}
     {% include '../sections/_client-videos.html' %}
-    {% include '../sections/_home3.html' with {data:works_ad.bathroom} %}
+    {% include '../sections/_home3.html' with {data:works_ad.bathroom,sectionClass:'primary-bg-section'} %}
     {% include '../sections/_faq.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}

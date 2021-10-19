@@ -26,11 +26,17 @@
         align-items: flex-end;
         overflow: hidden;
         margin-right: 36px;
+        &:hover{
+            .project-image-lines{
+                padding-bottom: 50px;
+            }
+        }
 
         .project-image-lines{
             background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #181818 100%);
             padding: 31px;
             width: 100%;
+            transition: padding 0.4s;
             .image-line-1{
                      font: var(--font-primary-bold);
                      font-size: var(--font-medium);
@@ -53,6 +59,11 @@
     height: 68px;
     display: block;
     margin: auto;
+    transition: opacity 0.4s;
+    opacity: 1;
+    &:hover{
+        opacity: 0.5;
+    }
 }
 
 @media only screen and (max-width: 697px) {
