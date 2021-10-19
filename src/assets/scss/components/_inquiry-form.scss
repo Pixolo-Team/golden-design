@@ -39,13 +39,13 @@
 .gdi-ta {
   height: 100px;
 }
-.rounded-button {
-  margin: 20px 0;
-}
 .form-disclaimer {
   color: var(--color-text-primary);
   font: var(--font-primary-regular);
   font-size: var(--font-small);
+}
+.contact-btn {
+  margin: 20px 0;
 }
 @media screen and (max-width: 697px) {
   .form-title {
