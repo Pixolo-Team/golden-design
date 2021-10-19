@@ -2,6 +2,14 @@
 @import "./../variables.scss";
 @import "./../global.scss";
 
+.covid-popup {
+    background-color: var(--color-background-light);
+    padding: 12px 20px;
+  }
+  .covid-msg {
+    color: var(--color-text-primary);
+    font: var(--font-primary-medium);
+  }  
 @import "../components/menu.scss";
 @import "../sections/hero.scss";
 @import "../sections/home2.scss";
