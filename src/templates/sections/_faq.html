@@ -42,12 +42,26 @@
     {% for faq in faqs %}
     <div class="faq-quaries">
         <div class="faq-main"><p class="quaries">{{ faq.title }}</p>
-        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.8 6.63V8.87H8.57V15.1H6.33V8.87H0.1V6.63H6.33V0.4H8.57V6.63H14.8Z" fill="#41303E"/>
+        <svg class="faq-button" width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="toggle-button-path" d="M14.8 6.63V8.87H8.57V15.1H6.33V8.87H0.1V6.63H6.33V0.4H8.57V6.63H14.8Z" fill="#41303E"/>
             </svg></div>
-        <p class="quaries-answers">{{ faq.body }}</p>
+            <p class="quaries-answers" >{{ faq.body }}</p>
     </div>
     {% endfor %}
 <button type="button" class="rounded-button faq-btn">More Questions ?</button>
 </div>
 </div>
+
+<script>
+    $(document).ready(() => {
+        $('.faq-main').on('click', (event) => {
+            $(event.target).siblings('p.quaries-answers').slideToggle(300);
+        });
+        $('.faq-button').on('click', (event) => {
+            $(event.target).parent().siblings('p.quaries-answers').slideToggle(300);
+        });
+        $('.toggle-button-path').on('click', (event) => {
+            $(event.target).parent().parent().siblings('p.quaries-answers').slideToggle(300);
+        });
+    })
+</script>
