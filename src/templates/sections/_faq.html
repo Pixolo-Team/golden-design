@@ -53,15 +53,9 @@
 </div>
 
 <script>
-    $(document).ready(() => {
-        $('.faq-main').on('click', (event) => {
-            $(event.target).siblings('p.quaries-answers').slideToggle(300);
-        });
-        $('.faq-button').on('click', (event) => {
-            $(event.target).parent().siblings('p.quaries-answers').slideToggle(300);
-        });
-        $('.toggle-button-path').on('click', (event) => {
-            $(event.target).parent().parent().siblings('p.quaries-answers').slideToggle(300);
+    $(document).ready(function() {
+        $('.faq-main').on('click', function() {
+            $(this).siblings('p.quaries-answers').slideToggle(300);
         });
     })
 </script>

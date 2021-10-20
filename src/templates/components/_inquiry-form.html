@@ -13,6 +13,7 @@
         required
       ></textarea>
       <p id="form-error" style="color: red"></p>
+      <p id="form-success" style="color: black"></p>
       <button class="rounded-button" id="submit" type="submit">REACH OUT TO US</button>
     </div>
     <p class="form-disclaimer">
@@ -47,7 +48,11 @@
     }
     $.post("https://goldendesigninteriors.com/mail.php", { "message": messageValue, "name": nameValue, "email": emailValue, "phone": phoneValue}) 
       .done((response) => {
-        $('#form-error').text(response);
+        if (response) {
+          $('#form-success').text("We will get in touch with you soon.");
+        } else {
+          $('#form-error').text("There was a problem. Please try again.");
+        }
     })
   })
 </script>
