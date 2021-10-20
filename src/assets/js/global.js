@@ -4,13 +4,16 @@ function updateTestimonials() {
     let i = 0;
     for (let testimonial of data.testimonials) {
         if (i % 2 == 0) {
-            $('.section-6-scroll').children('.section6-paragraph').text(testimonial.review);
-            $('.section-6-scroll').children('.line1').text(testimonial.client_name);
-            $('.section-6-scroll').children('.line2').text(testimonial.client_work);
+            $('.section-6-scroll').find('.section6-paragraph').text(testimonial.review);
+            $('.section-6-scroll').find('.line1').text(testimonial.client_name);
+            $('.section-6-scroll').find('.line2').text(testimonial.client_work);
+            $('.section-6-scroll').find('.line2').text(testimonial.client_work);
+            $('.section-6-scroll').find('.sec6-mini-img').attr('src', testimonial.client_image);
         } else {
-            $('.section6-scroll-2').children('.section6-paragraph').text(testimonial.review);
-            $('.section6-scroll-2').children('.line1').text(testimonial.client_name);
-            $('.section6-scroll-2').children('.line2').text(testimonial.client_work);
+            $('.section-6-scroll-2').find('.section6-paragraph').text(testimonial.review);
+            $('.section-6-scroll-2').find('.line1').text(testimonial.client_name);
+            $('.section-6-scroll-2').find('.line2').text(testimonial.client_work);
+            $('.section-6-scroll-2').find('.sec6-mini-img').attr('src', testimonial.client_image);
         }
         i += 1;
     }

@@ -62,7 +62,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    {% include '../components/_library_loader.html' with {slick:true} %}
+    {% include '../components/_library_loader.html' %}
   </head>
   <body>
     <div class="covid-popup">
@@ -71,6 +71,7 @@
       </p>
     </div>
     {% include '../components/_library_loader.html' with {global:true} %}
+    {% include '../components/_library_loader.html' with {slick:true} %}
     {% include '../sections/_hero.html' with sliders %} 
 
     {% include '../sections/_home2.html' %} 
