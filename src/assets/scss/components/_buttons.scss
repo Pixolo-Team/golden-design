@@ -18,7 +18,8 @@
 }
 @media only screen and (max-width: 697px) {
   .rounded-button{
-    margin: 35px auto;
+    font-size: var(--font-regular);
+    margin: 35px auto !important;
   }
 }
 

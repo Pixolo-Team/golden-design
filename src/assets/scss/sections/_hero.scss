@@ -27,5 +27,9 @@
 @media only screen and (max-width: 697px) {
   .bg-description{
     font-size: var(--font-large);
+    margin-bottom: 10px;
+  }
+  .hero-image-background{
+    padding: 0;
   }
 }

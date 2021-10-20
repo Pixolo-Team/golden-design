@@ -6,8 +6,8 @@
   width: 40%;
 }
 .sec3-image {
-  width: 38%;
-  margin: 10px;
+  width: 42%;
+  margin: 6px;
   border-radius: 12px;
   border: 1px solid var(--color-primary);
   &:hover {
@@ -21,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 50px;
 }
 .sec3-line1 {
   color: var(--color-text-primary);
@@ -48,6 +49,7 @@
   .section3 {
     flex-direction: column-reverse;
     padding: 20px;
+    padding-bottom: 70px !important;
   }
   .sec3-image-wrapper,
   .sec3-paragraph {
@@ -57,11 +59,15 @@
     margin-top: 30px;
   }
   .sec3-image {
-    width: 45%;
-    margin: 10px 12px 10px 0;
+    width: 46%;
+    margin: 5px 4px;
   }
   .sec3-line1{
     margin: 20px 0 10px;
+  }
+  .sec3-paragraph{
+    margin-left: 6px;
+    padding: 0;
   }
 }
 .tint-bg-section {
