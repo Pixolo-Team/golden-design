@@ -45,7 +45,7 @@
     position: absolute;
     border-radius: 5px;
     right: -10px;
-    top: 50%;
+    top: calc(50% - 1px);
     transition: right 0.4s;
   }
 }
