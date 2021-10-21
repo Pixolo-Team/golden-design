@@ -50,7 +50,7 @@
   .sec2-box-line1 {
     font: var(--font-primary-bold);
     font-size: var(--font-medium);
-    margin-bottom: 10px;
+    margin-bottom: 2px;
   }
   .sec2-box-line2 {
       font: var(--font-secondary-light);
@@ -63,12 +63,15 @@
 @media only screen and (max-width: 697px){
   .sec2-line1{
     font-size: var(--font-large);
+    margin-top: 44px;
   }
   .sec2-line2{
     font-size: var(--font-regular);
+    margin: 9px 0 0;
   }
   .image-wrapper{
     flex-direction: column;
+    margin: 53px 0 74px;
   }
   .section2-box{
     width: 100%;

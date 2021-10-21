@@ -14,11 +14,6 @@
             .faq-main{
                 display: flex;
                 justify-content: space-between;
-                    .quaries{
-                        font: var(--font-primary-regular);
-                        font-size: var(--font-medium);
-                        color: var(--color-text-primary);
-                    }
             }
             .quaries-answers{
                     font: var(--font-secondary-regular);
@@ -32,6 +27,11 @@
         margin: auto;
         margin-top: 70px;
     }
+}
+.quaries{
+    font: var(--font-primary-regular);
+    font-size: var(--font-medium);
+    color: var(--color-text-primary);
 }
 .zoom-in{
     cursor: pointer;
@@ -50,5 +50,9 @@
     }
     .faq{
         margin: 40px 0 20px !important;
+    }
+    .quaries{
+        font-size: 16px;
+        padding-right: 13px;
     }
 }

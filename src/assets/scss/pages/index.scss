@@ -5,11 +5,26 @@
 .covid-popup {
     background-color: var(--color-background-light);
     padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
   }
   .covid-msg {
     color: var(--color-text-primary);
     font: var(--font-primary-medium);
-  }  
+  }
+  .closing-button{
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 697px) {
+    .covid-popup{
+      padding: 6px 9px;
+    }
+  .closing-button{
+    height: 34px;
+    width: 34px;
+    margin-left: 16px;
+  }
+}
 @import "../components/menu.scss";
 @import "../sections/hero.scss";
 @import "../sections/designs.scss";
