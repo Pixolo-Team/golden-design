@@ -107,6 +107,8 @@
     {% include '../components/_menu.html' with {activeMenu:'clients'} %} {% include
     '../sections/_client-hero.html' %}
 
+    {% include '../components/_library_loader.html' with {slick:true} %}
+
     <div class="section">
       <p class="clients-title">Our Major Clients</p>
       <div class="clients-logo-slider">
@@ -150,5 +152,12 @@
     </div>
 
     {% include '../sections/_footer.html' %}
+    <script>
+      $('.clients-logo-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        dots: true
+      });
+    </script>
   </body>
 </html>

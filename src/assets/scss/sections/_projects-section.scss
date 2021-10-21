@@ -15,14 +15,14 @@
 }
 .project-image-section{
     margin: 50px 0px;
-    display: flex;
+    display: flex !important;
     .project-bg-image{
         background-image: url("./../images/home/_projects-section/gallery-design.jpg");
         height: 400px;
         width: 30%;
         background-size: cover;
         border-radius: 12px;
-        display: flex;
+        display: flex !important;
         align-items: flex-end;
         overflow: hidden;
         margin-right: 36px;

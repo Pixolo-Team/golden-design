@@ -1,4 +1,3 @@
-{% set IMG_PATH="assets/images/home/_projects-section/" %}
 <div class="section">
   <div class="project-discription">
     <div class="project-lines">
@@ -11,18 +10,9 @@
     <button type="button" class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="project-image-section">
-    {% verbatim %}
-    {% for project in webdata.work_tour %}
-    <div class="project-bg-image" {% endverbatim %} style="background-image:url({{ IMG_PATH }}{% verbatim %}{{ project.image }})">
-      <div class="project-image-lines">
-        <p class="image-line-1">{{ project.title }}</p>
-        <p class="image-line-2">{{ project.location }}</p>
-      </div>
-    </div>
-    {% endfor %}
-    {% endverbatim %}
   </div>
   <button type="button" class="rectangular-button">VIEW ALL PROJECTS</button>
 </div>
 <button type="button" class="rounded-button desktop-hide">Get free consultation</button>
   </div>
+
