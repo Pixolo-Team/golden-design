@@ -30,7 +30,7 @@
         We thought it’s best if you hear it from our previous clients
       </p>
     </div>
-    <button type="button" class="rounded-button mobile-hide">Get free consultation</button>
+    <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="clients-videos-sec2">
     {% for client in clients %}
@@ -51,22 +51,10 @@
     </a>
     {% endfor %}
       </div>
-          <button type="button" class="rounded-button desktop-hide">Get free consultation</button>
+          <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button desktop-hide">Get free consultation</button>
 </div>
 
 <div id="light-box-modal">
   <div class="modal-content">
   </div>
 </div>
-<script>
-  function closeModal() {
-    $('#light-box-modal').css("display", "none");
-  }
-  $('.image-gradient').on('click', function() {
-    let url = $(this).attr('data-url');
-
-    const iframe = `<span class="close cursor" onclick="closeModal()">&times;</span><iframe width=100% height=100% src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-    $('.modal-content').html(iframe);
-    $('#light-box-modal').css("display", "block");
-  })
-</script>

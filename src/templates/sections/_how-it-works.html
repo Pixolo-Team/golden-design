@@ -1,50 +1,60 @@
 <div class="tint-section">
-{% set works=[
+    {% set works=[
     {
-        id: 1,
-        label: "Consult with us"
+    id: 1,
+    label: "Consult with us",
+    image:"works-1.jpg"
     },
     {
-        id: 3,
-        label: "We make the floor plan"
+    id: 2,
+    label: "We make the floor plan",
+    image:"works-2.jpg"
     },
     {
-        id: 4,
-        label: "Consult with us"
+    id: 3,
+    label: "We make the wall plan",
+    image:"works-1.jpg"
     },
     {
-        id: 5,
-        label: "Consult with us"
+    id: 4,
+    label: "Get the best materials",
+    image:"works-2.jpg"
     },
     {
-        id: 2,
-        label: "Consult with us"
+    id: 5,
+    label: "Build your home",
+    image:"works-1.jpg"
     }
-]%}
+    ]%}
 
-<div class="section">
-    <h6 class="works-title">How to get our designs</h6>
-    <div class="work-number-wrapper">
-    {% for work in works %}
-        <a href="#" class="work-number-link">
-            <p class="works-number">{{ work.id }}</p>
-            <p class="works-label">{{ work.label }}</p>
-        </a>
-    {% endfor %}
-    </div>
-    <div class="works-slider">
-        <div class="work-slider-item">
-            <img src="assets/images/works/works-1.jpg" class="work-image" />
+    <div class="section">
+        <h6 class="works-title">How to get our designs</h6>
+        <div class="work-number-wrapper">
+            {% for work in works %}
+            <a class="work-number-link" data-steps={{work.id}}>
+                <p class="works-number">{{ work.id }}</p>
+                <p class="works-label mobile-hide">{{ work.label }}</p>
+            </a>
+            {% endfor %}
         </div>
-    </div>
-    <div class="work-box">
-        <p class="work-title">The Wall Plans</p>
-        <p class="work-desc">It's execution time! Pay 50% of the final quotation to kickstart the order process. We design the Walls and the plan for every wall in the house.</p>
-        <div class="loader-parent">
-            <div class="loader-fill" style="width: 50%;"></div>
-            <p class="loader-value">50%</p>
+        <div class="works-slider">
+            {% for work in works %}
+            <div class="work-slider-item">
+                <img src="assets/images/works/{{work.image}}" class="work-image" />
+            </div>
+            {% endfor %}
         </div>
+        <div class="work-box">
+            <p class="work-content work-title"></p>
+            <p class="work-content work-desc"></p>
+            <div class="loader-parent">
+                <div class="loader-fill">
+                    <p class="loader-value">0%</p>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-    
 </div>
-</div>
+

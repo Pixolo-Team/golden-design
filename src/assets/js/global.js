@@ -1,32 +1,32 @@
 var data;
 var IMG_PATH_PROJECT = "assets/images/home/_projects-section/";
 
-$(document).ready(function() {
-    function getWebsiteData(url) {
-        fetch(url)
-            .then(function(response) {
-                if (response.status !== 200) {
-                    console.log("Request failed.", response.status);
-                    return;
-                }
-                response.json().then(function(responseData) {
-                    data = responseData;
-                    updateNumbers();
-                    updateTestimonials();
-                    updateWork();
-                    console.log(data);
-                })
-            })
-            .catch(function(err) {
-                console.log(err);
-            });
-    }
+$(document).ready(function () {
+  function getWebsiteData(url) {
+    fetch(url)
+      .then(function (response) {
+        if (response.status !== 200) {
+          console.log("Request failed.", response.status);
+          return;
+        }
+        response.json().then(function (responseData) {
+          data = responseData;
+          updateNumbers();
+          updateTestimonials();
+          updateWork();
+          console.log(data);
+        });
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+  }
 
-    function updateTestimonials() {
-        let i = 0;
-        for (let testimonial of data.testimonials) {
-            if (i % 2 == 0) {
-                document.getElementsByClassName('section-6-scroll')[0].innerHTML += `
+  function updateTestimonials() {
+    let i = 0;
+    for (let testimonial of data.testimonials) {
+      if (i % 2 == 0) {
+        document.getElementsByClassName("section-6-scroll")[0].innerHTML += `
                     <div class="section6">
                         <div class="section6-image-part">
                             <img class="sec6-img" src="assets/images/home/home-sec6/sec6-img1.jpg"/>
@@ -47,8 +47,8 @@ $(document).ready(function() {
                         </div>
                     </div>
                 `;
-            } else {
-                document.getElementsByClassName('section-6-scroll-2')[0].innerHTML += `
+      } else {
+        document.getElementsByClassName("section-6-scroll-2")[0].innerHTML += `
                     <div class="mobile-hide section6">
                         <div class="section6-paragraph-part">
                             <svg class="quote-icon" width="44" height="28" viewBox="0 0 44 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,28 +69,28 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                `
-            }
-            i += 1;
-        }
-        $('.section-6-scroll').slick();
-        $('.section-6-scroll-2').slick();
+                `;
+      }
+      i += 1;
     }
-    
-    function updateNumbers() {
-        for (let count of data.counts) {
-            document.getElementsByClassName("number-box")[0].innerHTML += `
+    $(".section-6-scroll").slick();
+    $(".section-6-scroll-2").slick();
+  }
+
+  function updateNumbers() {
+    for (let count of data.counts) {
+      document.getElementsByClassName("number-box")[0].innerHTML += `
                 <div class="left-line-box">
                     <div class="numbers">${count.value}</div>
                     <div class="numbers-discription">${count.title}</div>
                 </div>
             `;
-        }
     }
-    
-    function updateWork() {
-        for (let work of data.work_tour) {
-            document.getElementsByClassName("project-image-section")[0].innerHTML += `
+  }
+
+  function updateWork() {
+    for (let work of data.work_tour) {
+      document.getElementsByClassName("project-image-section")[0].innerHTML += `
                 <div class="project-bg-image" style="background-image:url(${IMG_PATH_PROJECT}${work.image})">
                     <div class="project-image-lines">
                         <p class="image-line-1">${work.title}</p>
@@ -98,12 +98,21 @@ $(document).ready(function() {
                     </div>
                 </div>
             `;
-        }
-        $('.project-image-section').slick({
-            slidesToShow: 3,
-            slidesToScroll: 3
-        });
     }
+    $(".project-image-section").slick({
+      slidesToShow: 3,
+      slidesToScroll: 3,
+    });
+  }
 
-    getWebsiteData("https://goldendesigninteriors.com/data/website-data.json");
-})
+  getWebsiteData("https://goldendesigninteriors.com/data/website-data.json");
+
+  $("html").click(function () {
+    $(".mobile-menu-item").slideUp();
+  });
+
+  $("#menu-btn").click(function (event) {
+    event.stopImmediatePropagation();
+    $(".mobile-menu-item").slideToggle();
+  });
+});

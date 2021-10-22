@@ -1,6 +1,6 @@
 .hero-image-background{
   background-image:  linear-gradient(transparent, var(--color-background-dark)), url(../../assets/images/home/hero-slider/slider1.jpg);
-  height: 86vh;
+  height: 86vh !important;
   width:100%;
   background-size: cover;
   display: flex !important;
@@ -22,6 +22,20 @@
 .hero-cta-button{
   padding: 16px 52px;
   margin-bottom: 7px;
+}
+
+.slick-prev{
+  left: 15px !important;
+  z-index: 5;
+  &::before{
+    font-size: 30px !important;
+  }
+}
+.slick-next{
+  right: 25px !important;
+  &::before{
+    font-size: 30px !important;
+  }
 }
 
 @media only screen and (max-width: 697px) {

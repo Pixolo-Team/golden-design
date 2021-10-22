@@ -1,3 +1,29 @@
+// .covid-popup {
+//   background-color: var(--color-background-light);
+//   padding: 12px 20px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+// .covid-msg {
+//   color: var(--color-text-primary);
+//   font: var(--font-primary-medium);
+// }
+// .closing-button{
+//   cursor: pointer;
+// }
+// @media only screen and (max-width: 697px) {
+//   .covid-popup{
+//     padding: 6px 9px;
+//   }
+// .closing-button{
+//   height: 22px;
+//   width: 22px;
+//   margin-left: 16px;
+// }
+// }
+
+
 .menu-bar {
   display: flex;
   align-items: flex-start;
@@ -44,6 +70,7 @@
   }
   .mobile-menu{
     position: relative;
+    z-index: 1;
   }
   .mobile-menu-item{
     position:absolute;
@@ -51,6 +78,7 @@
     left: 0;
     width: 100%;
     background-color: var(--color-background-dark);
+    display: none;
 }
   .mobile-menu-element{
     display: block;
@@ -65,4 +93,13 @@
     fill: var(--color-primary-contrast);
   }
 }
+
+
+header{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+  
 }
