@@ -23,7 +23,7 @@
   font-size: var(--font-medium);
   color: var(--color-text-primary);
   margin-bottom: 20px;
-  padding-right: 143px;
+  line-height: 1.6em;
 }
 .sec6-img-lines{
 display: flex;
@@ -58,6 +58,9 @@ align-items: center;
 .section6-image-part{
   width: 100%;
 }
+.sec6-img{
+  margin-top: 50px;
+}
 .section6-paragraph-part{
   padding-left: 0;
   width: 100% ;
@@ -65,4 +68,24 @@ align-items: center;
 .section6-paragraph{
   padding-right: 0;
 }
+.section6:nth-child(odd) {
+  flex-direction: column !important;
+  .section6-paragraph-part{
+    padding: 20px !important;
+  }
+}
+}
+
+.section6:nth-child(odd) {
+  flex-direction: row;
+  .section6-paragraph-part{
+    padding: 0 195px 0px 61px;
+  }
+}
+
+.section6:nth-child(even) {
+  flex-direction: row-reverse;
+  .section6-paragraph-part{
+    padding: 10px 61px 0px 154px;
+  }
 }

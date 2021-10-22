@@ -1,25 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/contact.css" />
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  {%  include "../components/_head.html" with {css:'contact',title:'Contact'} %}
   <body>
-    {% include '../components/_menu.html'with {activeMenu:'contact'} %}
+    {% include '../components/_menu.html' with {activeMenu:'contact'} %}
 
     <div class="section contact-numbers">
       <div class="number-item">
@@ -35,7 +18,10 @@
             fill="#E9635A"
           />
         </svg>
-        <a class="number-link" href="#">+91 9820840946</a>
+        <div class="number-link">
+          <a href="tel:+919326592686" class="phone-num">+91 9326592686</a>
+          <a href="tel:+919833216828" class="phone-num">+91 9833216828</a>
+        </div>
       </div>
 
       <div class="number-item">
@@ -52,7 +38,7 @@
           />
         </svg>
 
-        <a class="number-link" href="#">+91 9820840946</a>
+        <a class="number-link" href="mailto:contact@goldendesigninteriors.com">contact@goldendesigninteriors.com</a>
       </div>
 
       <div class="number-item">
@@ -69,7 +55,7 @@
           />
         </svg>
 
-        <a class="number-link" href="#">abhay.pixolo@gmail.com</a>
+        <a class="number-link" href="#">Panvel, Navi Mumbai</a>
       </div>
     </div>
 
@@ -82,7 +68,7 @@
         allowfullscreen=""
         loading="lazy"
       ></iframe>
-      {% include '../components/_inquiry-form.html' %}
+      {% include '../components/_enquiry-form.html' %}
     </div>
     {% include '../sections/_faq.html' %} {% include '../sections/_footer.html'
     %}

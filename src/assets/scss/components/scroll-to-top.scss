@@ -1,0 +1,30 @@
+.btn-top {
+  background: var(--color-primary);
+  position: fixed;
+  right: 2.2em;
+  bottom: 2.2em;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--color-primary-contrast);
+  border-radius: 50%;
+}
+
+.arrow {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      margin-left: -9px;
+      margin-top: -5px;
+      cursor: pointer;
+    }
+
+.up:hover polyline,
+.up:focus polyline {
+stroke-width: 15;
+}
+
+.up:active polyline {
+stroke-width: 15;
+transition: all 100ms ease-in-out;
+}

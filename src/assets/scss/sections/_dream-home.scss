@@ -1,7 +1,11 @@
 .dream-home{
     background-image: url("./../images/home/dream-home/dream_home.jpg");
-    background-size: cover;
-    height: 372px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    background-color: #fff;
+    height: 574px;
+    padding-top: 170px;
          .dream-home-headline{
              font: var(--font-primary-bold);
              font-size: var(--font-large);
@@ -11,10 +15,6 @@
   .dream-home-button{
             display: block;
             margin: auto;
-            padding: 18px 59px 16px 60px;
-            border-radius: 51px;
-            font: var(--font-primary-bold);
-            font-size: var(--font-medium);
   }
 }
 
@@ -25,5 +25,9 @@
   background-position: bottom;
   height: 315px;
   background-color: #ffffff;
+  padding-top: 0;
+}
+.dream-home-headline{
+  padding: 58px 0 0 !important;
 }
 }

@@ -1,6 +1,6 @@
 .hero-image-background{
   background-image:  linear-gradient(transparent, var(--color-background-dark)), url(../../assets/images/home/hero-slider/slider1.jpg);
-  height: 90vh;
+  height: 86vh;
   width:100%;
   background-size: cover;
   display: flex;
@@ -17,11 +17,19 @@
   font: var(--font-primary-black);
   font-size: var(--font-xlarge);
   color:var(--color-text-secondary);
-  margin-bottom:20px;
+  margin-bottom:27px;
+}
+.hero-cta-button{
+  padding: 16px 52px;
+  margin-bottom: 7px;
 }
 
 @media only screen and (max-width: 697px) {
   .bg-description{
     font-size: var(--font-large);
+    margin-bottom: 10px;
+  }
+  .hero-image-background{
+    padding: 0;
   }
 }

@@ -1,28 +1,40 @@
 .rounded-button{
   background-color: var(--color-primary);
-  border-radius: 20px;
+  border-radius: 25px;
   color:var(--color-primary-contrast);
-  padding:10px 30px;
+  padding:12px 32px;
   font: var(--font-primary-semi-bold);
+  font-size: var(--font-medium);
   transition: transform 0.4s ease-out;
   transform: scale(1);
   display: inline-block;
+  text-align: center;
   &:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
+  }
+  &:active {
+    opacity: 0.7;
+  }
+}
+@media only screen and (max-width: 697px) {
+  .rounded-button{
+    font-size: var(--font-regular);
+    margin: 35px auto !important;
   }
 }
 
-
-
 .primary-link{
-  font-size: var(--font-regular);
   font: var(--font-primary-semi-bold);
   color: var(--color-primary);
+  font-size: var(--font-regular);
   text-align: left;
   position: relative;
   &:hover{
     &:after{
       right: -20px;
+    }
+    &:active {
+      opacity: 0.8;
     }
   }
   &:after{
@@ -33,7 +45,7 @@
     position: absolute;
     border-radius: 5px;
     right: -10px;
-    top: 50%;
+    top: calc(50% - 1px);
     transition: right 0.4s;
   }
 }

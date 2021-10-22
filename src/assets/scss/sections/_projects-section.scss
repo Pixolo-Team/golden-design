@@ -14,18 +14,18 @@
     font-size: var(--font-medium);
 }
 .project-image-section{
-    margin: 50px 0px;
+    margin: 57px 0px;
     display: flex;
     .project-bg-image{
         background-image: url("./../images/home/_projects-section/gallery-design.jpg");
-        height: 400px;
+        height: 500px;
         width: 30%;
         background-size: cover;
         border-radius: 12px;
         display: flex;
         align-items: flex-end;
         overflow: hidden;
-        margin-right: 36px;
+        margin-right: 22px;
         &:hover{
             .project-image-lines{
                 padding-bottom: 50px;
@@ -64,6 +64,9 @@
     &:hover{
         opacity: 0.5;
     }
+    &:active{
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 697px) {
@@ -71,9 +74,7 @@
         font-size: var(--font-regular);
     }
 .rounded-button{
-    margin: auto;
     padding: 15px 40px;
     border-radius: 51px;
-    margin-top: 20px;
 }
 }

@@ -1,18 +1,24 @@
 .interior{
     text-align: center;
-    background-color: #ffffff;
+    background-color: var(--color-background);
+}
+.interior-main{
+     max-width: 880px;
+     padding: 81px 0 60px;
+     margin: auto;
 }
 .interior-heading{
 font: var(--font-primary-bold);
 font-size: var(--font-large);
 color: var(--color-text-primary);
+margin-bottom: 30px;
 }
 .interior-passage{
 font: var(--font-primary-regular);
 font-size: var(--font-medium);
 color: var(--color-text-primary);
 line-height: 36px;
-margin-top: 35px;
+margin-bottom: 35px;
 }
 
 @media only screen and (max-width: 697px){

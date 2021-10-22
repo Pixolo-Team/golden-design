@@ -39,16 +39,31 @@
 .gdi-ta {
   height: 100px;
 }
-.rounded-button {
-  margin: 20px 0;
-}
 .form-disclaimer {
   color: var(--color-text-primary);
   font: var(--font-primary-regular);
   font-size: var(--font-small);
 }
+.contact-btn {
+  margin: 20px 0;
+}
 @media screen and (max-width: 697px) {
   .form-title {
     font-size: var(--font-medium);
   }
+}
+
+.form-message {
+  font: var(--font-primary-regular);
+  color: var(--color-text-secondary);
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.form-error{
+background-color: var(--color-red);
+}
+.form-success{
+  background-color: var(--color-green);
 }

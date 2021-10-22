@@ -5,21 +5,38 @@
 .covid-popup {
     background-color: var(--color-background-light);
     padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .covid-msg {
     color: var(--color-text-primary);
     font: var(--font-primary-medium);
-  }  
+  }
+  .closing-button{
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 697px) {
+    .covid-popup{
+      padding: 6px 9px;
+    }
+  .closing-button{
+    height: 22px;
+    width: 22px;
+    margin-left: 16px;
+  }
+}
 @import "../components/menu.scss";
 @import "../sections/hero.scss";
-@import "../sections/home2.scss";
-@import "../sections/home3.scss";
+@import "../sections/designs.scss";
+@import "../sections/expertise-ad.scss";
 @import "../sections/number-home.scss";
-@import "../sections/home4.scss";
+@import "../sections/technology.scss";
 @import "../components/number-component.scss";
 @import "../sections/how-it-works.scss";
-@import "../sections/home6.scss";
+@import "../sections/testimonials.scss";
 @import "../sections/projects-section.scss";
+@import "../sections/why-choose-us.scss";
 @import "../sections/orders.scss";
 @import "../sections/client-videos.scss";
 @import "../sections/faq.scss";

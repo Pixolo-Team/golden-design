@@ -4,7 +4,7 @@
             font: var(--font-primary-bold);
             font-size: var(--font-xlarge);
             color: var(--color-text-primary);
-            margin-bottom: 20px;
+            margin: 130px 0 20px;
     }
     .faq-quaries{
             border: 1px solid var(--color-background-light);
@@ -14,11 +14,6 @@
             .faq-main{
                 display: flex;
                 justify-content: space-between;
-                    .quaries{
-                        font: var(--font-primary-regular);
-                        font-size: var(--font-medium);
-                        color: var(--color-text-primary);
-                    }
             }
             .quaries-answers{
                     font: var(--font-secondary-regular);
@@ -33,10 +28,31 @@
         margin-top: 70px;
     }
 }
+.quaries{
+    font: var(--font-primary-regular);
+    font-size: var(--font-medium);
+    color: var(--color-text-primary);
+}
 .zoom-in{
     cursor: pointer;
     transition: transform 0.3s;
     &:hover{
         transform: scale(1.5);
+    }
+}
+
+@media only screen and (max-width: 697px){
+    .zoom-in{
+        min-width: 19px;
+    }
+    .faq-main{
+        align-items: center;
+    }
+    .faq{
+        margin: 40px 0 20px !important;
+    }
+    .quaries{
+        font-size: 16px;
+        padding-right: 13px;
     }
 }
