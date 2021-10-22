@@ -1,4 +1,28 @@
 <div class="section">
+  {% set IMG_PATH="assets/images/home/client-videos/" %}
+  {% set clients=[
+    {
+      thumbnail: "video1.jpg",
+      youtube_url: "https://www.youtube.com/embed/grItaOxuyTE",
+      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
+      client_name: "Rajesh Mehra",
+      client_work: "Living Room Design at Ghatkopar"
+    },
+    {
+      thumbnail: "video1.jpg",
+      youtube_url: "https://www.youtube.com/embed/TYd_pT9hZrM",
+      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
+      client_name: "Rajesh Mehra",
+      client_work: "Living Room Design at Ghatkopar"
+    },
+    {
+      thumbnail: "video1.jpg",
+      youtube_url: "https://www.youtube.com/embed/hfXqgH2RscE",
+      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
+      client_name: "Rajesh Mehra",
+      client_work: "Living Room Design at Ghatkopar"
+    }
+  ]%}
   <div class="client-videos-sec1">
     <div class="clients-description">
       <p class="description-line-1">Listen to our Clients</p>
@@ -9,50 +33,40 @@
     <button type="button" class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="clients-videos-sec2">
-    <div class="client-videos-img-section">
-      <div class="client-video-image">
-        <img class="video-img"  src="assets/images/home/client-videos/video1.jpg" />
-        
-        <div class="image-gradient"><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z" fill="white"/>
-            </svg></div>
-      </div>
-
-      <div class="clients-video-description">
-        <p class="clients-video-description1"><span class="quote-mark">"</span>Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.<span class="quote-mark2">"</span></p>
-        <p class="clients-video-description2">Rajesh Mehra</p>
-        <p class="clients-video-description3">Living Room Design at Ghatkopar</p>
-      </div>
-    </div>
-    <div class="client-videos-img-section">
-        <div class="client-video-image">
-          <img class="video-img"  src="assets/images/home/client-videos/video1.jpg" />
-          
-          <div class="image-gradient"><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z" fill="white"/>
-              </svg></div>
-        </div>
-  
-        <div class="clients-video-description">
-          <p class="clients-video-description1"><span class="quote-mark">"</span>Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.<span class="quote-mark2">"</span></p>
-          <p class="clients-video-description2">Rajesh Mehra</p>
-          <p class="clients-video-description3">Living Room Design at Ghatkopar</p>
-        </div>
-      </div>
+    {% for client in clients %}
       <div class="client-videos-img-section">
         <div class="client-video-image">
-          <img class="video-img" src="assets/images/home/client-videos/video1.jpg" />
-          
-          <div class="image-gradient"><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <img class="video-img" src={{ IMG_PATH }}{{ client.thumbnail }} />
+          <a data-url="{{ client.youtube_url }}" class="image-gradient"><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z" fill="white"/>
-              </svg></div>
+              </svg></a>
         </div>
+
         <div class="clients-video-description">
-            <p class="clients-video-description1"><span class="quote-mark">"</span>Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.<span class="quote-mark2">"</span></p>
-            <p class="clients-video-description2">Rajesh Mehra</p>
-            <p class="clients-video-description3">Living Room Design at Ghatkopar</p>
-          </div>
+          <p class="clients-video-description1"><span class="quote-mark">"</span>{{ client.review }}<span class="quote-mark2">"</span></p>
+          <p class="clients-video-description2">{{ client.client_name }}</p>
+          <p class="clients-video-description3">{{ client.client_work }}</p>
+        </div>
       </div>
+    </a>
+    {% endfor %}
       </div>
           <button type="button" class="rounded-button desktop-hide">Get free consultation</button>
 </div>
+
+<div id="light-box-modal">
+  <div class="modal-content">
+  </div>
+</div>
+<script>
+  function closeModal() {
+    $('#light-box-modal').css("display", "none");
+  }
+  $('.image-gradient').on('click', function() {
+    let url = $(this).attr('data-url');
+
+    const iframe = `<span class="close cursor" onclick="closeModal()">&times;</span><iframe width=100% height=100% src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    $('.modal-content').html(iframe);
+    $('#light-box-modal').css("display", "block");
+  })
+</script>

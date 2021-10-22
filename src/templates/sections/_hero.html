@@ -1,5 +1,6 @@
 {% include '../components/_menu.html' with {activeMenu:'home'} %}
 
+<div class="hero-section">
 {% for slider in sliders %}
 <div class="hero-image-background">
   <div class="hero-content">
@@ -8,3 +9,8 @@
   </div>
 </div>
 {% endfor %}
+</div>
+
+<script>
+  $('.hero-section').slick();
+</script>

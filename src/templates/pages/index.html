@@ -3,10 +3,49 @@
     description: "The trendiest Living Rooms to live in",
     img: "1.jpg",
   },
+  {
+    description: "The trendiest Living Rooms to live in",
+    img: "1.jpg",
+  },
+  {
+    description: "The trendiest Living Rooms to live in",
+    img: "1.jpg",
+  },
 ]%}
+{% set works_ad={
+  kitchen: {
+    title: "Modular Kitchen Designs like never seen before",
+    description: "Our kitchen designs are modular, and extra ordinary in shape. You cook the food, we cook the kitchen.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  },
+  living_room: {
+    title: "Modular Living Room Designs like never seen before",
+    description: "Our living room designs are modular, and extra ordinary in shape. Make you feel good.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  },
+  bathroom: {
+    title: "Modular Bathroom Designs like never seen before",
+    description: "Our bathroom designs are modular, and extra ordinary in shape. You cook the water, we do nothing.",
+    images: [
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+      "sec3-image.jpg",
+    ]
+  }
+}%}
 <!DOCTYPE html>
 <html lang="en">
-
   {%  include "../components/_head.html" with {css:'index',title:'Home'} %}
   <body>
     <div class="covid-popup">
@@ -17,23 +56,24 @@
         <path d="M16.9999 1L1 17M1.00005 1L17 17" stroke="#001A72" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
     </div>
- 
+    {% include '../components/_library_loader.html' with {global:true,slick:true,lightbox:true} %}
     {% include '../sections/_hero.html' with sliders %} 
 
     {% include '../sections/_designs.html' %} 
-    {% include '../sections/_expertise-ad.html' with {sectionClass:'tint-bg-section'} %}
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.kitchen,sectionClass:'tint-bg-section'} %}
     {% include '../sections/_number-home.html' %}
     {% include '../sections/_technology.html' %}
     {% include '../sections/_how-it-works.html' %}
-    {% include '../sections/_expertise-ad.html' with {sectionClass:'primary-bg-section'} %}
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.living_room,sectionClass:'primary-bg-section'} %}
     {% include '../sections/_testimonials.html' %}
     {% include '../sections/_projects-section.html' %}
     {% include '../sections/_why-choose-us.html' %}
     {% include '../sections/_orders.html' %}
     {% include '../sections/_client-videos.html' %}
-    {% include '../sections/_expertise-ad.html' with {sectionClass:'primary-bg-section'} %}
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.bathroom,sectionClass:'primary-bg-section'} %}
     {% include '../sections/_faq.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
+    {% include '../components/_library_loader.html' %}
   </body>
 </html>

@@ -1,10 +1,10 @@
-{% set BASE_IMG_PATH="https://media-cdn.tripadvisor.com/media/photo-s/0c/de/25/54/" %}
+{% set BASE_IMG_PATH="assets/images/clients/" %}
 
 {% set clients=[
   {
-    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    logo: "Baskin-Robbins-Symbol.png",
     title: "Designing of the most famous Ice Cream Chain",
-    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    img: "Baskin-Robbins-Symbol.png",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type
@@ -18,9 +18,9 @@
     ]
   },
   {
-    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    logo: "Baskin-Robbins-Symbol.png",
     title: "Designing of the most famous Ice Cream Chain",
-    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    img: "Baskin-Robbins-Symbol.png",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type
@@ -34,9 +34,9 @@
     ]
   },
   {
-    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    logo: "Baskin-Robbins-Symbol.png",
     title: "Designing of the most famous Ice Cream Chain",
-    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    img: "Baskin-Robbins-Symbol.png",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type
@@ -50,9 +50,9 @@
     ]
   },
   {
-    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    logo: "Baskin-Robbins-Symbol.png",
     title: "Designing of the most famous Ice Cream Chain",
-    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    img: "Baskin-Robbins-Symbol.png",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type
@@ -66,9 +66,9 @@
     ]
   },
   {
-    logo: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    logo: "Baskin-Robbins-Symbol.png",
     title: "Designing of the most famous Ice Cream Chain",
-    img: "https://logos-world.net/wp-content/uploads/2020/07/Baskin-Robbins-Symbol.png",
+    img: "Baskin-Robbins-Symbol.png",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type
@@ -90,13 +90,15 @@
     {% include '../components/_menu.html' with {activeMenu:'clients'} %} {% include
     '../sections/_client-hero.html' %}
 
+    {% include '../components/_library_loader.html' with {slick:true} %}
+
     <div class="section">
       <p class="clients-title">Our Major Clients</p>
       <div class="clients-logo-slider">
         {% for client in clients %}
           <img
             class="client-logo"
-            src={{ client.logo }}
+            src={{ BASE_IMG_PATH }}{{ client.logo }}
           />
         {% endfor %}
       </div>
@@ -113,7 +115,7 @@
           </p>
           <img
             class="client-img"
-            src={{ client.img }}
+            src={{ BASE_IMG_PATH }}{{ client.img }}
           />
           <p class="client-desc">
             {{ client.description }}
@@ -133,5 +135,12 @@
     </div>
 
     {% include '../sections/_footer.html' %}
+    <script>
+      $('.clients-logo-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        dots: true
+      });
+    </script>
   </body>
 </html>

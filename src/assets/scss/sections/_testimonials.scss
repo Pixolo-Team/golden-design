@@ -1,5 +1,5 @@
 .section6 {
-    display: flex;
+    display: flex !important;
     align-items: center;
     padding: 40px;
 }
@@ -50,7 +50,7 @@ align-items: center;
 
 @media only screen and (max-width: 697px){
 .section6{
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   width: 100%;
   padding: 0;

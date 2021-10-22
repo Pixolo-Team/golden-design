@@ -3,8 +3,8 @@
   height: 86vh;
   width:100%;
   background-size: cover;
-  display: flex;
-  align-items: flex-end;
+  display: flex !important;
+  align-items: flex-end !important;
   justify-content: center;
   padding: 60px;
 }

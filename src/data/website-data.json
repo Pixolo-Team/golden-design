@@ -5,11 +5,39 @@
   ],
   "testimonials": [
     {
-      "review": "",
-      "client_name": "",
-      "client_work": "",
-      "client_image": ""
+      "review": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that.",
+      "client_name": "Abhay Amin",
+      "client_work": "Office Design at Ghatkopar",
+      "client_image": "https://blog.jijitechnologies.com/assets/img/user.jpg"
+    },
+    {
+      "review": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that.",
+      "client_name": "Sanhia Amin",
+      "client_work": "Office Design at Ghatkopar",
+      "client_image": "https://blog.jijitechnologies.com/assets/img/user.jpg"
+    },
+    {
+      "review": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that.",
+      "client_name": "Dengrah Amin",
+      "client_work": "Office Design at Ghatkopar",
+      "client_image": "https://blog.jijitechnologies.com/assets/img/user.jpg"
     }
   ],
-  "work_tour": [{ "title": "", "location": "", "image": "" }]
+  "work_tour": [
+    {
+      "title": "Greenery Gallery Design",
+      "location": "In Chembur, Mumbai",
+      "image": "gallery-design.jpg" 
+    },
+    {
+      "title": "Greenery Gallery Design",
+      "location": "In Chembur, Mumbai",
+      "image": "gallery-design.jpg" 
+    },
+    {
+      "title": "Greenery Gallery Design",
+      "location": "In Chembur, Mumbai",
+      "image": "gallery-design.jpg" 
+    }
+  ]
 }

@@ -1,14 +1,38 @@
 [
   {
     "id": 1,
-    "image": "",
-    "title": "",
-    "location": "",
-    "description": "",
+    "image": "home-interior-design-ideas.jpg",
+    "title": "Greenery Gallery Design",
+    "location": "In Chembur, Mumbai",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "customer_details": {
-      "name": "",
-      "date": "",
-      "profile_photo": ""
+      "name": "Hamish D'Singa",
+      "date": "30th August, 2021",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "image": "home-interior-design-ideas.jpg",
+    "title": "Greenery Gallery Design",
+    "location": "In Chembur, Mumbai",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "customer_details": {
+      "name": "Dr. J Smith",
+      "date": "30th August, 2021",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "image": "home-interior-design-ideas.jpg",
+    "title": "Greenery Gallery Design",
+    "location": "In Chembur, Mumbai",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "customer_details": {
+      "name": "Dr. Jyoti Pixolo",
+      "date": "30th August, 2021",
+      "profile_photo": "user-vector-portrait.jpg"
     }
   }
 ]

@@ -1,21 +1,32 @@
-<div class="project-item">
-  <div class="project-img-wrapper">
-    <img
-      class="project-img"
-      src="https://media.designcafe.com/wp-content/uploads/2020/07/23205856/home-interior-design-ideas.jpg"
-    />
-    {% include '_user-info.html' %}
-    <img class="image-over-logo" src="assets/images/brand/logo.svg" />
-  </div>
-  <div class="project-info">
-    <p class="project-title">Redesign of Living Room</p>
-    <p class="project-addr">In Malad, Mumbai</p>
-  </div>
-  <p class="project-desc">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the
-    1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book.
-  </p>
-  <a href="#" class="primary-link">View Project</a>
-</div>
+{% set IMG_PATH="assets/images/projects/" %}
+{% verbatim %}
+  {% for project in webdata %}
+    <div class="project-item">
+      <div class="project-img-wrapper">
+        <img
+          class="project-img"
+          src={% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.image }}
+        />
+        <div class="project-user">
+          <img
+            class="project-user-img"
+            src={% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.customer_details.profile_photo }}
+          />
+          <div class="project-user-info">
+            <p class="project-u-name">{{ project.customer_details.name }}</p>
+            <p class="project-u-date">{{ project.customer_details.date }}</p>
+          </div>
+        </div>
+        <img class="image-over-logo" src="assets/images/brand/logo.svg" />
+      </div>
+      <div class="project-info">
+        <p class="project-title">{{ project.title }}</p>
+        <p class="project-addr">{{ project.location }}</p>
+      </div>
+      <p class="project-desc">
+        {{ project.description }}
+      </p>
+      <a href="#" class="primary-link">View Project</a>
+    </div>
+  {% endfor %}
+{% endverbatim %}
