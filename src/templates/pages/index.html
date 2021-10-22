@@ -46,48 +46,34 @@
 }%}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/index.css" />
-    
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    {% include '../components/_library_loader.html' %}
-  </head>
+  {%  include "../components/_head.html" with {css:'index',title:'Home'} %}
   <body>
     <div class="covid-popup">
       <p class="covid-msg">
       All of our employees are vaccinated with atleast one dose of the Covid Vaccination
       </p>
+      <svg class="closing-button" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.9999 1L1 17M1.00005 1L17 17" stroke="#001A72" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
     </div>
     {% include '../components/_library_loader.html' with {global:true,slick:true,lightbox:true} %}
     {% include '../sections/_hero.html' with sliders %} 
 
-    {% include '../sections/_home2.html' %} 
-
-    {% include '../sections/_home3.html' with {data:works_ad.kitchen,sectionClass:'tint-bg-section'} %}
+    {% include '../sections/_designs.html' %} 
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.kitchen,sectionClass:'tint-bg-section'} %}
     {% include '../sections/_number-home.html' %}
-    {% include '../sections/_home4.html' %}
-    {% include '../sections/_home3.html' with {data:works_ad.living_room,sectionClass:'primary-bg-section'} %}
-
+    {% include '../sections/_technology.html' %}
     {% include '../sections/_how-it-works.html' %}
-    {% include '../sections/_home6.html' %}
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.living_room,sectionClass:'primary-bg-section'} %}
+    {% include '../sections/_testimonials.html' %}
     {% include '../sections/_projects-section.html' %}
+    {% include '../sections/_why-choose-us.html' %}
     {% include '../sections/_orders.html' %}
     {% include '../sections/_client-videos.html' %}
-    {% include '../sections/_home3.html' with {data:works_ad.bathroom,sectionClass:'primary-bg-section'} %}
+    {% include '../sections/_expertise-ad.html' with {data:works_ad.bathroom,sectionClass:'primary-bg-section'} %}
     {% include '../sections/_faq.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
+    {% include '../components/_library_loader.html' %}
   </body>
 </html>

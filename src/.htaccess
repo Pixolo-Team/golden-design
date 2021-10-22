@@ -3,7 +3,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png|svg)$ [NC]
 RewriteRule ^about-us controllers/about.php [L]
 RewriteRule ^projects controllers/projects.php [L]
-RewriteRule ^project-consumption controllers/project-consumtion.php [L]
+RewriteRule ^project-consumption controllers/project-consumption.php [L]
 RewriteRule ^clients controllers/clients.php [L]
 RewriteRule ^contact controllers/contact.php [L]
 

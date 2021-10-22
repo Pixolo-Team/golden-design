@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Document</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/about.css" />
-    
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  {%  include "../components/_head.html" with {css:'about',title:'About Us'} %}
   <body>
     {% include '../components/_menu.html' with {activeMenu:'about'} %}
     {% include '../sections/_about-hero.html' %}
@@ -25,7 +8,7 @@
     {% include '../sections/_aim-about.html' %}
     {% include '../sections/_founder-about.html' %}
     {% include '../sections/_number-home.html' %}
-    {% include '../sections/_home4.html' %}
+    {% include '../sections/_technology.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
     <script src="assets/js/global.js"></script>
