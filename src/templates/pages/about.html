@@ -2,6 +2,7 @@
 <html lang="en">
   {%  include "../components/_head.html" with {css:'about',title:'About Us'} %}
   <body>
+   
     {% include '../components/_menu.html' with {activeMenu:'about'} %}
     {% include '../sections/_about-hero.html' %}
     {% include '../sections/_interior-about.html' %}
@@ -11,6 +12,7 @@
     {% include '../sections/_technology.html' %}
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
-    <script src="assets/js/global.js"></script>
+    {% include '../components/_library_loader.html' with {global:true} %}
+
     </body>
     </html>

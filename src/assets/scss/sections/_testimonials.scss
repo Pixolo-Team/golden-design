@@ -51,7 +51,7 @@ align-items: center;
 @media only screen and (max-width: 697px){
 .section6{
   display: flex !important;
-  flex-direction: column;
+  flex-direction: column !important;
   width: 100%;
   padding: 0;
 }
@@ -62,7 +62,7 @@ align-items: center;
   margin-top: 50px;
 }
 .section6-paragraph-part{
-  padding-left: 0;
+  padding: 0 !important;
   width: 100% ;
 }
 .section6-paragraph{

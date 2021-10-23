@@ -36,7 +36,7 @@
     {% for client in clients %}
       <div class="client-videos-img-section">
         <div class="client-video-image">
-          <img class="video-img" src={{ IMG_PATH }}{{ client.thumbnail }} />
+          <img class="video-img" src={{ IMG_PATH }}{{ client.thumbnail }} alt="Client Videos"/>
           <a data-url="{{ client.youtube_url }}" class="image-gradient"><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z" fill="white"/>
               </svg></a>

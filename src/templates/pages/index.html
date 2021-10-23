@@ -59,7 +59,8 @@
 
    
 
-    
+    {% include '../components/_menu.html' with {activeMenu:'home'} %}
+
     {% include '../sections/_hero.html' with sliders %} 
 
     {% include '../sections/_designs.html' %} 
@@ -79,7 +80,10 @@
     {% include '../sections/_footer.html' %}
     {% include '../components/_scroll-to-top.html' %}
     {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'index'} %}
-
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
    
   </body>
 </html>

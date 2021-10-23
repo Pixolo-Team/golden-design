@@ -98,7 +98,7 @@
         {% for client in clients %}
           <img
             class="client-logo"
-            src={{ BASE_IMG_PATH }}{{ client.logo }}
+            src={{ BASE_IMG_PATH }}{{ client.logo }} alt="Client Logo"
           />
         {% endfor %}
       </div>
@@ -115,7 +115,7 @@
           </p>
           <img
             class="client-img"
-            src={{ BASE_IMG_PATH }}{{ client.img }}
+            src={{ BASE_IMG_PATH }}{{ client.img }} alt="Client Image"
           />
           <p class="client-desc">
             {{ client.description }}
@@ -125,7 +125,7 @@
           {% for image in client.images %}
           <img
             class="client-img"
-            src={{ BASE_IMG_PATH }}{{ image }}
+            src={{ BASE_IMG_PATH }}{{ image }} alt="Client Image"
           />
           {% endfor %}
         </div>
@@ -135,12 +135,7 @@
     </div>
 
     {% include '../sections/_footer.html' %}
-    <script>
-      $('.clients-logo-slider').slick({
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        dots: true
-      });
-    </script>
+    
+    {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'clients'} %}
   </body>
 </html>

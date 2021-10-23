@@ -2,12 +2,18 @@
   background: var(--color-primary);
   position: fixed;
   right: 2.2em;
-  bottom: 2.2em;
+  bottom: -10%;
   display: block;
   width: 48px;
   height: 48px;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
   border-radius: 50%;
+  transition: bottom 0.4s ease-in;
+}
+
+
+.slide-up{
+  bottom: 2.2em;
 }
 
 .arrow {
@@ -27,4 +33,7 @@ stroke-width: 15;
 .up:active polyline {
 stroke-width: 15;
 transition: all 100ms ease-in-out;
+}
+#gotop{
+  display: none;
 }
