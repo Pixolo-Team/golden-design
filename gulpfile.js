@@ -12,7 +12,8 @@ var gulp = require("gulp"),
   twig = require("gulp-twig"),
   foreach = require("gulp-foreach"),
   sourcemaps = require("gulp-sourcemaps"),
-  changed = require("gulp-changed")
+  changed = require("gulp-changed"),
+  gulpif = require("gulp-if")
   ;
 
 
@@ -146,6 +147,14 @@ gulp.task("js:main", function () {
     .pipe(browserSync.reload({ stream: true }));
 });
 
+// JS
+gulp.task("scripts", function () {
+  return gulp.src(paths.src + "templates/pages/*.html")
+    .pipe(useref())
+    .pipe(gulpif("*.js", uglify()))
+    .pipe(gulp.dest(paths.dist))
+});
+
 // Images
 gulp.task("images", function () {
   return gulp
@@ -210,7 +219,7 @@ gulp.task("gulp-watch", function () {
 });
 
 // Build
-gulp.task("build", gulp.series("clean:dist", "copy:misc", "css", "js:main","css:vendor","js:vendor", "images", "twig"));
+gulp.task("build", gulp.series("clean:dist", "copy:misc", "css", "js:main", "scripts", "css:vendor","js:vendor", "images", "twig"));
 
 // Watch
 gulp.task("watch", gulp.parallel("gulp-watch", "browser-sync"));

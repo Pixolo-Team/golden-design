@@ -1,0 +1,86 @@
+/*	============================== #Custom Font Imports Here ==================================== */
+:root {
+  /*	============================== #Colors ==================================== */
+  --color-primary: #e9635a;
+  --color-primary-light: #ee948e;
+  --color-primary-dark: #d45249;
+  --color-primary-rgb: 233, 99, 90;
+  --color-primary-contrast: #ffffff;
+  --color-secondary: #687e8c;
+  --color-secondary-light: #8c9fab;
+  --color-secondary-dark: #405f73;
+  --color-secondary-rgb: 104, 126, 140;
+  --color-secondary-contrast: #fff;
+  --color-text-primary: #41303e;
+  --color-text-primary-light: #7e7e7e;
+  --color-text-secondary: #ffffff;
+  --color-blue: #5659d3;
+  --color-green: #469e59;
+  --color-yellow: #f6ab2f;
+  --color-red: #e62d2d;
+  /*	============================== #background color ==================================== */
+  --color-background: #f5f4f5;
+  --color-background-tint: #eceaeb;
+  --color-background-light: #d9d6d8;
+  --color-background-dark: #2a2929;
+  /*	============================== #Font Families ==================================== */
+  --font-primary: "Glory", sans-serif;
+  --font-primary-thin: 100 1em "Gilroy-UltraLight", sans-serif;
+  --font-primary-light: 200 1em "Gilroy-Light", sans-serif;
+  --font-primary-regular: 400 1em "Gilroy-Regular", sans-serif;
+  --font-primary-medium: 500 1em "Gilroy-Medium", sans-serif;
+  --font-primary-semi-bold: 600 1em "Gilroy-SemiBold", sans-serif;
+  --font-primary-bold: 700 1em "Gilroy-ExtraBold", sans-serif;
+  --font-primary-black: 900 1em "Gilroy-Black", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+  --font-secondary-thin: 200 1em Roboto, sans-serif;
+  --font-secondary-light: 300 1em Roboto, sans-serif;
+  --font-secondary-regular: 400 1em Roboto, sans-serif;
+  --font-secondary-medium: 500 1em Roboto, sans-serif;
+  --font-secondary-bold: 700 1em Roboto, sans-serif;
+  --font-secondary-black: 900 1em Roboto, sans-serif;
+  /*	============================== #Font Sizes ==================================== */
+  --font-tiny: 0.75em;
+  --font-small: 0.875em;
+  --font-regular: 1em;
+  --font-medium: 1.25em;
+  --font-large: 2.1875em;
+  --font-xlarge: 3.4375em;
+  --font-xxlarge: 3.75em;
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  src: url("../../assets//fonts/gilroy/Gilroy-UltraLight.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../assets//fonts/gilroy/Gilroy-Light.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../../assets//fonts/gilroy/Gilroy-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../../assets//fonts/gilroy/Gilroy-Medium.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../../assets//fonts/gilroy/Gilroy-SemiBold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../../assets//fonts/gilroy/Gilroy-ExtraBold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("../../assets//fonts/gilroy/Gilroy-Black.ttf") format("woff2");
+}
+/*# sourceMappingURL=variables.css.map */

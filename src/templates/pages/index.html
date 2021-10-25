@@ -78,8 +78,12 @@
     {% include '../sections/_dream-home.html' %}
     {% include '../sections/_footer.html' %}
     {% include '../components/_scroll-to-top.html' %}
-    {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'index'} %}
+    {% include '../components/_library_loader.html' with {global:true,slick:true} %}
 
-   
+   <!-- build:js assets/js/index.js -->
+    <script src="assets/js/sections/_number-home.js"></script>
+    <script src="assets/js/sections/_projects-section.js"></script>
+    <script src="assets/js/sections/_testimonials.js"></script>
+   <!-- endbuild -->
   </body>
 </html>
