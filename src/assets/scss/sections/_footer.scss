@@ -75,12 +75,7 @@
   width: 40%;
   text-align: end;
   position: relative;
-}
-.year {
-  font: var(--font-primary-black);
-  position: absolute;
-  right: 22px;
-  top: 81px;
+  align-self: end;
 }
 .website-link:after {    
   background: none repeat scroll 0 0 transparent;
