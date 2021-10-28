@@ -27,15 +27,21 @@
 .slick-prev{
   left: 15px !important;
   z-index: 5;
+  transition: all 0.4s ease-in-out;
   &::before{
     font-size: 30px !important;
   }
 }
 .slick-next{
   right: 25px !important;
+  transform-origin: center;
+  transition: all 1s ease-in-out;
   &::before{
     font-size: 30px !important;
   }
+}
+.slick-next:hover:before {
+  font-size: 45px;
 }
 
 @media only screen and (max-width: 697px) {

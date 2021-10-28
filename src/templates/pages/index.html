@@ -48,6 +48,7 @@
 <html lang="en">
   {%  include "../components/_head.html" with {css:'index',title:'Home'} %}
   <body>
+    {% include '../components/_page-loader.html' %}
     <div class="covid-popup">
       <p class="covid-msg">
       All of our employees are vaccinated with atleast one dose of the Covid Vaccination
@@ -57,7 +58,6 @@
         </svg>
     </div>
 
-   
 
     {% include '../components/_menu.html' with {activeMenu:'home'} %}
 

@@ -116,3 +116,11 @@ $(document).ready(function () {
     $(".mobile-menu-item").slideToggle();
   });
 });
+
+//page loader
+$(window).ready(function () {
+  setTimeout(function(){
+    $("body").css("overflow","scroll");
+    $(".loader-container").fadeOut("fade");
+  }, 1000);
+});

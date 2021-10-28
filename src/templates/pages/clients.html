@@ -87,6 +87,7 @@
 <html lang="en">
   {%  include "../components/_head.html" with {css:'clients',title:'Clients'} %}
   <body>
+    {% include '../components/_page-loader.html' %}
     {% include '../components/_menu.html' with {activeMenu:'clients'} %} {% include
     '../sections/_client-hero.html' %}
 

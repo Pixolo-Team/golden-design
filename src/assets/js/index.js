@@ -128,17 +128,18 @@ $(document).ready(function () {
       // 1 : Check if quris-answers is block or none
       if ( $(this).find(".quaries-answers").is(":visible")) {
         // If it is block then show minus and hide plus
-        $(this).find("#plus-icon").hide();
-        $(this).find("#minus-icon").show(250);
+        $(this).find("#plus-icon").fadeOut("fast",()=>{
+          console.log("Hi");
+          $(this).find("#minus-icon").fadeIn("fast");
+        });
+        // $(this).find("#minus-icon").delay(100).fadeIn();
       }
       else{
-        // Else -> if it is none show plus an hide minus
-        $(this).find("#plus-icon").show(250);
-        $(this).find("#minus-icon").hide();
+        $(this).find("#minus-icon").fadeOut("fast",()=>{
+          console.log("Hi");
+          $(this).find("#plus-icon").fadeIn("fast");
+        });
       }
-      
-
-     
     }, 400);
   });
 });

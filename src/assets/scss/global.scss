@@ -2,6 +2,7 @@
 @import "./variables.scss";
 
 @import "./components/buttons.scss";
+@import "./components/page-loader";
 
 // Here you can include the styles that will be used in all the pages, or use this file to create style components
 * {
@@ -45,7 +46,7 @@ body {
     display: block;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1000px) {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
