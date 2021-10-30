@@ -1,6 +1,6 @@
 .footer-section {
   background-color: var(--color-background-dark);
-  background-image: url("./../images/footer/bg-logo.png");
+  background-image: url("./../images/footer/progressive/bg-logo.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: auto 90%;
@@ -87,6 +87,10 @@
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+}
+.brand-bg-symbol{
+  height: 133px;
+  width: 182px;
 }
 
 @media screen and (max-width: 697px) {

@@ -98,8 +98,8 @@
       <div class="clients-logo-slider">
         {% for client in clients %}
           <img
-            class="client-logo"
-            src={{ BASE_IMG_PATH }}{{ client.logo }} alt="Client Logo"
+            class="client-logo progressive__img progressive--not-loaded"
+            src="{{ BASE_IMG_PATH }}progressive/{{ client.logo }}" data-progressive="{{ BASE_IMG_PATH }}{{ client.logo }}" alt="Client Logo"
           />
         {% endfor %}
       </div>
@@ -115,8 +115,8 @@
             {{ client.title }}
           </p>
           <img
-            class="client-img"
-            src={{ BASE_IMG_PATH }}{{ client.img }} alt="Client Image"
+            class="client-img progressive__img progressive--not-loaded"
+            src="{{ BASE_IMG_PATH }}progressive/{{ client.img }}" data-progressive="{{ BASE_IMG_PATH }}{{ client.img }}" alt="Client Image"
           />
           <p class="client-desc">
             {{ client.description }}
@@ -125,8 +125,8 @@
         <div class="client-images">
           {% for image in client.images %}
           <img
-            class="client-img"
-            src={{ BASE_IMG_PATH }}{{ image }} alt="Client Image"
+            class="client-img progressive__img progressive--not-loaded"
+            src="{{ BASE_IMG_PATH }}progressive/{{ image }}" data-progressive="{{ BASE_IMG_PATH }}{{ image }}" alt="Client Image"
           />
           {% endfor %}
         </div>

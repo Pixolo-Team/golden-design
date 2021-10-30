@@ -4,13 +4,15 @@
     <div class="project-item">
       <div class="project-img-wrapper">
         <img
-          class="project-img"
-          src={% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.image }}
+          class="project-img progressive__img progressive--not-loaded"
+          data-progressive="{% endverbatim %}{{IMG_PATH}}{% verbatim %}{{ project.image }}"
+          src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.image }}"
         />
         <div class="project-user">
           <img
-            class="project-user-img"
-            src={% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.customer_details.profile_photo }}
+            class="project-user-img progressive__img progressive--not-loaded"
+            data-progressive="{% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.customer_details.profile_photo }}"
+            src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.customer_details.profile_photo }}"
           />
           <div class="project-user-info">
             <p class="project-u-name">{{ project.customer_details.name }}</p>

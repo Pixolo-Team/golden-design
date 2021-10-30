@@ -120,7 +120,9 @@ $(document).ready(function () {
 //page loader
 $(window).ready(function () {
   setTimeout(function(){
-    $("body").css("overflow","scroll");
+    $("body").css("overflow-y","scroll");
     $(".loader-container").fadeOut("fade");
   }, 1000);
+
+  progressively.init();
 });

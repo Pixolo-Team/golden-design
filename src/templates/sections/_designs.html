@@ -25,8 +25,8 @@
     {% for data in expertise %}
     <div class="section2-box">
       <img
-        class="box-image"
-        src={{ IMG_PATH }}{{ data.img }} alt="Bathroom and Living room designs"
+        class="box-image progressive__img progressive--not-loaded"
+        src="{{ IMG_PATH }}progressive/{{ data.img }}" data-progressive="{{IMG_PATH}}{{ data.img }}" alt="Bathroom and Living room designs"
       />
       <img class="sec2-logo" src="assets/images/brand/logo.svg" alt="Brand logo">
       <div class="sec2-text-wrapper">
