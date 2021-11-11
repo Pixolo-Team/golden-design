@@ -54,10 +54,12 @@
     align-items: center;
     display: flex !important; // To avoid slick adding display block
     flex-direction: column;
-    .work-image {
-      border-radius: 40px;
-    }
   }
+}
+.work-image {
+  border-radius: 55px;
+  width: 94%;
+  height: auto;
 }
 
 .work-box {
@@ -132,5 +134,9 @@
         font-size: var(--font-regular);
       }
     }
+  }
+  .work-image{
+    width: 250%;
+    height: auto;
   }
 }

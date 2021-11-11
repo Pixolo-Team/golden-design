@@ -52,4 +52,14 @@
   .hero-image-background{
     padding: 0;
   }
+  .hero-image-background{
+    background-image:  linear-gradient(transparent, var(--color-background-dark)), url(../../assets/images/home/hero-slider/slider-mobile.jpg);
+    // height: 86vh !important;
+    // width:100%;
+    // background-size: cover;
+    // display: flex !important;
+    // align-items: flex-end !important;
+    // justify-content: center;
+    padding: 60px;
+  }
 }

@@ -29,7 +29,7 @@ $(document).ready(function () {
         document.getElementsByClassName("section-6-scroll")[0].innerHTML += `
                     <div class="section6">
                         <div class="section6-image-part">
-                            <img class="sec6-img" src="assets/images/home/home-sec6/sec6-img1.jpg"/>
+                            <img class="sec6-img" src="assets/images/home/home-sec6/sec6-img1.jpg" alt="Office Image"/>
                         </div>
                         <div class="section6-paragraph-part">
                             <svg class="quote-icon" width="44" height="28" viewBox="0 0 44 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ $(document).ready(function () {
                                 </svg>
                             <p class="section6-paragraph">${testimonial.review}</p>
                             <div class="sec6-img-lines">
-                                <img class="sec6-mini-img" src="${testimonial.client_image}">
+                                <img class="sec6-mini-img" src="${testimonial.client_image}" alt="User Image">
                                 <div class="lines">
                                 <p class="line1">${testimonial.client_name}</p>
                                 <p class="line2">${testimonial.client_work}</p>
@@ -57,7 +57,7 @@ $(document).ready(function () {
                                 </svg>
                             <p class="section6-paragraph">${testimonial.review}</p>
                             <div class="sec6-img-lines">
-                                <img class="sec6-mini-img" src="${testimonial.client_image}">
+                                <img class="sec6-mini-img" src="${testimonial.client_image} alt-"User Image">
                                 <div class="lines">
                                 <p class="line1">${testimonial.client_name}</p>
                                 <p class="line2">${testimonial.client_work}</p>
@@ -65,7 +65,7 @@ $(document).ready(function () {
                             </div>
                         </div>
                         <div class="section6-image-part">
-                            <img class="sec6-img" src="assets/images/home/home-sec6/sec6-img1.jpg" />
+                            <img class="sec6-img" src="assets/images/home/home-sec6/sec6-img1.jpg" alt="Office Image"/>
                             </div>
                         </div>
                     </div>
