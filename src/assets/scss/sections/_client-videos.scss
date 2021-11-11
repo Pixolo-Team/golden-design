@@ -1,3 +1,4 @@
+/* -------------------- CLIENT VIDEOS SECTION STYLING STARTS HERE ------------------------------- */
 .client-videos-sec1 {
   display: flex;
   justify-content: space-between;
@@ -64,13 +65,12 @@
   font: var(--font-primary-bold);
   font-size: var(--font-medium);
   color: var(--color-text-primary);
-  text-align: center;
   margin: 18px 0 5px;
+  text-transform: capitalize;
 }
 .clients-video-description3 {
   font: var(--font-primary-regular);
   color: var(--color-text-primary-light);
-  text-align: center;
   margin-top: 1px;
 }
 .client-videos-img-section {
@@ -83,15 +83,16 @@
 }
 .clients-video-description {
   padding: 5px 19px 20px;
+  text-align: center;
 }
 .clients-video-description1 {
   font: var(--font-secondary-regular);
   font-size: var(--font-medium);
   color: var(--color-text-primary);
-  text-align: center;
   line-height: 1.5em;
 }
 
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .description-line-2 {
     margin-bottom: 40px;
@@ -115,3 +116,4 @@
     margin: 35px;
   }
 }
+/* -------------------- CLIENT VIDEOS SECTION STYLING ENDS HERE ------------------------------- */

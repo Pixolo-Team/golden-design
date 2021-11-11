@@ -1,3 +1,4 @@
+/* -------------------- EXPERTISE AD SECTION STYLING STARTS HERE------------------------------- */
 .section3 {
   display: flex;
   padding: 45px 160px;
@@ -47,6 +48,7 @@
   font-size: var(--font-medium);
 }
 
+//FOR MOBILES
 @media only screen and (max-width: 697px) {
   .section3 {
     flex-direction: column-reverse;
@@ -122,3 +124,4 @@
     transform: translate3d(4px, 0, 0);
   }
 }
+/* -------------------- EXPERTISE AD SECTION STYLING ENDS HERE------------------------------- */

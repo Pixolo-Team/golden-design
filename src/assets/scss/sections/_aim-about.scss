@@ -1,3 +1,4 @@
+/* -------------------- AIM ABOUT US SECTION STYLING STARTS HERE ------------------------------- */
 .aim-bg-color {
   background-color: var(--color-background-light);
 }
@@ -12,10 +13,8 @@
   font-size: var(--font-large);
   margin-bottom: 12px;
   display: inline-block;
-  color: var(--color-text-primary);
 }
 .aim-discription {
-  color: var(--color-text-primary);
   font: var(--font-primary-medium);
   line-height: 1.875em;
 }
@@ -33,6 +32,7 @@
   }
 }
 
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .aim-and-design {
     flex-direction: column;
@@ -62,3 +62,4 @@
     }
   }
 }
+/* -------------------- AIM ABOUT US SECTION STYLING ENDS HERE ------------------------------- */

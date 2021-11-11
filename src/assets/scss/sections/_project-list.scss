@@ -1,3 +1,4 @@
+/* -------------------- PROJECT LIST SECTION STYLING STARTS HERE------------------------------- */
 .list-wrapper {
   width: 65%;
 }
@@ -5,9 +6,15 @@
   margin: 20px auto;
   display: block;
 }
+
+//FOR MOBILE
 @media screen and (max-width: 697px) {
   .list-wrapper {
     width: 100%;
   }
 }
+
+/* ------------------Components Import-------------------*/
 @import "../components/project-item.scss";
+
+/* -------------------- PROJECT LIST SECTION STYLING ENDS HERE------------------------------- */

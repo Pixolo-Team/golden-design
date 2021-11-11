@@ -1,3 +1,4 @@
+/* ----------------------- LIGHT BOX STYLING STARTS HERE --------------------------- */
 #light-box-modal {
   display: none;
   position: fixed;
@@ -36,8 +37,10 @@
   object-fit: cover;
 }
 
+// FOR MOBILE
 @media only screen and (max-width: 697px) {
   .modal-content{
    width: 100vw;
   }
 }
+/* ----------------------- LIGHT BOX STYLING STARTS HERE --------------------------- */

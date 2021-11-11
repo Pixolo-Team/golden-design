@@ -1,3 +1,4 @@
+/* -------------------- TESTIMONIALS SECTION STYLING STARTS HERE------------------------------- */
 .section6 {
     display: flex !important;
     align-items: center;
@@ -42,12 +43,15 @@ align-items: center;
 .line1 {
   font: var(--font-primary-light);
   font-size: var(--font-medium);
+  text-transform: capitalize;
 }
 .line2 {
   font: var(--font-primary-bold);
   font-size: var(--font-small);
 }
 
+
+//FOR MOBILE
 @media only screen and (max-width: 697px){
 .section6{
   display: flex !important;
@@ -76,6 +80,7 @@ align-items: center;
 }
 }
 
+//FOR TESTIMONIALS 
 .section6:nth-child(odd) {
   flex-direction: row;
   .section6-paragraph-part{
@@ -89,3 +94,5 @@ align-items: center;
     padding: 10px 61px 0px 154px;
   }
 }
+
+/* -------------------- TESTIMONIALS SECTION STYLING ENDS HERE------------------------------- */

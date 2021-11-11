@@ -6,18 +6,17 @@
     justify-content: center;
     align-items: flex-start;
     margin: 22px 57px 30px 52px;
+    padding-left: 10px;
 }
 .numbers{
 font: var(--font-primary-bold);
 font-size: var(--font-xlarge);
 color: var(--color-text-primary);
-margin-left: 10px;
 }
 .numbers-discription{
 font: var(--font-primary-medium);
 font-size: var(--font-medium);
 color: var(--color-text-primary);
-margin-left: 10px;
 }
 
 @media only screen and (max-width: 697px){

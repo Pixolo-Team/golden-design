@@ -1,3 +1,4 @@
+/* -------------------- HOW ITS WORK SECTION STYLING STARTS HERE------------------------------- */
 .works-title {
   color: var(--color-text-primary);
   font: var(--font-primary-semi-bold);
@@ -112,6 +113,8 @@
     margin-right: 10px;
   }
 }
+
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .works-slider {
     margin: 50px -20px 0;
@@ -140,3 +143,4 @@
     height: auto;
   }
 }
+/* -------------------- HOW ITS WORK SECTION STYLING ENDS HERE------------------------------- */

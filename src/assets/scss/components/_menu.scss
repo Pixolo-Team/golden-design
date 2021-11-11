@@ -1,3 +1,4 @@
+/* ----------------------- MENU BAR STYLING STARTS HERE --------------------------- */
 .menu-bar {
   display: flex;
   align-items: flex-start;
@@ -71,13 +72,11 @@
     fill: var(--color-primary-contrast);
   }
 }
-
-
 header{
   position: sticky;
   width: 100%;
   top: 0;
   z-index: 9999;
 }
-  
 }
+/* ----------------------- MENU BAR STYLING ENDS HERE --------------------------- */

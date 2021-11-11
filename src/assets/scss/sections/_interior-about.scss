@@ -1,6 +1,6 @@
+/* -------------------- INTERIOR ABOUT SECTION STYLING STARTS HERE------------------------------- */
 .interior{
     text-align: center;
-    background-color: var(--color-background);
 }
 .interior-main{
      max-width: 880px;
@@ -21,6 +21,7 @@ line-height: 36px;
 margin-bottom: 35px;
 }
 
+//FOR MOBILE
 @media only screen and (max-width: 697px){
     .interior-heading{
         font-size: var(--font-medium);
@@ -31,3 +32,4 @@ margin-bottom: 35px;
         margin-top: 16px;
     }
 }
+/* -------------------- INTERIOR ABOUT SECTION STYLING ENDS HERE------------------------------- */

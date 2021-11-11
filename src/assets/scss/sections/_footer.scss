@@ -1,3 +1,4 @@
+/* -------------------- FOOTER SECTION STYLING STARTS HERE------------------------------- */
 .footer-section {
   background-color: var(--color-background-dark);
   background-image: url("./../images/footer/bg-logo.png");
@@ -93,6 +94,7 @@
   width: 182px;
 }
 
+//FOR MOBILE
 @media screen and (max-width: 697px) {
   .img-social-media {
     text-align: center;
@@ -108,3 +110,4 @@
     width: 100%;
   }
 }
+/* -------------------- FOOTER SECTION STYLING ENDS HERE------------------------------- */

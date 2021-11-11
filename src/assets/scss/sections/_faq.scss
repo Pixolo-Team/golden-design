@@ -1,3 +1,4 @@
+/* -------------------- FAQ SECTION STYLING STARTS HERE------------------------------- */
 .faq-page {
   background-color: var(--color-text-secondary);
   .faq {
@@ -37,6 +38,9 @@
   font-size: var(--font-medium);
   color: var(--color-text-primary);
 }
+.quaries::first-letter{
+  text-transform: capitalize;
+}
 .zoom-in {
   cursor: pointer;
   transition: transform 0.3s;
@@ -54,6 +58,7 @@
   width: 18px;
 }
 
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .zoom-in {
     min-width: 19px;
@@ -69,3 +74,4 @@
     padding-right: 13px;
   }
 }
+/* -------------------- FAQ SECTION STYLING ENDS HERE------------------------------- */

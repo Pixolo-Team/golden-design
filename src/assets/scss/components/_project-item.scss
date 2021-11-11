@@ -1,3 +1,4 @@
+/* ----------------------- PROJECT ITEM STYLING STARTS HERE --------------------------- */
 .project-item {
   margin-bottom: 80px;
   .project-img-wrapper {
@@ -36,8 +37,10 @@
   width: 24px;
 }
 
+/*------------------------------ User Info Component Imports------------------------------ */
 @import "user-info.scss";
 
+//FOR MOBILE
 @media screen and (max-width: 697px) {
   .project-title {
     font-size: var(--font-medium);
@@ -49,3 +52,4 @@
     font-size: var(--font-small);
   }
 }
+/* ----------------------- PROJECT ITEM STYLING ENDS HERE --------------------------- */

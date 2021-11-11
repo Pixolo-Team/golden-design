@@ -1,3 +1,4 @@
+/* ----------------------- ENQUIRY FORM STYLING STARTS HERE --------------------------- */
 .form-section {
   display: flex;
   position: relative;
@@ -47,12 +48,6 @@
 .contact-btn {
   margin: 20px 0;
 }
-@media screen and (max-width: 697px) {
-  .form-title {
-    font-size: var(--font-medium);
-  }
-}
-
 .form-message {
   font: var(--font-primary-regular);
   color: var(--color-text-secondary);
@@ -67,3 +62,11 @@ background-color: var(--color-red);
 .form-success{
   background-color: var(--color-green);
 }
+
+//FOR MOBILE
+@media screen and (max-width: 697px) {
+  .form-title {
+    font-size: var(--font-medium);
+  }
+}
+/* ----------------------- ENQUIRY FORM STYLING ENDS HERE --------------------------- */

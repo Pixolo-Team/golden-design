@@ -29,12 +29,11 @@ body {
   margin: auto;
   padding: 50px 60px;
 }
-.tint-section {
-  background-color: var(--color-background-tint);
-}
 .desktop-hide{
   display: none;
 }
+
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .section {
     padding: 20px;
@@ -46,6 +45,8 @@ body {
     display: block;
   }
 }
+
+//FOR TABLETS
 @media only screen and (min-width: 1000px) {
 /* width */
 ::-webkit-scrollbar {

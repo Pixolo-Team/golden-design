@@ -1,3 +1,4 @@
+/* ----------------------- PRIMARY COLOUR ROUNDED BUTTON --------------------------- */
 .rounded-button{
   background-color: var(--color-primary);
   border-radius: 25px;
@@ -16,6 +17,8 @@
     opacity: 0.7;
   }
 }
+
+//FOR MOBILE
 @media only screen and (max-width: 697px) {
   .rounded-button{
     font-size: var(--font-regular);
@@ -23,11 +26,12 @@
   }
 }
 
+
+/* ----------------------- PRIMARY LINK --------------------------- */
 .primary-link{
   font: var(--font-primary-semi-bold);
   color: var(--color-primary);
   font-size: var(--font-regular);
-  text-align: left;
   position: relative;
   &:hover{
     &:after{

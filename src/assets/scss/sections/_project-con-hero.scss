@@ -1,3 +1,4 @@
+/* -------------------- PROJECT CON HERO SECTION STYLING STARTS HERE------------------------------- */
 .projects-hero {
   background: linear-gradient(
       180deg,
@@ -48,6 +49,8 @@
   line-height: 154%;
   width: 65%;
 }
+
+//FOR MOBILE
 @media screen and (max-width: 697px) {
   .inner-head {
     font-size: var(--font-large);
@@ -72,3 +75,4 @@
     width: 100%;
   }
 }
+/* -------------------- PROJECT CON HERO SECTION STYLING ENDS HERE------------------------------- */
