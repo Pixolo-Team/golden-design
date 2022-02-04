@@ -1,84 +1,93 @@
 /* -------------------- PROJECTS SECTION STYLING STARTS HERE------------------------------- */
-.project-discription{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .project-lines{
-        .project-line1{
-            font: var(--font-primary-bold);
-            font-size: var(--font-xlarge);
-        }
+.project-discription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .project-lines {
+    .project-line1 {
+      font: var(--font-primary-bold);
+      font-size: var(--font-xlarge);
     }
+  }
 }
-.project-line2{
-    font: var(--font-secondary-regular);
-    font-size: var(--font-medium);
+.project-line2 {
+  font: var(--font-secondary-regular);
+  font-size: var(--font-medium);
 }
-.project-image-section{
-    margin: 57px 0px;
-    display: flex;
-    .project-bg-image{
-        background-image: url("./../images/home/_projects-section/gallery-design.jpg");
-        height: 500px;
-        width: 30%;
-        background-size: cover;
-        border-radius: 12px;
-        display: flex !important;
-        align-items: flex-end;
-        overflow: hidden;
-        margin-right: 22px;
-        &:hover{
-            .project-image-lines{
-                padding-bottom: 50px;
-            }
-        }
+.project-image-section {
+  margin: 57px 0px;
+  display: flex;
+  .project-bg-image {
+    background-image: url("./../images/home/_projects-section/gallery-design.jpg");
+    height: 500px;
+    width: 30%;
+    background-size: cover;
+    border-radius: 12px;
+    display: flex !important;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-right: 22px;
+    &:hover {
+      .project-image-lines {
+        padding-bottom: 50px;
+      }
+    }
 
-        .project-image-lines{
-            background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #181818 100%);
-            padding: 31px;
-            width: 100%;
-            transition: padding 0.4s;
-            .image-line-1{
-                     font: var(--font-primary-bold);
-                     font-size: var(--font-medium);
-                     color: var(--color-text-secondary);
-            }
-            .image-line-2{
-                         font: var(--font-primary-regular);
-                         color: var(--color-text-secondary);
-            }
-        }
+    .project-image-lines {
+      background-image: linear-gradient(
+        180deg,
+        rgba(29, 29, 29, 0) 0%,
+        #181818 100%
+      );
+      padding: 31px;
+      width: 100%;
+      transition: padding 0.4s;
+      .image-line-1 {
+        font: var(--font-primary-bold);
+        font-size: var(--font-medium);
+        color: var(--color-text-secondary);
+      }
+      .image-line-2 {
+        font: var(--font-primary-regular);
+        color: var(--color-text-secondary);
+      }
     }
+  }
 }
-.rectangular-button{
-    color: var(--color-text-secondary);
-    font: var(--font-primary-bold);
-    font-size: var(--font-medium);
-    background-color: var(--color-secondary);
-    border-radius: 8px;
-    width: 312px;
-    height: 68px;
-    display: block;
-    margin: auto;
-    transition: opacity 0.4s;
+.rectangular-button {
+  color: var(--color-text-secondary);
+  font: var(--font-primary-bold);
+  font-size: var(--font-medium);
+  background-color: var(--color-secondary);
+  border-radius: 8px;
+  width: 312px;
+  height: 68px;
+  display: block;
+  margin: auto;
+  transition: opacity 0.4s;
+  opacity: 1;
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
     opacity: 1;
-    &:hover{
-        opacity: 0.5;
-    }
-    &:active{
-        opacity: 1;
-    }
+  }
 }
 
 //FOR MOBILE
 @media only screen and (max-width: 697px) {
-    .project-line2{
-        font-size: var(--font-regular);
-    }
-.rounded-button{
+  .project-line2 {
+    font-size: var(--font-regular);
+  }
+  .rounded-button {
     padding: 15px 40px;
     border-radius: 51px;
-}
+  }
+  .rectangular-button {
+    font-size: var(--font-regular);
+    width: 250px;
+    height: 56px;
+  }
 }
 
 /* -------------------- PROJECTS SECTION STYLING ENDS HERE------------------------------- */

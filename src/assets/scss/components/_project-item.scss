@@ -8,19 +8,18 @@
     overflow: hidden;
     .project-img {
       display: block;
-      height: 100%;
-      width: 100%;
+      height: 35vw;
+      width: 60vw;
+      object-fit: cover;
     }
   }
 }
 .project-title {
-  color: var(--color-text-primary);
   font: var(--font-primary-bold);
   font-size: var(--font-large);
   margin-top: 20px;
 }
 .project-addr {
-  color: var(--color-text-primary);
   font: var(--font-primary-medium);
   margin: 4px 0 13px;
 }
@@ -50,6 +49,14 @@
   }
   .project-desc {
     font-size: var(--font-small);
+  }
+  .project-item {
+    .project-img-wrapper {
+      .project-img {
+        height: 55vw;
+        width: 100%;
+      }
+    }
   }
 }
 /* ----------------------- PROJECT ITEM STYLING ENDS HERE --------------------------- */

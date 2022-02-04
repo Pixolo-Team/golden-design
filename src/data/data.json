@@ -1,37 +1,193 @@
 [
   {
     "id": 1,
-    "image": "home-interior-design-ideas.jpg",
-    "title": "Greenery Gallery Design",
-    "location": "In Chembur, Mumbai",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "image": "deepak jain.jpg",
+    "title": "Residential",
+    "location": "In Kharghar, Navi-Mumbai",
+    "description": "",
     "customer_details": {
-      "name": "Hamish D'Singa",
-      "date": "30th August, 2021",
+      "name": "Deepak Jain",
+      "date": "",
       "profile_photo": "user-vector-portrait.jpg"
     }
   },
   {
     "id": 2,
-    "image": "home-interior-design-ideas.jpg",
-    "title": "Greenery Gallery Design",
-    "location": "In Chembur, Mumbai",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "image": "sameer.jpg",
+    "title": "Residential",
+    "location": "In Kolhapur, Maharashtra",
+    "description": "",
     "customer_details": {
-      "name": "Dr. J Smith",
-      "date": "30th August, 2021",
+      "name": "Sameer phadtare",
+      "date": "",
       "profile_photo": "user-vector-portrait.jpg"
     }
   },
   {
     "id": 3,
-    "image": "home-interior-design-ideas.jpg",
-    "title": "Greenery Gallery Design",
-    "location": "In Chembur, Mumbai",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "image": "Anjali Enterprises.jpg",
+    "title": "Office Design",
+    "location": "In Belapur, Navi-Mumbai",
+    "description": "",
     "customer_details": {
-      "name": "Dr. Jyoti Pixolo",
-      "date": "30th August, 2021",
+      "name": "Anjali Enterprises",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "image": "baba-steel.jpg",
+    "title": "Office Design",
+    "location": "In Ghatkoper, Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "BABA Steel",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "image": "happy-hair.jpg",
+    "title": "Salon Design",
+    "location": "In Seawood, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Happy Hair",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "image": "deeps.jpg",
+    "title": "Salon Design",
+    "location": "In Nerul, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Deeps beauty Studio",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "image": "krishna-rao.jpg",
+    "title": "Residential",
+    "location": "In Panvel, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Krishna Rao",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "image": "nerul-meradian.jpg",
+    "title": "Residential",
+    "location": "In Nerul, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Sanjay Sahu",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "image": "school-word.jpg",
+    "title": "Office Design",
+    "location": "In Goregoan, Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "School Word",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "image": "Steel Chamber.jpg",
+    "title": "Office Design",
+    "location": "In Kalamboli, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Steel Chamber",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "image": "Relaxology.jpg",
+    "title": "Salon Design",
+    "location": "In Panvel, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Relaxology",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 12,
+    "image": "Pradeep Bhopi.jpg",
+    "title": "Residential",
+    "location": "Panvel, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Pradeep Bhopi",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 13,
+    "image": "Santosh Patil.jpg",
+    "title": "Residential",
+    "location": "Panvel, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Santosh Patil",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 14,
+    "image": "Office Snaps.jpg",
+    "title": "Office Design",
+    "location": "In Karjat",
+    "description": "",
+    "customer_details": {
+      "name": "Office Snaps",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 15,
+    "image": "Prayag.jpg",
+    "title": "Office Design",
+    "location": "In Panvel, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Prayag",
+      "date": "",
+      "profile_photo": "user-vector-portrait.jpg"
+    }
+  },
+  {
+    "id": 16,
+    "image": "Sparx Showroom.jpg",
+    "title": "Office Design",
+    "location": "In Kalamboli, Navi-Mumbai",
+    "description": "",
+    "customer_details": {
+      "name": "Sparx Showroom",
+      "date": "",
       "profile_photo": "user-vector-portrait.jpg"
     }
   }

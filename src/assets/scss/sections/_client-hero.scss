@@ -1,6 +1,8 @@
 /* -------------------- CLIENT HERO SECTION STYLING STARTS HERE------------------------------- */
 .client-img-wrap {
+  position: relative;
   &::after {
+    content: "";
     background-color: rgba(0, 0, 0, 0.34);
     height: 100%;
     left: 0;
@@ -10,7 +12,6 @@
   }
 }
 .client-hero-img {
-  position: relative;
   width: 100%;
 }
 /* -------------------- CLIENT HERO SECTION STYLING ENDS HERE ------------------------------- */

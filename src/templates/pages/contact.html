@@ -5,6 +5,7 @@
     {% include '../components/_page-loader.html' %}
     {% include '../components/_menu.html' with {activeMenu:'contact'} %}
 
+
     <div class="section contact-numbers">
       <div class="number-item">
         <svg
@@ -73,6 +74,6 @@
     </div>
     {% include '../sections/_faq.html' %} {% include '../sections/_footer.html'
     %}
-    {% include '../components/_library_loader.html' with {global:true} %}
+    {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'index'} %}
   </body>
 </html>
