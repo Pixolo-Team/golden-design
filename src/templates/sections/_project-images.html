@@ -2,18 +2,12 @@
 <section class="project-con">
   <div class="section form-section">
     <div class="image-wrapper">
+      {% verbatim %}
+      {% for projectImage in project.images %}
       <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
-      <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
-      <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
-      <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
-      <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
-      <img class="individual-img"
-        src="https://www.artzolo.com/sites/default/files/blog/images/indoors-3101776_1920.jpg">
+        src="assets/images/projects/{{projectImage}}">
+      {% endfor %}
+      {% endverbatim %}
     </div>
     <div class="mobile-hide">
       {% include '../components/_enquiry-form.html' %}

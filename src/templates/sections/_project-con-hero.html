@@ -1,20 +1,19 @@
 <!--project con hero section start-->
 <div class="projects-hero">
   <div class="section">
+    {% verbatim %}
     <h1 class="inner-head">
       Get inspired by a few of our best interior designs
     </h1>
-    <p class="hero-sub-head">In Malad, Mumbai</p>
+    <p class="hero-sub-head">{{project.location}}</p>
     <div class="project-user">
-      <img
-        class="project-user-img"
-        src="https://thumbs.dreamstime.com/b/default-avatar-profile-flat-icon-social-media-user-vector-portrait-unknown-human-image-default-avatar-profile-flat-icon-184330869.jpg" alt="Project User"
-      />
+      <img class="project-user-img" src="assets/images/projects/clients/{{project.customer_details.profile_photo}}" alt="Project User" />
       <div class="project-user-info">
-        <p class="project-u-name">Hamish D’Souza</p>
-        <p class="project-u-date">30th August, 2021</p>
+        <p class="project-u-name">{{project.customer_details.name}}</p>
+        <p class="project-u-date">{{project.customer_details.date}}</p>
       </div>
     </div>
+    {% endverbatim %}
   </div>
 </div>
 <!--project con hero section start-->

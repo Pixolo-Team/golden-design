@@ -6,14 +6,11 @@
       <input type="text" class="gdi-input" id="name" placeholder="Name" required />
       <input type="email" class="gdi-input" id="email" placeholder="Email" required />
       <input type="text" class="gdi-input" id="phone" placeholder="Phone Number" />
-      <textarea
-        type="text"
-        id="message"
-        class="gdi-input gdi-ta"
-        placeholder="Service Needed"
-        required
-      ></textarea>
-      <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button contact-btn" type="submit">REACH OUT TO US</button>
+      <textarea type="text" id="message" class="gdi-input gdi-ta" placeholder="Service Needed" required></textarea>
+      <p class="form-msg" id="form-error"></p>
+      <p class="form-msg" id="form-success"></p>
+      <button type="button" name="contact button" class="rounded-button contact-btn" id="submit">REACH OUT TO
+        US</button>
     </div>
     <p class="form-disclaimer">
       By submitting you agree to share your contact details with us.
@@ -21,38 +18,5 @@
   </div>
 </div>
 
-<script>
-  $('#submit').click(() => {
-    $('#form-error').text("");
-    let nameValue = $('#name').val();
-    let emailValue = $('#email').val();
-    let phoneValue = $('#phone').val();
-    let messageValue = $('#message').val();
-    if (!nameValue.trim()) {
-      $('#form-error').text("Name field cannot be left empty");
-      return;
-    }
-    if (!emailValue.trim()) {
-      $('#form-error').text("Email field cannot be left empty");
-      return;
-    }
-    if (!messageValue.trim()) {
-      $('#form-error').text("Message field cannot be left empty");
-      return;
-    }
-    let regex = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
-    if (!regex.test(emailValue)) {
-      $('#form-error').text("Please enter a valid email Id");
-      return;
-    }
-    $.post("https://goldendesigninteriors.com/mail.php", { "message": messageValue, "name": nameValue, "email": emailValue, "phone": phoneValue}) 
-      .done((response) => {
-        if (response) {
-          $('#form-success').text("We will get in touch with you soon.");
-        } else {
-          $('#form-error').text("There was a problem. Please try again.");
-        }
-    })
-  })
-</script>
+
 <!--Enquiry Form End-->

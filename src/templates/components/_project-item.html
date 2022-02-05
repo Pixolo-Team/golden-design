@@ -1,36 +1,30 @@
 <!--Project-item Start-->
 {% set IMG_PATH="assets/images/projects/" %}
 {% verbatim %}
-  {% for project in webdata %}
-    <div class="project-item">
-      <div class="project-img-wrapper">
-        <img
-          class="project-img progressive__img progressive--not-loaded"
-          data-progressive="{% endverbatim %}{{IMG_PATH}}{% verbatim %}{{ project.image }}"
-          src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.image }}"
-        />
-        <div class="project-user">
-          <img
-            class="project-user-img progressive__img progressive--not-loaded"
-            data-progressive="{% endverbatim %}{{ IMG_PATH }}{% verbatim %}{{ project.customer_details.profile_photo }}"
-            src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.customer_details.profile_photo }}"
-          />
-          <div class="project-user-info">
-            <p class="project-u-name">{{ project.customer_details.name }}</p>
-            <p class="project-u-date">{{ project.customer_details.date }}</p>
-          </div>
-        </div>
-        <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo"/>
+{% for project in webdata %}
+<div class="project-item">
+  <div class="project-img-wrapper">
+    <img class="project-img progressive__img progressive--not-loaded"
+      data-progressive="{% endverbatim %}{{IMG_PATH}}{% verbatim %}{{ project.image }}"
+      src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.image }}" />
+    <div class="project-user">
+      <img class="project-user-img " src="assets/images/projects/clients/{{project.customer_details.profile_photo}}" />
+      <div class="project-user-info">
+        <p class="project-u-name">{{ project.customer_details.name }}</p>
+        <p class="project-u-date">{{ project.customer_details.date }}</p>
       </div>
-      <div class="project-info">
-        <p class="project-title">{{ project.title }}</p>
-        <p class="project-addr">{{ project.location }}</p>
-      </div>
-      <p class="project-desc">
-        {{ project.description }}
-      </p>
-      <a href="project-consumption.html" class="primary-link">View Project</a>
     </div>
-  {% endfor %}
+    <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo" />
+  </div>
+  <div class="project-info">
+    <p class="project-title">{{ project.title }}</p>
+    <p class="project-addr">{{ project.location }}</p>
+  </div>
+  <p class="project-desc">
+    {{ project.description }}
+  </p>
+  <a href="./project-consumption?p={{project.id}}" class="primary-link">View Project</a>
+</div>
+{% endfor %}
 {% endverbatim %}
 <!--Project-item Start-->

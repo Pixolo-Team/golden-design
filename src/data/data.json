@@ -8,8 +8,12 @@
     "customer_details": {
       "name": "Deepak Jain",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 2,
@@ -20,8 +24,12 @@
     "customer_details": {
       "name": "Sameer phadtare",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 3,
@@ -32,8 +40,12 @@
     "customer_details": {
       "name": "Anjali Enterprises",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 4,
@@ -44,8 +56,12 @@
     "customer_details": {
       "name": "BABA Steel",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 5,
@@ -56,8 +72,12 @@
     "customer_details": {
       "name": "Happy Hair",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 6,
@@ -68,8 +88,12 @@
     "customer_details": {
       "name": "Deeps beauty Studio",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 7,
@@ -80,8 +104,12 @@
     "customer_details": {
       "name": "Krishna Rao",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 8,
@@ -92,8 +120,12 @@
     "customer_details": {
       "name": "Sanjay Sahu",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 9,
@@ -104,8 +136,12 @@
     "customer_details": {
       "name": "School Word",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 10,
@@ -116,8 +152,12 @@
     "customer_details": {
       "name": "Steel Chamber",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 11,
@@ -128,8 +168,12 @@
     "customer_details": {
       "name": "Relaxology",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 12,
@@ -140,8 +184,12 @@
     "customer_details": {
       "name": "Pradeep Bhopi",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 13,
@@ -152,8 +200,12 @@
     "customer_details": {
       "name": "Santosh Patil",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 14,
@@ -164,8 +216,12 @@
     "customer_details": {
       "name": "Office Snaps",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 15,
@@ -176,8 +232,12 @@
     "customer_details": {
       "name": "Prayag",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   },
   {
     "id": 16,
@@ -188,7 +248,11 @@
     "customer_details": {
       "name": "Sparx Showroom",
       "date": "",
-      "profile_photo": "user-vector-portrait.jpg"
-    }
+      "profile_photo": "default.jpg"
+    },
+    "images": [
+      "deepak jain.jpg",
+      "deepak jain.jpg"
+    ]
   }
 ]

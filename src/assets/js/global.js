@@ -117,12 +117,72 @@ $(document).ready(function () {
   });
 });
 
+var hideFormMessage = function () {
+  setTimeout(() => {
+    $('.form-msg').slideUp();
+    $('.form-msg').text("");
+    $('#submit').removeAttr('disabled');
+  }, 3000)
+}
+
+var animateErrorMsg = function (shouldShow = 1) {
+  if (shouldShow) { // Then show error message
+    $('.form-msg').slideDown();
+  } else {
+    $('.form-msg').slideUp();
+  }
+}
+
+var initContactForm = function () {
+  $('#submit').click(() => {
+    $('#form-error').text("");
+    let nameValue = $('#name').val();
+    let emailValue = $('#email').val();
+    let phoneValue = $('#phone').val();
+    let messageValue = $('#message').val();
+    if (!nameValue.trim()) {
+      $('#form-error').text("Name field cannot be left empty");
+      animateErrorMsg();
+      return;
+    }
+    if (!emailValue.trim()) {
+      $('#form-error').text("Email field cannot be left empty");
+      animateErrorMsg();
+      return;
+    }
+    if (!messageValue.trim()) {
+      $('#form-error').text("Message field cannot be left empty");
+      animateErrorMsg();
+      return;
+    }
+    let regex = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
+    if (!regex.test(emailValue)) {
+      $('#form-error').text("Please enter a valid email Id");
+      animateErrorMsg();
+      return;
+    }
+    $('#submit').attr('disabled', 'disabled');
+    $.post("https://goldendesigninteriors.com/mail.php", { "message": messageValue, "name": nameValue, "email": emailValue, "phone": phoneValue })
+      .done((response) => {
+        console.log(response);
+        if (response) {
+          $('#form-success').text("We will get in touch with you soon.");
+        } else {
+          $('#form-error').text("There was a problem. Please try again.");
+        }
+        hideFormMessage();
+      })
+  })
+}
+
+
 //page loader
 $(window).ready(function () {
-  setTimeout(function(){
-    $("body").css("overflow-y","scroll");
+  setTimeout(function () {
+    $("body").css("overflow-y", "scroll");
     $(".loader-container").fadeOut("fade");
   }, 1000);
 
   progressively.init();
+  initContactForm();
 });
