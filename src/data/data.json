@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "deepak jain.jpg",
+    "image": "deepak-jain/15.jpg",
     "title": "Residential",
     "location": "In Kharghar, Navi-Mumbai",
     "description": "",
@@ -11,37 +11,35 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "deepak jain.jpg",
-      "deepak jain.jpg",
-      "IMG_20211013_223311",
-      "IMG_20211013_223359",
-      "IMG_20211013_224411",
-      "IMG_20211013_224648",
-      "IMG_20211013_224831",
-      "IMG_20211013_231014",
-      "IMG_20211013_231112",
-      "IMG_20211013_232058",
-      "IMG_20211013_232602",
-      "IMG_20211013_232707",
-      "IMG_20211013_234003",
-      "IMG_20211013_234053",
-      "IMG_20211013_234605",
-      "IMG_20211013_235227",
-      "IMG_20211013_235307",
-      "IMG_20211013_235343",
-      "IMG_20211013_235419",
-      "IMG_20211013_235452",
-      "IMG_20211013_235502",
-      "IMG_20211013_235519",
-      "IMG_20211013_235632",
-      "IMG_20211013_235929",
-      "IMG_20211014_000432",
-      "IMG_20211014_200657"
+      "deepak-jain/1.jpg",
+      "deepak-jain/2.jpg",
+      "deepak-jain/3.jpg",
+      "deepak-jain/4.jpg",
+      "deepak-jain/5.jpg",
+      "deepak-jain/6.jpg",
+      "deepak-jain/7.jpg",
+      "deepak-jain/8.jpg",
+      "deepak-jain/9.jpg",
+      "deepak-jain/10.jpg",
+      "deepak-jain/11.jpg",
+      "deepak-jain/12.jpg",
+      "deepak-jain/13.jpg",
+      "deepak-jain/14.jpg",
+      "deepak-jain/16.jpg",
+      "deepak-jain/17.jpg",
+      "deepak-jain/18.jpg",
+      "deepak-jain/19.jpg",
+      "deepak-jain/20.jpg",
+      "deepak-jain/21.jpg",
+      "deepak-jain/22.jpg",
+      "deepak-jain/23.jpg",
+      "deepak-jain/15.jpg"
+      
     ]
   },
   {
     "id": 2,
-    "image": "sameer.jpg",
+    "image": "sameer/11.jpg",
     "title": "Residential",
     "location": "In Kolhapur, Maharashtra",
     "description": "",
@@ -51,48 +49,25 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20210109_214424",
-      "IMG_20210109_214518",
-      "IMG_20210109_214525",
-      "IMG_20210109_214617",
-      "IMG_20210109_215336",
-      "IMG_20210109_215646",
-      "IMG_20210109_215916",
-      "IMG_20210109_215936",
-      "IMG_20210110_083441",
-      "IMG_20210110_083512",
-      "IMG_20210110_083702",
-      "IMG_20210110_083718",
-      "IMG_20210110_083809",
-      "IMG_20211013_223311",
-      "IMG_20211013_223359",
-      "IMG_20211013_224411",
-      "IMG_20211013_224648",
-      "IMG_20211013_224831",
-      "IMG_20211013_231014",
-      "IMG_20211013_231112",
-      "IMG_20211013_232058",
-      "IMG_20211013_232602",
-      "IMG_20211013_232707",
-      "IMG_20211013_234003",
-      "IMG_20211013_234053",
-      "IMG_20211013_234605",
-      "IMG_20211013_235227",
-      "IMG_20211013_235307",
-      "IMG_20211013_235343",
-      "IMG_20211013_235419",
-      "IMG_20211013_235452",
-      "IMG_20211013_235502",
-      "IMG_20211013_235519",
-      "IMG_20211013_235632",
-      "IMG_20211013_235929",
-      "IMG_20211014_000432",
-      "IMG_20211014_200657"
+      "sameer/1.jpg",
+      "sameer/2.jpg",
+      "sameer/3.jpg",
+      "sameer/4.jpg",
+      "sameer/5.jpg",
+      "sameer/6.jpg",
+      "sameer/7.jpg",
+      "sameer/8.jpg",
+      "sameer/9.jpg",
+      "sameer/10.jpg",
+      "sameer/11.jpg",
+      "sameer/12.jpg",
+      "sameer/13.jpg",
+      "sameer/14.jpg"
     ]
   },
   {
     "id": 3,
-    "image": "Anjali Enterprises.jpg",
+    "image": "anjali-enterprises/2.jpg",
     "title": "Office Design",
     "location": "In Belapur, Navi-Mumbai",
     "description": "",
@@ -102,14 +77,14 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20190415_174225",
-      "IMG_20190415_174022",
-      "IMG_20190415_174014"
+      "anjali-enterprises/1.jpg",
+      "anjali-enterprises/3.jpg",
+      "anjali-enterprises/2.jpg"
     ]
   },
   {
     "id": 4,
-    "image": "baba-steel.jpg",
+    "image": "baba-steel/2.jpg",
     "title": "Office Design",
     "location": "In Ghatkoper, Mumbai",
     "description": "",
@@ -119,13 +94,13 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20180821_134653",
-      "IMG_20180720_201040"
+      "baba-steel/1.jpg",
+      "baba-steel/2.jpg"
     ]
   },
   {
     "id": 5,
-    "image": "happy-hair.jpg",
+    "image": "happy-hair/3.jpg",
     "title": "Salon Design",
     "location": "In Seawood, Navi-Mumbai",
     "description": "",
@@ -135,15 +110,15 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20190803_235353",
-      "IMG_20190803_235343",
-      "IMG_20190803_234926",
-      "IMG_20190803_234150"
+      "happy-hair/1.jpg",
+      "happy-hair/2.jpg",
+      "happy-hair/3.jpg",
+      "happy-hair/4.jpg"
     ]
   },
   {
     "id": 6,
-    "image": "deeps.jpg",
+    "image": "deeps-beauty/1.jpg",
     "title": "Salon Design",
     "location": "In Nerul, Navi-Mumbai",
     "description": "",
@@ -153,12 +128,12 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "Photo0434"
+      "deeps-beauty/1.jpg"
     ]
   },
   {
     "id": 7,
-    "image": "krishna-rao.jpg",
+    "image": "krishna-rao/1.jpg",
     "title": "Residential",
     "location": "In Panvel, Navi-Mumbai",
     "description": "",
@@ -168,21 +143,21 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMAG4301",
-      "IMAG4302",
-      "IMAG4337",
-      "IMAG4356",
-      "IMAG4361",
-      "IMAG4366",
-      "IMAG4371",
-      "IMAG4377",
-      "IMAG4379",
-      "IMAG4381"
+      "krishna-rao/1.jpg",
+      "krishna-rao/2.jpg",
+      "krishna-rao/3.jpg",
+      "krishna-rao/4.jpg",
+      "krishna-rao/5.jpg",
+      "krishna-rao/6.jpg",
+      "krishna-rao/7.jpg",
+      "krishna-rao/8.jpg",
+      "krishna-rao/9.jpg",
+      "krishna-rao/10.jpg"
     ]
   },
   {
     "id": 8,
-    "image": "nerul-meradian.jpg",
+    "image": "sanjay-sahu/8.jpg",
     "title": "Residential",
     "location": "In Nerul, Navi-Mumbai",
     "description": "",
@@ -192,27 +167,27 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20200309_125103",
-      "IMG_20200311_141453",
-      "IMG_20200311_144429",
-      "IMG_20200311_144705",
-      "IMG_20200311_144944",
-      "IMG_20200311_144951",
-      "IMG_20200311_145008",
-      "IMG_20200311_145557",
-      "IMG_20200311_145631",
-      "IMG_20200311_145634",
-      "IMG_20200311_145643",
-      "IMG_20200311_145659",
-      "IMG_20200311_145753",
-      "IMG_20200311_145855",
-      "IMG_20200311_150816",
-      "IMG_20200311_150826"
+      "sanjay-sahu/1.jpg",
+      "sanjay-sahu/2.jpg",
+      "sanjay-sahu/3.jpg",
+      "sanjay-sahu/7.jpg",
+      "sanjay-sahu/4.jpg",
+      "sanjay-sahu/5.jpg",
+      "sanjay-sahu/6.jpg",
+      "sanjay-sahu/8.jpg",
+      "sanjay-sahu/10.jpg",
+      "sanjay-sahu/11.jpg",
+      "sanjay-sahu/12.jpg",
+      "sanjay-sahu/13.jpg",
+      "sanjay-sahu/9.jpg",
+      "sanjay-sahu/14.jpg",
+      "sanjay-sahu/15.jpg",
+      "sanjay-sahu/16.jpg"
     ]
   },
   {
     "id": 9,
-    "image": "school-word.jpg",
+    "image": "school-word/1.jpg",
     "title": "Office Design",
     "location": "In Goregoan, Mumbai",
     "description": "",
@@ -222,13 +197,13 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20180927_121534",
-      "IMG_20180927_125127"
+      "school-word/1.jpg",
+      "school-word/2.jpg"
     ]
   },
   {
     "id": 10,
-    "image": "Steel Chamber.jpg",
+    "image": "steel-chamber/1.jpg",
     "title": "Office Design",
     "location": "In Kalamboli, Navi-Mumbai",
     "description": "",
@@ -238,12 +213,12 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20200518_114547"
+      "steel-chamber/1.jpg"
     ]
   },
   {
     "id": 11,
-    "image": "Relaxology.jpg",
+    "image": "relaxology/3.jpg",
     "title": "Salon Design",
     "location": "In Panvel, Navi-Mumbai",
     "description": "",
@@ -253,15 +228,15 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20181226_115354",
-      "IMG_20181226_115702",
-      "IMG_20181226_120403",
-      "IMG_20181226_120435"
+      "relaxology/4.jpg",
+      "relaxology/2.jpg",
+      "relaxology/3.jpg",
+      "relaxology/1.jpg"
     ]
   },
   {
     "id": 12,
-    "image": "Pradeep Bhopi.jpg",
+    "image": "pradeep-bhopi/5.jpg",
     "title": "Residential",
     "location": "Panvel, Navi-Mumbai",
     "description": "",
@@ -271,16 +246,16 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "20140806_165526",
-      "20140806_170000",
-      "20140806_170730",
-      "20140806_170916",
-      "20140806_171004"
+      "pradeep-bhopi/1.jpg",
+      "pradeep-bhopi/2.jpg",
+      "pradeep-bhopi/3.jpg",
+      "pradeep-bhopi/4.jpg",
+      "pradeep-bhopi/5.jpg"
     ]
   },
   {
     "id": 13,
-    "image": "Santosh Patil.jpg",
+    "image": "santosh-patil/2.jpg",
     "title": "Residential",
     "location": "Panvel, Navi-Mumbai",
     "description": "",
@@ -290,16 +265,16 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "20130905_130511",
-      "20130905_133829",
-      "20130905_133910",
-      "20131003_105612",
-      "20131017_114218"
+      "santosh-patil/1.jpg",
+      "santosh-patil/2.jpg",
+      "santosh-patil/3.jpg",
+      "santosh-patil/4.jpg",
+      "santosh-patil/5.jpg"
     ]
   },
   {
     "id": 14,
-    "image": "Office Snaps.jpg",
+    "image": "office-snaps/2.jpg",
     "title": "Office Design",
     "location": "In Karjat",
     "description": "",
@@ -309,13 +284,13 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "20130619_125307",
-      "20130619_125403"
+      "office-snaps/1.jpg",
+      "office-snaps/2.jpg"
     ]
   },
   {
     "id": 15,
-    "image": "Prayag.jpg",
+    "image": "prayag/1.jpg",
     "title": "Office Design",
     "location": "In Panvel, Navi-Mumbai",
     "description": "",
@@ -325,17 +300,17 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20210212_184929",
-      "IMG_20210212_185011",
-      "IMG_20210212_185029",
-      "IMG_20210212_185101",
-      "IMG_20210212_185136",
-      "IMG_20210212_185645"
+      "prayag/1.jpg",
+      "prayag/2.jpg",
+      "prayag/3.jpg",
+      "prayag/4.jpg",
+      "prayag/5.jpg",
+      "prayag/6.jpg"
     ]
   },
   {
     "id": 16,
-    "image": "Sparx Showroom.jpg",
+    "image": "sparx-showroom/4.jpg",
     "title": "Office Design",
     "location": "In Kalamboli, Navi-Mumbai",
     "description": "",
@@ -345,12 +320,12 @@
       "profile_photo": "default.jpg"
     },
     "images": [
-      "IMG_20211101_130803",
-      "IMG_20211101_131206",
-      "IMG_20211101_131250",
-      "IMG_20211101_132205",
-      "IMG_20211101_134402",
-      "IMG_20211101_134443"
+      "sparx-showroom/1.jpg",
+      "sparx-showroom/2.jpg",
+      "sparx-showroom/3.jpg",
+      "sparx-showroom/4.jpg",
+      "sparx-showroom/5.jpg",
+      "sparx-showroom/6.jpg"
     ]
   }
 ]
