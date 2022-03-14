@@ -6,29 +6,55 @@
   {% set IMG_PATH="assets/images/home/home-sec2/" %}
 
   {% set expertise=[
-    {
-      title: "Bathroom Designs",
-      img: "bathroom-designs.jpg",
-      description: "Bathroom’s are spaces we have for our self, the palce where we spend
-      some alone time. The vibes in this space is probably the most under
-      rate space in the Home."
-    },
-    {
-      title: "Living Room Spaces",
-      img: "sec2-img2.jpg",
-      description: "Living Rooms are truly the place where we live, its that place in your
-      house where you memories with friends and family. Who doesn’t want
-      teir memories to look good ?"
-    }
+  {
+  title: "Bathroom Designs",
+  img: "bathroom-designs.jpg",
+  description: "Bathroom’s are spaces we have for our self, the palce where we spend
+  some alone time. The vibes in this space is probably the most under
+  rate space in the Home."
+  },
+  {
+  title: "Living Room Spaces",
+  img: "sec2-img2.jpg",
+  description: "Living Rooms are truly the place where we live, its that place in your
+  house where you memories with friends and family. Who doesn’t want
+  teir memories to look good ?"
+  },
+  {
+  title: "Living Room Spaces",
+  img: "sec2-img2.jpg",
+  description: "Living Rooms are truly the place where we live, its that place in your
+  house where you memories with friends and family. Who doesn’t want
+  teir memories to look good ?"
+  },
+  {
+  title: "Living Room Spaces",
+  img: "sec2-img2.jpg",
+  description: "Living Rooms are truly the place where we live, its that place in your
+  house where you memories with friends and family. Who doesn’t want
+  teir memories to look good ?"
+  },
+  {
+  title: "Living Room Spaces",
+  img: "sec2-img2.jpg",
+  description: "Living Rooms are truly the place where we live, its that place in your
+  house where you memories with friends and family. Who doesn’t want
+  teir memories to look good ?"
+  },
+  {
+  title: "Living Room Spaces",
+  img: "sec2-img2.jpg",
+  description: "Living Rooms are truly the place where we live, its that place in your
+  house where you memories with friends and family. Who doesn’t want
+  teir memories to look good ?"
+  }
   ]%}
 
   <div class="image-wrapper">
     {% for data in expertise %}
     <div class="section2-box">
-      <img
-        class="box-image progressive__img progressive--not-loaded"
-        src="{{ IMG_PATH }}progressive/{{ data.img }}" data-progressive="{{IMG_PATH}}{{ data.img }}" alt="Bathroom and Living room designs"
-      />
+      <img class="box-image progressive__img progressive--not-loaded" src="{{ IMG_PATH }}progressive/{{ data.img }}"
+        data-progressive="{{IMG_PATH}}{{ data.img }}" alt="Bathroom and Living room designs" />
       <img class="sec2-logo" src="assets/images/brand/logo.svg" alt="Brand logo">
       <div class="sec2-text-wrapper">
         <p class="sec2-box-line1">{{ data.title }}</p>

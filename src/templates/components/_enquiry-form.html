@@ -6,6 +6,29 @@
       <input type="text" class="gdi-input" id="name" placeholder="Name" required />
       <input type="email" class="gdi-input" id="email" placeholder="Email" required />
       <input type="text" class="gdi-input" id="phone" placeholder="Phone Number" />
+      <input type="text" class="gdi-input" id="phone" placeholder="Area in sq mtr" />
+      <select class="gdi-input" placeholder="Area in sq mtr">
+        <option value="none" selected>Property type</option>
+        <option value="1BHK"> 1BHK
+        </option>
+        <option value="2BHK"> 2BHK
+        </option>
+        <option value="3BHK"> 3BHK
+        </option>
+        <option value="Villa"> Villa
+        </option>
+      </select>
+      <label class="property-field">Property Field</label>
+      <div class="property-type">
+        <label class="form-control">
+          <input type="radio" name="radio" />
+          Residential
+        </label>
+        <label class="form-control">
+          <input type="radio" name="radio" checked />
+          Commercial
+        </label>
+      </div>
       <textarea type="text" id="message" class="gdi-input gdi-ta" placeholder="Service Needed" required></textarea>
       <p class="form-msg" id="form-error"></p>
       <p class="form-msg" id="form-success"></p>

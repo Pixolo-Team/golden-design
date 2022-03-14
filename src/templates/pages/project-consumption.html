@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  {%  include "../components/_head.html" with {css:'project-consumption',title:'Projects-consumption'} %}
-  <body>
-    {% include '../components/_page-loader.html' %}
-    {% include '../components/_menu.html' with {activeMenu:'projct-consumption'} %} {% include
-    '../sections/_project-con-hero.html' %} {% include
-    '../sections/_project-images.html' %}
-    {% include '../sections/_dream-home.html' %} {% include '../sections/_footer.html'
-    %}
-    {% include '../components/_library_loader.html' with {global:true} %}
-  </body>
+{% include "../components/_head.html" with {css:'project-consumption',title:'Projects-consumption'} %}
+
+<body>
+  {% include '../components/_page-loader.html' %}
+  {% include '../components/_menu.html' with {activeMenu:'projct-consumption'} %} {% include
+  '../sections/_project-con-hero.html' %} {% include
+  '../sections/_project-images.html' %}
+  {% include '../sections/_dream-home.html' %} {% include '../sections/_footer.html'
+  %}
+  {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'individual-projects'} %}
+</body>
+
 </html>

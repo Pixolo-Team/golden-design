@@ -3,24 +3,24 @@
 
 // Covid Popup
 .covid-popup {
-    background-color: var(--color-background-light);
-    padding: 12px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--color-background-light);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.covid-msg {
+  color: var(--color-text-primary);
+  font: var(--font-primary-medium);
+}
+.closing-button {
+  cursor: pointer;
+}
+@media only screen and (max-width: 697px) {
+  .covid-popup {
+    padding: 6px 9px;
   }
-  .covid-msg {
-    color: var(--color-text-primary);
-    font: var(--font-primary-medium);
-  }
-  .closing-button{
-    cursor: pointer;
-  }
-  @media only screen and (max-width: 697px) {
-    .covid-popup{
-      padding: 6px 9px;
-    }
-  .closing-button{
+  .closing-button {
     height: 22px;
     width: 22px;
     margin-left: 16px;
@@ -42,5 +42,4 @@
 @import "../sections/faq.scss";
 @import "../sections/dream-home.scss";
 @import "../sections/footer.scss";
-@import "../components/scroll-to-top.scss";
 @import "../components/light-box.scss";

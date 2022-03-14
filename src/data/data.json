@@ -5,6 +5,12 @@
     "title": "Residential",
     "location": "In Kharghar, Navi-Mumbai",
     "description": "",
+    "points": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+    ],
     "customer_details": {
       "name": "Deepak Jain",
       "date": "",
@@ -34,7 +40,6 @@
       "deepak-jain/22.jpg",
       "deepak-jain/23.jpg",
       "deepak-jain/15.jpg"
-      
     ]
   },
   {

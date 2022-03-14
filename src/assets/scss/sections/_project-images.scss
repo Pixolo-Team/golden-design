@@ -13,9 +13,26 @@
   border-radius: 20px;
   margin-bottom: 55px;
 }
-.project-con{
-  background: linear-gradient(180deg, #F5F4F5 0%, #FFFFFF 100%);
+.project-con {
+  background: linear-gradient(180deg, #f5f4f5 0%, #ffffff 100%);
   padding: 70px 0;
+}
+.image-wrapper {
+  .slick-prev {
+    left: 10px;
+    z-index: 1;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
+  }
+  .slick-next {
+    right: 30px;
+  }
+  .slick-prev,
+  .slick-next {
+    top: calc(50% - 20px);
+  }
 }
 //FOR MOBILE
 @media screen and (max-width: 697px) {
@@ -23,7 +40,6 @@
     width: 100%;
   }
   .pinterest-image {
-   
   }
 }
 /* -------------------- PROJECT IMAGES SECTION STYLING ENDS HERE------------------------------- */
