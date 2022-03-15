@@ -37,6 +37,7 @@ var animateErrorMsg = function (shouldShow = 1) {
 
 var initContactForm = function () {
   $('#submit').click(() => {
+    $('.form-msg').slideDown();
     $('#form-error').text("");
     let nameValue = $('#name').val();
     let emailValue = $('#email').val();
