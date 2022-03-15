@@ -59,17 +59,23 @@ images: [
   {% include '../sections/_hero.html' with sliders %}
 
   {% include '../sections/_designs.html' %}
-  {% include '../sections/_expertise-ad.html' with {data:works_ad.kitchen,sectionClass:'tint-bg-section'} %}
+  {% verbatim %}
+  {% include 'sections/_expertise-ad.html' with {data:webdata.ads[0],sectionClass:'tint-bg-section'} %}
+  {% endverbatim %}
   {% include '../sections/_number-home.html' %}
   {% include '../sections/_technology.html' %}
   {% include '../sections/_how-it-works.html' %}
-  {% include '../sections/_expertise-ad.html' with {data:works_ad.living_room,sectionClass:'primary-bg-section'} %}
+  {% verbatim %}
+  {% include 'sections/_expertise-ad.html' with {data:webdata.ads[1],sectionClass:'primary-bg-section'} %}
+  {% endverbatim %}
   {% include '../sections/_testimonials.html' %}
   {% include '../sections/_projects-section.html' %}
   {% include '../sections/_why-choose-us.html' %}
   {% include '../sections/_orders.html' %}
   {% include '../sections/_client-videos.html' %}
-  {% include '../sections/_expertise-ad.html' with {data:works_ad.bathroom,sectionClass:'primary-bg-section'} %}
+  {% verbatim %}
+  {% include 'sections/_expertise-ad.html' with {data:webdata.ads[2],sectionClass:'primary-bg-section'} %}
+  {% endverbatim %}
   {% include '../sections/_faq.html' %}
   {% include '../sections/_dream-home.html' %}
   {% include '../sections/_footer.html' %}

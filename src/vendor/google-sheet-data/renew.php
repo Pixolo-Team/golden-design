@@ -9,6 +9,7 @@ $clientJson;
 $jsonPath = DATA_PATH . "data.json";
 
 $sheetData = getValuesFromSheet();
+
 if ($sheetData) {
     include ENGINE_PATH . "sheet-to-json.php";
     $clientJson = getDataJson($sheetData);

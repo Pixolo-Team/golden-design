@@ -1,28 +1,30 @@
 <!--Project-item Start-->
-{% set IMG_PATH="assets/images/projects/" %}
+
 {% verbatim %}
-<p class="design-type">What we provide in Bathroom Designs</p>
+<a type="button" href="./projects" class="rounded-button contact-btn">All</a>
+{% for single_expertise in webdata.expertise %}
+<a type="button" href="./projects?c={{single_expertise.id}}"
+  class="rounded-button contact-btn">{{single_expertise.name}}</a>
+{% endfor %}
+{% for single_expertise in webdata.expertise %}
+{% if category==null or (single_expertise.id==category) %}
+<p class="design-type">What we provide in {{single_expertise.name}}</p>
 <ul class="project-details-wrap">
-  <li class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
-  <li class="project-details">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. </li>
-  <li class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
-  <li class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
-  <li class="project-details">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. </li>
+  {% for service in single_expertise.services %}
+  <li class="project-details">{{service}} </li>
+  {% endfor %}
 </ul>
 <p class="design-type history">Our History of Designs</p>
-{% for project in webdata %}
+{% for project in webdata.projects %}
+{% if project.category==single_expertise.id %}
 <div class="project-item">
   <div class="project-img-wrapper">
-    <img class="project-img progressive__img progressive--not-loaded"
-      data-progressive="{% endverbatim %}{{IMG_PATH}}{% verbatim %}{{ project.image }}"
-      src="{% endverbatim %}{{ IMG_PATH }}progressive/{% verbatim %}{{ project.image }}" />
+    <img class="project-img " src="{{ project.image }}" />
     <div class="project-user">
-      <img class="project-user-img " src="assets/images/projects/clients/{{project.customer_details.profile_photo}}" />
+      <img class="project-user-img " src="{{ project.client_image }}" />
       <div class="project-user-info">
-        <p class="project-u-name">{{ project.customer_details.name }}</p>
-        <p class="project-u-date">{{ project.customer_details.date }}</p>
+        <p class="project-u-name">{{ project.client_name }}</p>
+        <p class="project-u-date">{{ project.client_image }}</p>
       </div>
     </div>
     <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo" />
@@ -36,6 +38,9 @@
   </p>
   <a href="./project-consumption?p={{project.id}}" class="primary-link">View Project</a>
 </div>
+{% endif %}
+{% endfor %}
+{% endif %}
 {% endfor %}
 {% endverbatim %}
 <!--Project-item Start-->

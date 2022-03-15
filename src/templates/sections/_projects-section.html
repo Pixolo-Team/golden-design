@@ -8,12 +8,27 @@
         ?
       </p>
     </div>
-    <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button mobile-hide">Get free consultation</button>
+    <button type="button" name="contact button" onclick="window.location='contact'"
+      class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="project-image-section">
+    {% verbatim %}
+    {% for project in webdata.projects %}
+    {% if project.is_featured=='1' %}
+    <div class="project-bg-image" style="background-image:url({{project.image}})">
+      <div class="project-image-lines">
+        <p class="image-line-1">{{project.title}}</p>
+        <p class="image-line-2">{{project.location}}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endverbatim %}
   </div>
-  <button type="button" name="projects button" onclick="window.location='projects'" class="rectangular-button">VIEW ALL PROJECTS</button>
+  <button type="button" name="projects button" onclick="window.location='projects'" class="rectangular-button">VIEW ALL
+    PROJECTS</button>
 </div>
-<button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button desktop-hide">Get free consultation</button>
-  </div>
-  <!--projects section end-->
+<button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button desktop-hide">Get
+  free consultation</button>
+</div>
+<!--projects section end-->

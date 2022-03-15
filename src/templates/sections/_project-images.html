@@ -3,9 +3,10 @@
   <div class="section form-section">
     <div class="image-wrapper">
       {% verbatim %}
-      {% for projectImage in project.images %}
-      <img class="individual-img"
-        src="assets/images/projects/{{projectImage}}">
+      {% for projectImage in project.other_images %}
+      {% if projectImage %}
+      <img class="individual-img" src="{{projectImage}}">
+      {% endif %}
       {% endfor %}
       {% endverbatim %}
     </div>

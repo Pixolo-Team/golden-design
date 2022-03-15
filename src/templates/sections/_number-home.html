@@ -1,9 +1,17 @@
 <!--number home section start-->
-<div class="number-section"> 
-<div class="section">
-  <p class="big-thin-title">Numbers that make us proud</p>
-<div class="number-box">
+<div class="number-section">
+  <div class="section">
+    <p class="big-thin-title">Numbers that make us proud</p>
+    <div class="number-box">
+      {% verbatim %}
+      {% for number in webdata.numbers %}
+      <div class="left-line-box">
+        <div class="numbers">{{number.value}}</div>
+        <div class="numbers-discription">{{number.title}}</div>
+      </div>
+      {% endfor %}
+      {% endverbatim %}
+    </div>
   </div>
-</div>
 </div>
 <!--number home section end-->
