@@ -1,29 +1,5 @@
 <!--clients videos section start-->
 <div class="section">
-  {% set IMG_PATH="assets/images/home/client-videos/" %}
-  {% set clients=[
-    {
-      thumbnail: "video1.jpg",
-      youtube_url: "https://www.youtube.com/embed/grItaOxuyTE",
-      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
-      client_name: "Rajesh Mehra",
-      client_work: "Living Room Design at Ghatkopar"
-    },
-    {
-      thumbnail: "video1.jpg",
-      youtube_url: "https://www.youtube.com/embed/TYd_pT9hZrM",
-      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
-      client_name: "Rajesh Mehra",
-      client_work: "Living Room Design at Ghatkopar"
-    },
-    {
-      thumbnail: "video1.jpg",
-      youtube_url: "https://www.youtube.com/embed/hfXqgH2RscE",
-      review: "Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.",
-      client_name: "Rajesh Mehra",
-      client_work: "Living Room Design at Ghatkopar"
-    }
-  ]%}
   <div class="client-videos-sec1">
     <div class="clients-description">
       <p class="description-line-1">Listen to our Clients</p>
@@ -31,27 +7,34 @@
         We thought it’s best if you hear it from our previous clients
       </p>
     </div>
-    <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button mobile-hide">Get free consultation</button>
+    <button type="button" name="contact button" onclick="window.location='contact'"
+      class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="clients-videos-sec2">
-    {% for client in clients %}
-      <div class="client-videos-img-section">
-        <div class="client-video-image">
-          <img class="video-img progressive__img progressive--not-loaded" src="{{ IMG_PATH }}progressive/{{ client.thumbnail }}" data-progressive="{{ IMG_PATH }}{{ client.thumbnail }}" alt="Client Videos"/>
-          <a data-url="{{ client.youtube_url }}" class="image-gradient lb-target" data-mediaType="youtube" ><svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z" fill="white"/>
-              </svg></a>
-        </div>
-        <div class="clients-video-description">
-          <p class="clients-video-description1"><span class="quote-mark">"</span>{{ client.review }}<span class="quote-mark2">"</span></p>
-          <p class="clients-video-description2">{{ client.client_name }}</p>
-          <p class="clients-video-description3">{{ client.client_work }}</p>
-        </div>
+    {% verbatim %}
+    {% for video_testimonial in webdata.video_testimonials %}
+    <div class="client-videos-img-section">
+      <div class="client-video-image">
+        <img class="video-img" src="{{ video_testimonial.thumbnail }}" alt="Client Videos" />
+        <a data-url="{{ client.url }}" class="image-gradient lb-target" data-mediaType="youtube"><svg width="41"
+            height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20.5 41C31.8218 41 41 31.8218 41 20.5C41 9.17816 31.8218 0 20.5 0C9.17816 0 0 9.17816 0 20.5C0 31.8218 9.17816 41 20.5 41ZM18.25 27.8612L28 22.232C29.3333 21.4622 29.3333 19.5377 28 18.7679L18.25 13.1388C16.9167 12.369 15.25 13.3312 15.25 14.8708L15.25 26.1292C15.25 27.6688 16.9167 28.631 18.25 27.8612Z"
+              fill="white" />
+          </svg></a>
       </div>
+      <div class="clients-video-description">
+        <p class="clients-video-description1"><span class="quote-mark">"</span>{{ video_testimonial.description }}<span
+            class="quote-mark2">"</span></p>
+        <p class="clients-video-description2">{{ video_testimonial.client_name }}</p>
+        <p class="clients-video-description3">{{ video_testimonial.location }}</p>
+      </div>
+    </div>
     </a>
     {% endfor %}
-      </div>
-          <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button desktop-hide">Get free consultation</button>
+    {% endverbatim %}
+  </div>
+  <button type="button" name="contact button" onclick="window.location='contact'"
+    class="rounded-button desktop-hide">Get free consultation</button>
 </div>
 <!--client videos section end-->
-

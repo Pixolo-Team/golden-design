@@ -1,79 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  {%  include "../components/_head.html" with {css:'contact',title:'Contact'} %}
-  <body>
-    {% include '../components/_page-loader.html' %}
-    {% include '../components/_menu.html' with {activeMenu:'contact'} %}
+{% include "../components/_head.html" with {css:'contact',title:'Contact'} %}
 
+<body>
+  {% include '../components/_page-loader.html' %}
+  {% include '../components/_menu.html' with {activeMenu:'contact'} %}
 
-    <div class="section contact-numbers">
-      <div class="number-item">
-        <svg
-          width="41"
-          height="41"
-          viewBox="0 0 41 41"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8.24555 17.7439C11.5256 24.19 16.81 29.4517 23.2561 32.7544L28.2672 27.7433C28.8822 27.1283 29.7933 26.9233 30.5906 27.1967C33.1417 28.0394 35.8978 28.495 38.7222 28.495C39.975 28.495 41 29.52 41 30.7728V38.7222C41 39.975 39.975 41 38.7222 41C17.3339 41 0 23.6661 0 2.27778C0 1.025 1.025 0 2.27778 0H10.25C11.5028 0 12.5278 1.025 12.5278 2.27778C12.5278 5.125 12.9833 7.85833 13.8261 10.4094C14.0767 11.2067 13.8944 12.095 13.2567 12.7328L8.24555 17.7439Z"
-            fill="#E9635A"
-          />
-        </svg>
-        <div class="number-link">
-          <a href="tel:+919326592686" class="phone-num">+91 9820840946</a>
-          <!-- <a href="tel:+919833216828" class="phone-num">+91 9833216828</a> -->
-        </div>
-      </div>
-
-      <div class="number-item">
-        <svg
-          width="46"
-          height="45"
-          viewBox="0 0 46 45"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M23 0C10.304 0 0 10.08 0 22.5C0 34.92 10.304 45 23 45H34.5V40.5H23C13.018 40.5 4.6 32.265 4.6 22.5C4.6 12.735 13.018 4.5 23 4.5C32.982 4.5 41.4 12.735 41.4 22.5V25.7175C41.4 27.495 39.767 29.25 37.95 29.25C36.133 29.25 34.5 27.495 34.5 25.7175V22.5C34.5 16.29 29.348 11.25 23 11.25C16.652 11.25 11.5 16.29 11.5 22.5C11.5 28.71 16.652 33.75 23 33.75C26.174 33.75 29.072 32.49 31.142 30.4425C32.637 32.445 35.213 33.75 37.95 33.75C42.481 33.75 46 30.15 46 25.7175V22.5C46 10.08 35.696 0 23 0ZM23 29.25C19.182 29.25 16.1 26.235 16.1 22.5C16.1 18.765 19.182 15.75 23 15.75C26.818 15.75 29.9 18.765 29.9 22.5C29.9 26.235 26.818 29.25 23 29.25Z"
-            fill="#E9635A"
-          />
-        </svg>
-
-        <a class="number-link" href="mailto:lingraj@goldendesigninteriors.com">lingraj@goldendesigninteriors.com</a>
-      </div>
-
-      <div class="number-item">
-        <svg
-          width="32"
-          height="45"
-          viewBox="0 0 32 45"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M16 0C7.15429 0 0 7.0425 0 15.75C0 27.5625 16 45 16 45C16 45 32 27.5625 32 15.75C32 7.0425 24.8457 0 16 0ZM16 21.375C12.8457 21.375 10.2857 18.855 10.2857 15.75C10.2857 12.645 12.8457 10.125 16 10.125C19.1543 10.125 21.7143 12.645 21.7143 15.75C21.7143 18.855 19.1543 21.375 16 21.375Z"
-            fill="#E9635A"
-          />
-        </svg>
-
-        <a class="number-link" href="#">Panvel, Navi Mumbai</a>
+  {% verbatim %}
+  <div class="section contact-numbers">
+    <div class="number-item">
+      <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M8.24555 17.7439C11.5256 24.19 16.81 29.4517 23.2561 32.7544L28.2672 27.7433C28.8822 27.1283 29.7933 26.9233 30.5906 27.1967C33.1417 28.0394 35.8978 28.495 38.7222 28.495C39.975 28.495 41 29.52 41 30.7728V38.7222C41 39.975 39.975 41 38.7222 41C17.3339 41 0 23.6661 0 2.27778C0 1.025 1.025 0 2.27778 0H10.25C11.5028 0 12.5278 1.025 12.5278 2.27778C12.5278 5.125 12.9833 7.85833 13.8261 10.4094C14.0767 11.2067 13.8944 12.095 13.2567 12.7328L8.24555 17.7439Z"
+          fill="#E9635A" />
+      </svg>
+      <div class="number-link">
+        <a href="tel:{{webdata.meta.contact_1}}" class="phone-num">{{webdata.meta.contact_1}}</a>
+        <a href="tel:{{webdata.meta.contact_2}}" class="phone-num">{{webdata.meta.contact_2}}</a>
       </div>
     </div>
 
-    <!-- Contact Map and Form -->
-    <div class="section map-form-wrap">
-      <iframe
-        class="map-wrapper"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15089.858749067065!2d73.1229033!3d18.9992346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa849642b6d8fc9d6!2sGolden%20Design%20Interiors!5e0!3m2!1sen!2sin!4v1634150555627!5m2!1sen!2sin"
-        width="600"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-      {% include '../components/_enquiry-form.html' %}
+    <div class="number-item">
+      <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M23 0C10.304 0 0 10.08 0 22.5C0 34.92 10.304 45 23 45H34.5V40.5H23C13.018 40.5 4.6 32.265 4.6 22.5C4.6 12.735 13.018 4.5 23 4.5C32.982 4.5 41.4 12.735 41.4 22.5V25.7175C41.4 27.495 39.767 29.25 37.95 29.25C36.133 29.25 34.5 27.495 34.5 25.7175V22.5C34.5 16.29 29.348 11.25 23 11.25C16.652 11.25 11.5 16.29 11.5 22.5C11.5 28.71 16.652 33.75 23 33.75C26.174 33.75 29.072 32.49 31.142 30.4425C32.637 32.445 35.213 33.75 37.95 33.75C42.481 33.75 46 30.15 46 25.7175V22.5C46 10.08 35.696 0 23 0ZM23 29.25C19.182 29.25 16.1 26.235 16.1 22.5C16.1 18.765 19.182 15.75 23 15.75C26.818 15.75 29.9 18.765 29.9 22.5C29.9 26.235 26.818 29.25 23 29.25Z"
+          fill="#E9635A" />
+      </svg>
+
+      <a class="number-link" href="mailto:{{webdata.meta.mail}}">{{webdata.meta.mail}}</a>
     </div>
-    {% include '../sections/_faq.html' %} {% include '../sections/_footer.html'
-    %}
-    {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'index'} %}
-  </body>
+
+    <div class="number-item">
+      <svg width="32" height="45" viewBox="0 0 32 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M16 0C7.15429 0 0 7.0425 0 15.75C0 27.5625 16 45 16 45C16 45 32 27.5625 32 15.75C32 7.0425 24.8457 0 16 0ZM16 21.375C12.8457 21.375 10.2857 18.855 10.2857 15.75C10.2857 12.645 12.8457 10.125 16 10.125C19.1543 10.125 21.7143 12.645 21.7143 15.75C21.7143 18.855 19.1543 21.375 16 21.375Z"
+          fill="#E9635A" />
+      </svg>
+
+      <a class="number-link">{{webdata.meta.address}}</a>
+    </div>
+  </div>
+  {% endverbatim %}
+  <!-- Contact Map and Form -->
+  <div class="section map-form-wrap">
+    <iframe class="map-wrapper"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15089.858749067065!2d73.1229033!3d18.9992346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa849642b6d8fc9d6!2sGolden%20Design%20Interiors!5e0!3m2!1sen!2sin!4v1634150555627!5m2!1sen!2sin"
+      width="600" allowfullscreen="" loading="lazy"></iframe>
+    {% include '../components/_enquiry-form.html' %}
+  </div>
+  {% include '../sections/_faq.html' %} {% include '../sections/_footer.html'
+  %}
+  {% include '../components/_library_loader.html' with {global:true,slick:true,customJs:'index'} %}
+</body>
+
 </html>

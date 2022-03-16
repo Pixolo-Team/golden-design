@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  {%  include "../components/_head.html" with {css:'project',title:'Project'} %}
-  <body>
-    {% include '../components/_page-loader.html' %}
-    {% include '../components/_menu.html' with {activeMenu:'projects'}%} {% include
-    '../sections/_projects-hero.html' %} {% include
-    '../sections/_project-list.html' %} {% include '../sections/_footer.html' %}
-    {% include '../components/_library_loader.html' with {global:true} %}
-  </body>
+{% include "../components/_head.html" with {css:'project',title:'Project'} %}
+
+<body>
+  {% include '../components/_page-loader.html' %}
+  {% include '../components/_menu.html' with {activeMenu:'projects'}%}
+  {% include '../sections/_projects-hero.html' %}
+  {% include '../sections/_project-list.html' %}
+  {% include '../sections/_footer.html' %}
+  {% include '../components/_library_loader.html' with {global:true} %}
+</body>
+
 </html>

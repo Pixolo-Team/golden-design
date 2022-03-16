@@ -3,13 +3,13 @@
 // Include config file to load configurations
 require '../config.php';
 
-$projects = file_get_contents(DATA_PATH . "data.json");
-$projects = json_decode($projects);
+$webdata = file_get_contents(DATA_PATH . "data.json");
+$webdata = json_decode($webdata);
 $id = isset($_GET['p']) ? $_GET['p'] : null;
 if ($id) {
     $selectedProject;
     // Find the project with the passed id
-    foreach ($projects as $project) {
+    foreach ($webdata->projects as $project) {
         if ($project->id == $id) {
             $selectedProject = $project;
             break;

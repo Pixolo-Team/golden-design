@@ -1,7 +1,7 @@
 <?php
 
-ini_set('display_errors', 0);
-ini_set('display_startup_errors', 0);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL); 
 
 header('Access-Control-Allow-Origin: *');
@@ -16,9 +16,11 @@ $client->setScopes([\Google_Service_Sheets::SPREADSHEETS]);
 $client->setAccessType('offline');
 $client->setAuthConfig(ENGINE_PATH.'credentials.json');
 
-$service = new Google_Service_Sheets($client);
-$spreadsheetId = "1Npo4AFnZ5zvdE5gUwWEe-IYD1zArhbE-SuNA-9kNifA";
 
+$service = new Google_Service_Sheets($client);
+
+
+$spreadsheetId = "1NwUp6VzN-q2c03XbDhzk6JyUQqku8YZ-NwiyvH7FOag";
 
 function getValuesFromSheet(){
     global $service,$spreadsheetId,$structure;
@@ -28,14 +30,18 @@ function getValuesFromSheet(){
     for($i=0; $i < count($keys);$i++){
         $range = $keys[$i]."!A1:W";
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
-        $sheetData = $response->getValues();
+        if($response){
+            $sheetData = $response->getValues();
         // array_push($allSheetData,$sheetData);
     
         $allSheetData = array_merge($allSheetData,$sheetData);
         // print_r(json_encode($sheetData));
         // echo '<br><br>';
         // print_r($response);
+        }
+        
     }
+  
     if(empty($allSheetData))
     {
         return false;
@@ -45,8 +51,4 @@ function getValuesFromSheet(){
         return $allSheetData;
     }
 
-} 
-
-
-
-?>
+}

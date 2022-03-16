@@ -1,336 +1,382 @@
-[
-  {
-    "id": 1,
-    "image": "deepak-jain/15.jpg",
-    "title": "Residential",
-    "location": "In Kharghar, Navi-Mumbai",
-    "description": "",
-    "points": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+{
+    "meta": {
+        "logo": "logo.png",
+        "main-logo": "main-logo.png",
+        "loader-img": "loader-bg.png",
+        "favicon": "favicon.png",
+        "name": "SVOG Inspections Pvt Ltd",
+        "short-name": "SVOG Inspections Pvt Ltd",
+        "keywords": "Pngrb tpia, pngrb approved tpi, Inspection agency for oil and gas industry. oil and gas inspection, oil and gas inspection services, oil and gas inspection companies in india, oil and gas inspection certification",
+        "description": "The Main objective of the company is to promote best & safe industry practices to protect life, property and environment through quality assurance audits/ inspections. With 30 years of average experience, our team of Inspectors and Specialists have vast exposure in the Oil & Gas Industry and are qualified to meet necessary statutory requirements",
+        "title": "SVOG Inspections Pvt Ltd",
+        "canonical": "https://skorostunited.com/",
+        "url": "https://skorostunited.com",
+        "template": null,
+        "analytic-code": null,
+        "desktop-layer": "tdy-layer.png",
+        "mobile-layer": "tdy-layer.png",
+        "layer-background": "text-bg.png",
+        "contact": "9876543210",
+        "mail": "info@gmail.com"
+    },
+    "sliders": {
+        "hero_sliders": [
+            {
+                "title": "The trendiest Living Rooms to live in",
+                "background_image": "slider1.jpg",
+                "mobile_background": "slider1.jpg"
+            }
+        ],
+        "about_sliders": [
+            {
+                "title": "FLIR: The World's Sixth Sense",
+                "background_image": "flir.jpg",
+                "mobile_background": "flir-m.jpg"
+            }
+        ],
+        "client_sliders": [
+            {
+                "title": "FLIR: The World's Sixth Sense",
+                "background_image": "flir.jpg",
+                "mobile_background": "flir-m.jpg"
+            }
+        ]
+    },
+    "testimonials": [
+        {
+            "id": "1",
+            "user_name": "Abhay Amin",
+            "user_image": "testimonial-img.png",
+            "location": "Office Design at Ghatkopar",
+            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+        },
+        {
+            "id": "2",
+            "user_name": "Abhay Amin",
+            "user_image": "testimonial-img.png",
+            "location": "Office Design at Ghatkopar",
+            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+        },
+        {
+            "id": "3",
+            "user_name": "Abhay Amin",
+            "user_image": "testimonial-img.png",
+            "location": "Office Design at Ghatkopar",
+            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+        },
+        {
+            "id": "4",
+            "user_name": "Abhay Amin",
+            "user_image": "testimonial-img.png",
+            "location": "Office Design at Ghatkopar",
+            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+        },
+        {
+            "id": "5",
+            "user_name": "Abhay Amin",
+            "user_image": "testimonial-img.png",
+            "location": "Office Design at Ghatkopar",
+            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+        }
     ],
-    "customer_details": {
-      "name": "Deepak Jain",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "deepak-jain/1.jpg",
-      "deepak-jain/2.jpg",
-      "deepak-jain/3.jpg",
-      "deepak-jain/4.jpg",
-      "deepak-jain/5.jpg",
-      "deepak-jain/6.jpg",
-      "deepak-jain/7.jpg",
-      "deepak-jain/8.jpg",
-      "deepak-jain/9.jpg",
-      "deepak-jain/10.jpg",
-      "deepak-jain/11.jpg",
-      "deepak-jain/12.jpg",
-      "deepak-jain/13.jpg",
-      "deepak-jain/14.jpg",
-      "deepak-jain/16.jpg",
-      "deepak-jain/17.jpg",
-      "deepak-jain/18.jpg",
-      "deepak-jain/19.jpg",
-      "deepak-jain/20.jpg",
-      "deepak-jain/21.jpg",
-      "deepak-jain/22.jpg",
-      "deepak-jain/23.jpg",
-      "deepak-jain/15.jpg"
+    "faqs": [
+        {
+            "question": "What is a Futures Contract?\n",
+            "answer": "A Futures Contract is an agreement between a buyer and a seller to buy / sell a security in future (on the Expiry Day) at an agreed price. In case of a listed security, the agreed price is the traded price in a stock exchange (Exchange).\nCan the buyer / seller extinguish his side of the contract before the Expiry Day? Yes, he can by liquidating his position, fully or partially, in the Exchange."
+        },
+        {
+            "question": "What is the Expiry Day?\n",
+            "answer": "Expiry Day is the last day of the Settlement Period. On this day, all outstanding\ncontracts (except the Indices Contracts, or the options contracts where the\nContract Value has become zero) of that Settlement Period are settled through\ndelivery. (Seller to give delivery, while Buyer to take delivery at the agreed\nprice.) In case of Indian Equity Derivative markets, the Expiry Day for the most\nInstruments is the last Thursday of the month. Settlement Period therefore\nusually starts from the last Friday of the month and ends with last Thursday of\nthe next month. For example, if last Thursday of the month is on 27 th January,\nthen the Expiry Day would be on 27th January and the next Settlement Period\nwould start on 28 th January. However, if the last Thursday is on 31 st January,\nthen the next Settlement Period would start on 1st February."
+        },
+        {
+            "question": "What is the Lot Size?\n",
+            "answer": "Unlike in the equity market, trading in equity derivative markets takes place in\nLots. Lot size of a security is the minimum quantity in which the security can be\ntraded. For example, if the lot size of Reliance is 250, it means the Futures and\nOptions contracts of Reliance can be traded only in the multiples of 250.\nLot Size multiplied by the price gives us the Contract Value. Lot size multiplied\nby the Marked to Market (MTM) gives us the Profit / Loss Per Lot."
+        },
+        {
+            "question": "\nWhat is Margin?\n",
+            "answer": "Margin is the amount which a buyer or a seller in a contract has to keep with\nthe Exchange before executing a Futures Contract. The Margin is specified as a\npercentage of the contract Value. The margin percentages are changed daily or\neven intra-day. For example,\n\nLot size of Reliance is 250\nPrice of reliance       Rs. 2000\nTherefore, the Contract Value = Rs. 5,00,000\nMargin % =20%\nMargin on one contract of Reliance = Rs. 1,00,000."
+        },
+        {
+            "question": "\nWhat is Open Interest?\n",
+            "answer": "Simply stated, Open Interest is the number of outstanding contracts in Futures\nor in Options multiplied by its Lot Size. Every Instrument in Futures has Open\n\nInterest. Similarly, every Strike Price for an Option Contract has Open Interest.\nOpen Interest would undergo change as under: -\nExisting buyer sells to a new Buyer, Open Interest would not change.\nExisting buyer sells to an existing seller, Open Interest would REDUCE.\nNew Buyer buys from a new seller, Open interest would INCREASE.\nChange in Open Interest is a significant indicator of likely price movement in\nthe stock. Generally speaking, an increase in price with increase in Open\nInterest would mean the stock is bullish. Increase in price with decrease in\nOpen Interest would mean profit booking in long positions, or unwinding of\nshort positions. Decrease in price with increase in Open Interest would mean\nthe stock is bearish. Decrease in price with decrease in Open Interest would\nmean profit booking in short positions, or unwinding of long positions."
+        },
+        {
+            "question": "\nWhat is an Option? What is Call Option? What is Put Option?\n",
+            "answer": "An Option gives right to the option holder to buy or sell a stock at an agreed\nprice.\nIf you are bullish on a stock, you would pay premium to buy a Call Option.\nIf you are bearish on a stock, you would pay premium to buy a put option.\nIn case of an Option contract, your loss is limited to the extent of premium\npaid. But you gains are unlimited.\nTo facilitate smooth trading in options, each security has multiple Strike Prices.\nFor example, Nifty current Value is 17800. It would have Strike Prices from\n12000 to 20000 (or even beyond) for Calls and Puts.\nIf you are bullish on Nifty, you can buy 17700 Call (called In the Money Call), or\n17800 Call (called At the Money Call) or 17900 Call (called Out of the Money\nCall). Of course, other Strike prices such as, 17750, 17850, 18000, 18100 and so\non, are also available. Buying higher Strike Prices for Calls would mean lower\noutgo of premium, but with lower probability of earning profit, and vice versa."
+        },
+        {
+            "question": "What is Options Writing?",
+            "answer": "Options writing is the reverse of Options buying. The Options Writer sells a Call\nor a Put and pockets the premium. His gains are limited to the extent of\npremium collected, but his losses are limited.\n\nNeedless to state, Options writing carries high degree of risk and should be\nundertaken after thorough study and of course with strict stop loss."
+        },
+        {
+            "question": "\nHow can I trade in Options?\n",
+            "answer": "Multiple Options Strategies can be devised (examples below are for Nifty):-\nNaked Call or Put :- Buy 15800 Call (Higher Calls if you are not very sure) or 15800 Put (lower Put if you are not very sure)."
+        },
+        {
+            "question": "\nWhat does Bull Call Spread mean?\n",
+            "answer": "Buy 17800 Call Sell 18000 Call. Your gains and losses are limited."
+        },
+        {
+            "question": "\nWhat does Bear Call Spread mean?\n",
+            "answer": "Sell 17800 Call Buy 18000 Call. By Selling 17800 Call you pocket the premium\nbut expose yourself to unlimited losses. But buying 18000 Call serves the\npurpose of putting cap on your losses."
+        },
+        {
+            "question": "How to Buy Straddle?\n",
+            "answer": "Buy 17800 Call and 17800 Put. You pay premium on Call as well as Put. This\nstrategy is extremely useful, when an important event is round the corner, or\nwhen you expect significant movement in Nifty on either side. This strategy is\nalso useful in case of high beta stocks which are slated to declare their results."
+        },
+        {
+            "question": "How to Sell Straddle?\n",
+            "answer": "Sell 17800 Call and Sell 17800 Put You employ this strategy, if you expect Nifty\nto be range-bound. This strategy can be gainfully employed in the Weekly\nExpiries of Indices, when the market is expected to be range-bound."
+        }
+    ],
+    "clients": [
+        {
+            "id": "1",
+            "title": "Designing of the most famous Ice Cream Chain",
+            "logo": "lg.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "other_images": [
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Designing of the most famous Ice Cream Chain",
+            "logo": "lg.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "other_images": [
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg",
+                "the-inside-of-the-shop.jpg"
+            ]
+        }
+    ],
+    "expertise": [
+        {
+            "id": "1",
+            "name": "Residential Design",
+            "image": "",
+            "description": "",
+            "services": [
+                "We make something in home",
+                "We make something ",
+                "We make something "
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Office Design",
+            "image": "",
+            "description": "",
+            "services": [
+                "We make something in home",
+                "We make something ",
+                "We make something "
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Office Design",
+            "image": "",
+            "description": "",
+            "services": [
+                "We make something in home",
+                "We make something ",
+                "We make something "
+            ]
+        }
+    ],
+    "numbers": [
+        {
+            "title": "residential",
+            "value": "150"
+        },
+        {
+            "title": "commercial",
+            "value": "150"
+        },
+        {
+            "title": "total projects",
+            "value": "300"
+        }
+    ],
+    "ads": [
+        {
+            "id": "1",
+            "title": "Modular kitchen",
+            "description": "test modular ",
+            "category": "1"
+        },
+        {
+            "id": "test.png",
+            "title": "test.png",
+            "description": "test.png"
+        },
+        {
+            "id": "2",
+            "title": "Modular kitchen",
+            "description": "test modular ",
+            "category": "2"
+        },
+        {
+            "id": "test.png",
+            "title": "test.png",
+            "description": "test.png"
+        },
+        {
+            "id": "3",
+            "title": "Modular kitchen",
+            "description": "test modular ",
+            "category": "3"
+        },
+        {
+            "id": "test.png",
+            "title": "test.png",
+            "description": "test.png"
+        }
+    ],
+    "video_testimonials": [
+        {
+            "id": "1",
+            "client_name": "test",
+            "location": "test location",
+            "description": "test description",
+            "thumbnail": "test.png",
+            "url": "https://youtube.com"
+        }
+    ],
+    "client_logos": [
+        "lg.png",
+        "daikin.png",
+        "adda.png",
+        "voltas.png",
+        "sparx.png"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-12-10",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "1",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Relaxology Salon",
+            "location": "Panvel",
+            "description": "",
+            "date": "2022-10-07",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "1",
+            "other_images": [
+                "",
+                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
+                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+            ]
+        }
     ]
-  },
-  {
-    "id": 2,
-    "image": "sameer/11.jpg",
-    "title": "Residential",
-    "location": "In Kolhapur, Maharashtra",
-    "description": "",
-    "customer_details": {
-      "name": "Sameer phadtare",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "sameer/1.jpg",
-      "sameer/2.jpg",
-      "sameer/3.jpg",
-      "sameer/4.jpg",
-      "sameer/5.jpg",
-      "sameer/6.jpg",
-      "sameer/7.jpg",
-      "sameer/8.jpg",
-      "sameer/9.jpg",
-      "sameer/10.jpg",
-      "sameer/11.jpg",
-      "sameer/12.jpg",
-      "sameer/13.jpg",
-      "sameer/14.jpg"
-    ]
-  },
-  {
-    "id": 3,
-    "image": "anjali-enterprises/2.jpg",
-    "title": "Office Design",
-    "location": "In Belapur, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Anjali Enterprises",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "anjali-enterprises/1.jpg",
-      "anjali-enterprises/3.jpg",
-      "anjali-enterprises/2.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "image": "baba-steel/2.jpg",
-    "title": "Office Design",
-    "location": "In Ghatkoper, Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "BABA Steel",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "baba-steel/1.jpg",
-      "baba-steel/2.jpg"
-    ]
-  },
-  {
-    "id": 5,
-    "image": "happy-hair/3.jpg",
-    "title": "Salon Design",
-    "location": "In Seawood, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Happy Hair",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "happy-hair/1.jpg",
-      "happy-hair/2.jpg",
-      "happy-hair/3.jpg",
-      "happy-hair/4.jpg"
-    ]
-  },
-  {
-    "id": 6,
-    "image": "deeps-beauty/1.jpg",
-    "title": "Salon Design",
-    "location": "In Nerul, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Deeps beauty Studio",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "deeps-beauty/1.jpg"
-    ]
-  },
-  {
-    "id": 7,
-    "image": "krishna-rao/1.jpg",
-    "title": "Residential",
-    "location": "In Panvel, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Krishna Rao",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "krishna-rao/1.jpg",
-      "krishna-rao/2.jpg",
-      "krishna-rao/3.jpg",
-      "krishna-rao/4.jpg",
-      "krishna-rao/5.jpg",
-      "krishna-rao/6.jpg",
-      "krishna-rao/7.jpg",
-      "krishna-rao/8.jpg",
-      "krishna-rao/9.jpg",
-      "krishna-rao/10.jpg"
-    ]
-  },
-  {
-    "id": 8,
-    "image": "sanjay-sahu/8.jpg",
-    "title": "Residential",
-    "location": "In Nerul, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Sanjay Sahu",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "sanjay-sahu/1.jpg",
-      "sanjay-sahu/2.jpg",
-      "sanjay-sahu/3.jpg",
-      "sanjay-sahu/7.jpg",
-      "sanjay-sahu/4.jpg",
-      "sanjay-sahu/5.jpg",
-      "sanjay-sahu/6.jpg",
-      "sanjay-sahu/8.jpg",
-      "sanjay-sahu/10.jpg",
-      "sanjay-sahu/11.jpg",
-      "sanjay-sahu/12.jpg",
-      "sanjay-sahu/13.jpg",
-      "sanjay-sahu/9.jpg",
-      "sanjay-sahu/14.jpg",
-      "sanjay-sahu/15.jpg",
-      "sanjay-sahu/16.jpg"
-    ]
-  },
-  {
-    "id": 9,
-    "image": "school-word/1.jpg",
-    "title": "Office Design",
-    "location": "In Goregoan, Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "School Word",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "school-word/1.jpg",
-      "school-word/2.jpg"
-    ]
-  },
-  {
-    "id": 10,
-    "image": "steel-chamber/1.jpg",
-    "title": "Office Design",
-    "location": "In Kalamboli, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Steel Chamber",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "steel-chamber/1.jpg"
-    ]
-  },
-  {
-    "id": 11,
-    "image": "relaxology/3.jpg",
-    "title": "Salon Design",
-    "location": "In Panvel, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Relaxology",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "relaxology/4.jpg",
-      "relaxology/2.jpg",
-      "relaxology/3.jpg",
-      "relaxology/1.jpg"
-    ]
-  },
-  {
-    "id": 12,
-    "image": "pradeep-bhopi/5.jpg",
-    "title": "Residential",
-    "location": "Panvel, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Pradeep Bhopi",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "pradeep-bhopi/1.jpg",
-      "pradeep-bhopi/2.jpg",
-      "pradeep-bhopi/3.jpg",
-      "pradeep-bhopi/4.jpg",
-      "pradeep-bhopi/5.jpg"
-    ]
-  },
-  {
-    "id": 13,
-    "image": "santosh-patil/2.jpg",
-    "title": "Residential",
-    "location": "Panvel, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Santosh Patil",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "santosh-patil/1.jpg",
-      "santosh-patil/2.jpg",
-      "santosh-patil/3.jpg",
-      "santosh-patil/4.jpg",
-      "santosh-patil/5.jpg"
-    ]
-  },
-  {
-    "id": 14,
-    "image": "office-snaps/2.jpg",
-    "title": "Office Design",
-    "location": "In Karjat",
-    "description": "",
-    "customer_details": {
-      "name": "Office Snaps",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "office-snaps/1.jpg",
-      "office-snaps/2.jpg"
-    ]
-  },
-  {
-    "id": 15,
-    "image": "prayag/1.jpg",
-    "title": "Office Design",
-    "location": "In Panvel, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Prayag",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "prayag/1.jpg",
-      "prayag/2.jpg",
-      "prayag/3.jpg",
-      "prayag/4.jpg",
-      "prayag/5.jpg",
-      "prayag/6.jpg"
-    ]
-  },
-  {
-    "id": 16,
-    "image": "sparx-showroom/4.jpg",
-    "title": "Office Design",
-    "location": "In Kalamboli, Navi-Mumbai",
-    "description": "",
-    "customer_details": {
-      "name": "Sparx Showroom",
-      "date": "",
-      "profile_photo": "default.jpg"
-    },
-    "images": [
-      "sparx-showroom/1.jpg",
-      "sparx-showroom/2.jpg",
-      "sparx-showroom/3.jpg",
-      "sparx-showroom/4.jpg",
-      "sparx-showroom/5.jpg",
-      "sparx-showroom/6.jpg"
-    ]
-  }
-]
+}

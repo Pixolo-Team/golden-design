@@ -3,7 +3,8 @@
 // Include config file to load configurations
 require '../config.php';
 
-// Render twig template
-echo $twig->render('pages/clients.html');
+$webdata = file_get_contents(DATA_PATH . "data.json");
+$webdata = json_decode($webdata);
 
-?>
+// Render twig template
+echo $twig->render('pages/clients.html', ["webdata" => $webdata]);
