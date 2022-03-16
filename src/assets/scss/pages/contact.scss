@@ -11,7 +11,7 @@
 
 // Contact Numbers
 .contact-numbers {
-  align-items: flex-start;
+  align-items: flex-end;
   display: flex;
   justify-content: space-evenly;
 }
@@ -21,7 +21,7 @@
 .number-link {
   color: var(--color-text-primary);
   display: block;
-  font: var(--font-primary-regular);
+  font: var(--font-primary-medium);
   font-size: var(--font-medium);
   margin-top: 23px;
   text-align: center;
@@ -29,7 +29,7 @@
 .phone-num{
   color: var(--color-text-primary);
   display: block;
-  font: var(--font-primary-regular);
+  font: var(--font-primary-medium);
 }
 
 // Map and format
