@@ -1,37 +1,41 @@
 /* -------------------- NUMBER HOME SECTION STYLING STARTS HERE------------------------------- */
 .big-thin-title {
-    font: var(--font-primary-light);
-    font-size: var(--font-xlarge);
-    color: var(--color-text-primary);
-    margin-bottom: 85px;
-    position: relative;
-    display: inline-block;
-    &:after{
-      content: "";
-      background-color: var(--color-primary);
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      position: absolute;
-      bottom: 14px;
-      margin-left: 8px;
-    }
+  font: var(--font-primary-light);
+  font-size: var(--font-xlarge);
+  color: var(--color-text-primary);
+  margin-bottom: 85px;
+  position: relative;
+  display: inline-block;
+  &:after {
+    content: "";
+    background-color: var(--color-primary);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 14px;
+    margin-left: 8px;
+  }
+}
+.number-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 //FOR MOBILE
-@media only screen and (max-width: 697px){
-  .big-thin-title{
+@media only screen and (max-width: 697px) {
+  .big-thin-title {
     margin: 50px 0 37px;
     font-size: var(--font-large);
   }
-  .number-box{
-display: flex;
-flex-wrap:wrap ;
+  .number-box {
+    display: flex;
+    flex-wrap: wrap;
   }
-.big-thin-title{
-  &:after{
-    bottom: 7.5px;
+  .big-thin-title {
+    &:after {
+      bottom: 7.5px;
+    }
   }
-}
 }
 /* -------------------- NUMBER HOME SECTION STYLING ENDS HERE------------------------------- */

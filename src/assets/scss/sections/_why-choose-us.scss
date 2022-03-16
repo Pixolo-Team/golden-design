@@ -15,7 +15,7 @@
   width: 26%;
   padding: 29px 20px;
 }
-.why-us-logo{
+.why-us-logo {
   max-width: 100px;
 }
 .values {
@@ -28,7 +28,7 @@
   justify-content: center;
   width: 37%;
   padding: 29px 20px;
-  &.active{
+  &.active {
     background-color: var(--color-text-secondary);
     box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.1);
   }
@@ -58,17 +58,17 @@
     position: absolute;
     border-radius: 15px;
     left: -11px;
-    top: 8px;
+    top: calc(50% - 3.5px);
   }
 }
 .top {
   padding: 0;
   border: none;
 }
-.client-btn{
-display: block;
-margin: auto;
-margin-top: 60px;
+.client-btn {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
 }
 
 //FOR MOBILE
@@ -94,18 +94,18 @@ margin-top: 60px;
   .styling {
     font-size: var(--font-small);
     margin: 0 0 5px 20px;
-     &:before {
-     content: "";
-     background: var(--color-primary);
-     height: 5px;
-     width: 5px;
-     position: absolute;
-     border-radius: 15px;
-     left: -8px;
-     top: 6px;
-     } 
+    &:before {
+      content: "";
+      background: var(--color-primary);
+      height: 5px;
+      width: 5px;
+      position: absolute;
+      border-radius: 15px;
+      left: -8px;
+      top: 6px;
+    }
   }
-  .head-line{
+  .head-line {
     margin-top: 50px;
   }
 }

@@ -22,7 +22,7 @@
     "sliders": {
         "hero_sliders": [
             {
-                "title": "The trendiest Living Rooms to live in",
+                "title": "Live and work in the trendiest places",
                 "background_image": "slider1.jpg",
                 "mobile_background": "slider1.jpg"
             }
@@ -182,7 +182,7 @@
         },
         {
             "id": "2",
-            "name": "Office Design",
+            "name": "Salon Design",
             "image": "",
             "description": "",
             "services": [

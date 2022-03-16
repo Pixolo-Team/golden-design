@@ -1,8 +1,8 @@
 /* -------------------- TESTIMONIALS SECTION STYLING STARTS HERE------------------------------- */
 .section6 {
-    display: flex !important;
-    align-items: center;
-    padding: 40px;
+  display: flex !important;
+  align-items: center;
+  padding: 40px;
 }
 .section6-image-part {
   width: 40%;
@@ -14,10 +14,10 @@
   width: 60%;
   padding-left: 60px;
 }
-.quote-icon{
-    width: 40px;
-    height: 44px;
-    margin-top: 6px;
+.quote-icon {
+  width: 40px;
+  height: 44px;
+  margin-top: 6px;
 }
 .section6-paragraph {
   font: var(--font-primary-regular);
@@ -26,19 +26,18 @@
   margin-bottom: 20px;
   line-height: 1.6em;
 }
-.sec6-img-lines{
-display: flex;
-align-items: center;
-
+.sec6-img-lines {
+  display: flex;
+  align-items: center;
 }
 .sec6-mini-img {
-    height: 60px;
-    width: 60px;
-    border-radius: 30px;
-    border: 2px solid var(--color-primary);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: 2px solid var(--color-primary);
 }
 .lines {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .line1 {
   font: var(--font-primary-light);
@@ -50,49 +49,53 @@ align-items: center;
   font-size: var(--font-small);
 }
 
-
 //FOR MOBILE
-@media only screen and (max-width: 697px){
-.section6{
-  display: flex !important;
-  flex-direction: column !important;
-  width: 100%;
-  padding: 0;
-}
-.section6-image-part{
-  width: 100%;
-}
-.sec6-img{
-  margin-top: 50px;
-}
-.section6-paragraph-part{
-  padding: 0 !important;
-  width: 100% ;
-}
-.section6-paragraph{
-  padding-right: 0;
-}
-.section6:nth-child(odd) {
-  flex-direction: column !important;
-  .section6-paragraph-part{
-    padding: 20px !important;
+@media only screen and (max-width: 697px) {
+  .section6 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    padding: 0;
+  }
+  .section6-image-part {
+    width: 100%;
+  }
+  .sec6-img {
+    margin-top: 50px;
+  }
+  .section6-paragraph-part {
+    padding: 0 !important;
+    width: 100%;
+  }
+  .section6-paragraph {
+    padding-right: 0;
+  }
+  .section6:nth-child(odd) {
+    flex-direction: column !important;
+    .section6-paragraph-part {
+      padding: 20px !important;
+    }
   }
 }
-}
 
-//FOR TESTIMONIALS 
-.section6:nth-child(odd) {
+//FOR TESTIMONIALS
+.section6 {
   flex-direction: row;
-  .section6-paragraph-part{
+  .section6-paragraph-part {
     padding: 0 195px 0px 61px;
   }
 }
-
-.section6:nth-child(even) {
-  flex-direction: row-reverse;
-  .section6-paragraph-part{
-    padding: 10px 61px 0px 154px;
+.section-6-scroll-2,
+.section-6-scroll {
+  button {
+    display: none !important;
   }
 }
+// .section6:nth-child(even) {
+//   flex-direction: row-reverse;
+//   .section6-paragraph-part {
+//     padding: 10px 61px 0px 154px;
+//   }
+// }
 
 /* -------------------- TESTIMONIALS SECTION STYLING ENDS HERE------------------------------- */

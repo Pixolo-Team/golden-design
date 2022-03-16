@@ -1,4 +1,33 @@
 /* ----------------------- PROJECT ITEM STYLING STARTS HERE --------------------------- */
+.project-list-tab {
+  margin-bottom: 50px;
+}
+.project-btn {
+  margin: 0 10px 10px;
+}
+.project-specification {
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--color-primary);
+  padding: 12px 32px;
+  font: var(--font-primary-semi-bold);
+  font-size: var(--font-medium);
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  transform: scale(1);
+  display: inline-block;
+  text-align: center;
+  border: 1px solid var(--color-primary);
+  &:hover {
+    transform: scale(0.95);
+  }
+  &:active {
+    opacity: 0.7;
+  }
+}
+.project-specification.active {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+}
 .project-item {
   margin-bottom: 80px;
   .project-img-wrapper {
@@ -85,6 +114,25 @@
         width: 100%;
       }
     }
+  }
+  .project-list-tab {
+    margin-bottom: 10px;
+  }
+  .project-specification {
+    padding: 6px 20px;
+    font-size: var(--font-regular);
+  }
+  .project-btn {
+    margin: 0 5px 10px;
+  }
+  .design-type {
+    margin-bottom: 10px;
+  }
+  .project-details {
+    margin-bottom: 4px;
+  }
+  .history {
+    margin-top: 30px;
   }
 }
 /* ----------------------- PROJECT ITEM STYLING ENDS HERE --------------------------- */

@@ -1,32 +1,32 @@
 var how_it_works = [
   {
-    title: "Consultation",
+    title: "Consult with us",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "This is the first step to our relationship with you. We meet the Customer and discuss your ideas to understand the plan and the scope of work. During this meeting, we also understand the taste and the personality of the Customer.",
     progress: 10,
   },
   {
-    title: "The Floor Plans",
+    title: "Appoint us",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "After we finish our discussions, both the customer and we get an idea if we are compatible with each other. At this stage, you appoint us, Golden Design Interiors as your Designers. Only after we are appointed by you, we can start creating stuff.",
     progress: 20,
   },
   {
-    title: "The Wall Plans",
+    title: "Measurement and Floor Plan",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Now that we are your designers, we come over and measure the canvas that needs to be worked on. We create the Floor Plan for your space, in this plan we include the positions, sizes of the furniture, etc. These can be 2D and 3D design plans.",
     progress: 40,
   },
   {
-    title: "Best materials",
+    title: "Design Development",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "After the floor plan, we move on to the main step, the part where we do the best. We design your space from top to bottom, left to right, we make sure every single inch is properly planned and looks beautiful.",
     progress: 70,
   },
   {
-    title: "Build a home",
+    title: "Execution and Handover",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Once the designs are ready, we start handpicking the materials required for the work. Once the materials are ready, our contractors, plumbers, and carpenters get to the job. We then finally hand over the space to you to start your dream journey.",
     progress: 100,
   },
 ];
@@ -102,8 +102,6 @@ $(document).ready(function () {
     $(".covid-popup").slideUp();
   });
 
-  $(".hero-section").slick();
-
   $(".work-number-link").click(function () {
     resetSteps();
     currentStatusStepCount = $(this).data("steps");
@@ -126,22 +124,55 @@ $(document).ready(function () {
     setTimeout(() => {
       console.log($(this).find(".quaries-answers").children("#plus-icon"));
       // 1 : Check if quris-answers is block or none
-      if ( $(this).find(".quaries-answers").is(":visible")) {
+      if ($(this).find(".quaries-answers").is(":visible")) {
         // If it is block then show minus and hide plus
-        $(this).find("#plus-icon").fadeOut("fast",()=>{
+        $(this).find("#plus-icon").fadeOut("fast", () => {
           console.log("Hi");
           $(this).find("#minus-icon").fadeIn("fast");
         });
         // $(this).find("#minus-icon").delay(100).fadeIn();
       }
-      else{
-        $(this).find("#minus-icon").fadeOut("fast",()=>{
+      else {
+        $(this).find("#minus-icon").fadeOut("fast", () => {
           console.log("Hi");
           $(this).find("#plus-icon").fadeIn("fast");
         });
       }
     }, 400);
   });
+
+  $('.section-6-scroll').slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  });
+  $('.section-6-scroll-2').slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  });
+  $(".project-image-section").slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+
 });
 
 // Client Video - Light Box
@@ -156,38 +187,38 @@ function closeModal() {
 //   $("#light-box-modal").addClass("visible");
 // });
 
-$("#goTop").click(function() {
+$("#goTop").click(function () {
   $("html, body").animate({ scrollTop: 0 }, 2000);
   return false;
 });
 
 //scroll-bar
-$(document).ready(function(){
+$(document).ready(function () {
 
-$(window).scroll(function(){
-if($(this).scrollTop() > 40){
-  $('#goTop').addClass('slide-up');
-}
-else{
-  $('#goTop').removeClass('slide-up');
-}
-});
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 40) {
+      $('#goTop').addClass('slide-up');
+    }
+    else {
+      $('#goTop').removeClass('slide-up');
+    }
+  });
 
-$("#goTop").click(function(){
-$('html,body').animate({scrollTop:0},800);
-});
+  $("#goTop").click(function () {
+    $('html,body').animate({ scrollTop: 0 }, 800);
+  });
 });
 
 //image-gallery
-$(".lb-target").click(function(){
+$(".lb-target").click(function () {
   $("#light-box-modal").addClass("visible");
-  if($(this).attr("data-mediaType") == "youtube"){
+  if ($(this).attr("data-mediaType") == "youtube") {
     let url = $(this).attr("data-url");
     const iframe = `<iframe width=100% height=100% src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     $('.modal-content').html(iframe);
   }
-  else{
-  var imgSrc=$(this).attr("src");
-  $('.modal-content').html('<img class="light-box-image" src="' +imgSrc+  '">');
+  else {
+    var imgSrc = $(this).attr("src");
+    $('.modal-content').html('<img class="light-box-image" src="' + imgSrc + '">');
   }
 });

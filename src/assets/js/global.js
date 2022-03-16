@@ -2,13 +2,6 @@ var data;
 var IMG_PATH_PROJECT = "assets/images/home/_projects-section/";
 
 $(document).ready(function () {
-  $(".section-6-scroll").slick();
-  $(".section-6-scroll-2").slick();
-  $(".project-image-section").slick({
-    slidesToShow: 3,
-    slidesToScroll: 3
-  });
-
   $("html").click(function () {
     $(".mobile-menu-item").slideUp();
   });

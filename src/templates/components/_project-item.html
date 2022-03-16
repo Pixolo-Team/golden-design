@@ -1,11 +1,13 @@
 <!--Project-item Start-->
 
 {% verbatim %}
-<a type="button" href="./projects" class="rounded-button contact-btn">All</a>
-{% for single_expertise in webdata.expertise %}
-<a type="button" href="./projects?c={{single_expertise.id}}"
-  class="rounded-button contact-btn">{{single_expertise.name}}</a>
-{% endfor %}
+<div class="project-list-tab">
+  <a type="button" href="./projects" class="project-btn project-specification">All</a>
+  {% for single_expertise in webdata.expertise %}
+  <a type="button" href="./projects?c={{single_expertise.id}}"
+    class="project-btn project-specification">{{single_expertise.name}}</a>
+  {% endfor %}
+</div>
 {% for single_expertise in webdata.expertise %}
 {% if category==null or (single_expertise.id==category) %}
 <p class="design-type">What we provide in {{single_expertise.name}}</p>

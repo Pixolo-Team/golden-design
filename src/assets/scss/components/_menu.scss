@@ -1,4 +1,10 @@
 /* ----------------------- MENU BAR STYLING STARTS HERE --------------------------- */
+.header-section {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
 .menu-bar {
   display: flex;
   align-items: flex-start;
@@ -7,13 +13,13 @@
   padding: 4px 20px;
   align-items: center;
 }
-.img-logo{
+.img-logo {
   width: 96px;
   height: 70px;
 }
 .logo {
   display: flex;
-    padding: 2px 0;
+  padding: 2px 0;
 }
 .menu-element {
   padding: 26px 16px;
@@ -26,7 +32,7 @@
     border-bottom: 6px var(--color-primary) solid;
   }
 }
-.menu-btn{
+.menu-btn {
   margin-left: 21px;
 }
 .mobile-button {
@@ -47,19 +53,19 @@
     text-align: center;
     margin: auto;
   }
-  .mobile-menu{
+  .mobile-menu {
     position: relative;
     z-index: 1;
   }
-  .mobile-menu-item{
-    position:absolute;
+  .mobile-menu-item {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background-color: var(--color-background-dark);
     display: none;
-}
-  .mobile-menu-element{
+  }
+  .mobile-menu-element {
     display: block;
     font: var(--font-primary-semi-bold);
     color: var(--color-primary-contrast);
@@ -67,16 +73,10 @@
     padding: 10px;
     text-align: center;
   }
-  .hamburger-icon{
-    path{
-    fill: var(--color-primary-contrast);
+  .hamburger-icon {
+    path {
+      fill: var(--color-primary-contrast);
+    }
   }
-}
-header{
-  position: sticky;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
 }
 /* ----------------------- MENU BAR STYLING ENDS HERE --------------------------- */

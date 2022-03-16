@@ -16,7 +16,6 @@
 }
 .project-image-section {
   margin: 57px 0px;
-  display: flex;
   width: 100%;
   .project-bg-image {
     background-image: url("./../images/home/_projects-section/gallery-design.jpg");
@@ -35,7 +34,11 @@
     }
 
     .project-image-lines {
-      background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #181818 100%);
+      background-image: linear-gradient(
+        180deg,
+        rgba(29, 29, 29, 0) 0%,
+        #181818 100%
+      );
       padding: 31px;
       width: 100%;
       transition: padding 0.4s;
@@ -49,6 +52,9 @@
         color: var(--color-text-secondary);
       }
     }
+  }
+  .slick-next {
+    right: 45px !important;
   }
 }
 .rectangular-button {
@@ -84,6 +90,9 @@
     font-size: var(--font-regular);
     width: 250px;
     height: 56px;
+  }
+  .project-image-section .project-bg-image {
+    height: 380px;
   }
 }
 
