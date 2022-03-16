@@ -6,6 +6,6 @@ RewriteRule ^projects controllers/projects.php [L]
 RewriteRule ^project-consumption controllers/project-consumption.php [L]
 RewriteRule ^clients controllers/clients.php [L]
 RewriteRule ^contact controllers/contact.php [L]
-
+RewriteRule ^renew vendor/google-sheet-data/renew.php [L]
 # ^$ checks for empty string to redirect to index
 RewriteRule ^$ controllers/index.php [L]
