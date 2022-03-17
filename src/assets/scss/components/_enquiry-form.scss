@@ -127,9 +127,21 @@ input[type="radio"]:checked::before {
 }
 
 //FOR MOBILE
+@media screen and (max-width: 1100px) {
+  .form-control {
+    margin-right: 10px;
+  }
+  input[type="radio"] {
+    margin-right: 3px;
+  }
+}
 @media screen and (max-width: 697px) {
   .form-title {
     font-size: var(--font-medium);
+    margin-bottom: 5px;
+  }
+  .inq-form {
+    padding: 20px;
   }
 }
 /* ----------------------- ENQUIRY FORM STYLING ENDS HERE --------------------------- */
