@@ -1,5 +1,6 @@
 <!--clients videos section start-->
 <div class="section">
+  {% if webdata.video_testimonials>0 %}
   <div class="client-videos-sec1">
     <div class="clients-description">
       <p class="description-line-1">Listen to our Clients</p>
@@ -36,5 +37,6 @@
   </div>
   <button type="button" name="contact button" onclick="window.location='contact'"
     class="rounded-button desktop-hide">Get free consultation</button>
+  {% endif %}
 </div>
 <!--client videos section end-->
