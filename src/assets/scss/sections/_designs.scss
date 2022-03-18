@@ -36,7 +36,8 @@
   .box-image {
     width: 100%;
     transition: transform 10s;
-    max-height: 310px;
+    height: 310px;
+    object-fit: cover;
   }
   .sec2-logo {
     position: absolute;

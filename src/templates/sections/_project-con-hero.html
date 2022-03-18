@@ -7,7 +7,9 @@
     </h1>
     <p class="hero-sub-head">{{project.location}}</p>
     <div class="project-user">
+      {% if project.client_image%}
       <img class="project-user-img" src="{{project.client_image}}" alt="Project User" />
+      {% endif %}
       <div class="project-user-info">
         <p class="project-u-name">{{project.client_name}}</p>
         <p class="project-u-date">{{project.date}}</p>

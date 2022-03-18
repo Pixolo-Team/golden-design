@@ -1,32 +1,36 @@
 <!--Project-item Start-->
 
 {% verbatim %}
-<a type="button" href="./projects" class="project-btn project-specification {% if category==null %} active {% endif %}">All</a>
-{% for single_expertise in webdata.expertise %}
-<a type="button" href="./projects?c={{single_expertise.id}}"
-  class="project-btn project-specification {% if single_expertise.id==category %}active {% endif %}">{{single_expertise.name}}</a>
-{% endfor %}
-{% for single_expertise in webdata.expertise %}
-{% if category==null or (single_expertise.id==category) %}
-{% if category!=null%}
-<p class="design-type">What we provide in {{single_expertise.name}}</p>
+<div class="project-filters">
+  <a type="button" href="./projects"
+    class="project-btn project-specification {% if category==null %} active {% endif %}">All</a>
+  {% for filter in filters %}
+  {% if filter.shouldShow %}
+  <a type="button" href="./projects?c={{filter.id}}"
+    class="project-btn project-specification {% if filter.id==category %}active {% endif %}">{{filter.name}}</a>
+  {% endif %}
+  {% endfor %}
+</div>
+{% if expertise.id %}
+<p class="design-type">What we provide in {{expertise.name}}</p>
 <ul class="project-details-wrap">
-  {% for service in single_expertise.services %}
+  {% for service in expertise.services %}
   <li class="project-details">{{service}} </li>
   {% endfor %}
 </ul>
 <p class="design-type history">Our History of Designs</p>
 {% endif%}
-{% for project in webdata.projects %}
-{% if project.category==single_expertise.id %}
+{% for project in projects %}
 <div class="project-item">
   <div class="project-img-wrapper">
     <img class="project-img " src="{{ project.image }}" />
     <div class="project-user">
+      {% if project.client_image %}
       <img class="project-user-img " src="{{ project.client_image }}" />
+      {% endif %}
       <div class="project-user-info">
         <p class="project-u-name">{{ project.client_name }}</p>
-        <p class="project-u-date">{{ project.client_image }}</p>
+        <p class="project-u-date">{{ project.client_date }}</p>
       </div>
     </div>
     <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo" />
@@ -40,9 +44,6 @@
   </p>
   <a href="./project-consumption?p={{project.id}}" class="primary-link">View Project</a>
 </div>
-{% endif %}
-{% endfor %}
-{% endif %}
 {% endfor %}
 {% endverbatim %}
 <!--Project-item Start-->

@@ -71,6 +71,8 @@
     display: block;
     margin: 10px 0;
     width: 48%;
+    max-height: 242px;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 697px) {

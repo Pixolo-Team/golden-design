@@ -21,7 +21,9 @@
                 </svg>
                 <p class="section6-paragraph">{{testimonial.content}}</p>
                 <div class="sec6-img-lines">
+                    {% if testimonial.user_image %}
                     <img class="sec6-mini-img" src="{{testimonial.user_image}}" alt="User Image" />
+                    {% endif %}
                     <div class="lines">
                         <p class="line1">{{testimonial.user_name}}</p>
                         <p class="line2">{{testimonial.location}}</p>
@@ -50,7 +52,9 @@
                 </svg>
                 <p class="section6-paragraph">{{testimonial.content}}</p>
                 <div class="sec6-img-lines">
+                    {% if testimonial.user_image %}
                     <img class="sec6-mini-img" src="{{testimonial.user_image}}" alt=" User Image">
+                    {% endif %}
                     <div class="lines">
                         <p class="line1">{{testimonial.user_name}}</p>
                         <p class="line2">{{testimonial.location}}</p>
