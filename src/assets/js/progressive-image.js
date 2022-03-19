@@ -13,10 +13,8 @@ function isElementVisible(el) {
   }
 
   $(document).ready(function(){
-    console.log("Hie");
     loadProgressiveImage();
     $(window).on("scroll",function(){
-      console.log("Window is scrolled");
       loadProgressiveImage();
   });
   })
@@ -29,10 +27,8 @@ function isElementVisible(el) {
     
     $('img[data-src]').each(function() {
       let element=$(this);
-      console.log(element);
         // Check here if element is visible on the screen 
         if(isElementVisible(element[0])){
-          console.log("Element is visible");
             var dataSrc=element.data("src");
             //Element is visible 
             element.attr('src',"assets/images/"+dataSrc);

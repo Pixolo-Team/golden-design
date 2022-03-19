@@ -24,9 +24,9 @@
 
   var defaults, poll, onLoad, inodes
 
-  onLoad = function () {}
+  onLoad = function () { }
 
-  function extend (primaryObject, secondaryObject) {
+  function extend(primaryObject, secondaryObject) {
     var o = {}
     for (var prop in primaryObject) {
       o[prop] = secondaryObject.hasOwnProperty(prop) ? secondaryObject[prop] : primaryObject[prop]
@@ -34,12 +34,12 @@
     return o
   }
 
-/**
- * Check if element is currently visible
- * @param  object DOMElement
- * @return boolean
- */
-  function inView (el) {
+  /**
+   * Check if element is currently visible
+   * @param  object DOMElement
+   * @return boolean
+   */
+  function inView(el) {
     var box = el.getBoundingClientRect()
     var top = box.top
     var height = box.height
@@ -62,13 +62,13 @@
     return top <= document.documentElement.clientHeight
   }
 
-/**
- * Load image and add loaded-class. Loads the minified version, if small display
- * @param  object DOMElement
- * @param  object defaults
- * @return boolean true, if fully loaded; false, if minified version was loaded
- */
-  function loadImage (el, defaults) {
+  /**
+   * Load image and add loaded-class. Loads the minified version, if small display
+   * @param  object DOMElement
+   * @param  object defaults
+   * @return boolean true, if fully loaded; false, if minified version was loaded
+   */
+  function loadImage(el, defaults) {
     setTimeout(function () {
       var img = new Image()
       img.onload = function () {
@@ -79,14 +79,14 @@
           // Load image as css-background-image
           el.style['background-image'] = 'url("' + this.src + '")'
         } else {
-          console.log("Load source ",this.src);
+          console.log("Load source ", this.src);
           el.src = this.src
         }
 
         onLoad(el)
       }
 
-// Load minified version, if viewport-width is smaller than defaults.smBreakpoint:
+      // Load minified version, if viewport-width is smaller than defaults.smBreakpoint:
       if (getClientWidth() <= defaults.smBreakpoint && el.getAttribute('data-progressive-sm')) {
         el.classList.add('progressive--loaded-sm')
         img.src = el.getAttribute('data-progressive-sm')
@@ -97,18 +97,18 @@
     }, defaults.delay)
   }
 
-/**
- * Returns the width of the client's viewport
- * @return integer client-width
- */
-  function getClientWidth () {
+  /**
+   * Returns the width of the client's viewport
+   * @return integer client-width
+   */
+  function getClientWidth() {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
   }
 
-/**
- * Listens to an event, and throttles
- */
-  function listen () {
+  /**
+   * Listens to an event, and throttles
+   */
+  function listen() {
     if (poll) {
       return
     }
@@ -120,21 +120,21 @@
     }, defaults.throttle)
   }
 
- /*
- * default settings
- */
+  /*
+  * default settings
+  */
   defaults = {
     throttle: 300, // appropriate value, don't change unless intended
     delay: 100,
-    onLoadComplete: function () {},
-    onLoad: function () {},
+    onLoadComplete: function () { },
+    onLoad: function () { },
     smBreakpoint: 600
   }
 
-/**
- * Initializer. Finds image-elements and adds listeners.
- * @param  object options
- */
+  /**
+   * Initializer. Finds image-elements and adds listeners.
+   * @param  object options
+   */
   progressively.init = function (options) {
     options = options || {}
 
@@ -157,19 +157,17 @@
     }
   }
 
-/**
- * Loads necessary images in small or full quality.
- */
+  /**
+   * Loads necessary images in small or full quality.
+   */
   progressively.render = function () {
     var elem
 
     for (var i = inodes.length - 1; i >= 0; --i) {
       elem = inodes[i]
-      
+
       if (inView(elem) && elem.classList.contains('progressive--not-loaded')) {
         loadImage(elem, defaults)
-        console.log("Element ***************",elem);
-        console.log("In View");
         inodes.splice(i, 1)
       }
     }
@@ -177,9 +175,9 @@
     this.check()
   }
 
-/**
- * Check if all images are loaded in full quality, then drop.
- */
+  /**
+   * Check if all images are loaded in full quality, then drop.
+   */
   progressively.check = function () {
     if (!inodes.length) {
       defaults.onLoadComplete()
@@ -187,9 +185,9 @@
     }
   }
 
-/**
- * Drops progressively-listeners
- */
+  /**
+   * Drops progressively-listeners
+   */
   progressively.drop = function () {
     if (document.removeEventListener) {
       root.removeEventListener('scroll', listen)
