@@ -16,13 +16,16 @@
         "desktop-layer": "tdy-layer.png",
         "mobile-layer": "tdy-layer.png",
         "layer-background": "text-bg.png",
-        "contact": "9876543210",
-        "mail": "info@gmail.com"
+        "contact_1": "9876543210",
+        "contact_2": "9876543210",
+        "mail": "info@gmail.com",
+        "address": "Panvel, New Mumbai",
+        "whatsapp_contact": "9833216828"
     },
     "sliders": {
         "hero_sliders": [
             {
-                "title": "Live and work in the trendiest places",
+                "title": "The trendiest Living Rooms to live in",
                 "background_image": "slider1.jpg",
                 "mobile_background": "slider1.jpg"
             }
@@ -46,217 +49,267 @@
         {
             "id": "1",
             "user_name": "Abhay Amin",
-            "user_image": "testimonial-img.png",
-            "location": "Office Design at Ghatkopar",
-            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+            "user_image": "https://lh3.googleusercontent.com/rZRUQ-urbDV77Izmw9epTWEBp1RjFASZONXYHTMY4jfkPE2CJDmW3GLoyfI8xlfAGvheZBH8m1ejOVAoaFFBRaIJWpPWS0ccSCFbQwDv42wMVki_jvo3i_Hb_uQ_PqIvc513Ho0Igw=w2400",
+            "location": "House at Ghatkopar",
+            "content": "Golden Design Interiors designed my living room beautifully. The bedrooms look gorgeous, and the bathroom appears to be good enough for me to live in.",
+            "work_image": "https://lh3.googleusercontent.com/GWEXzQnUv2RS7cRLO_QsOf8PRVAyqB_lHjeZaunqf6mMGUhogHsPfTu558v-Z_Ogtnai0KEVqzqt3BbdRnfzuTn25zylhskQ7fNqwpVtPc7__AWdI9peYpVDdtxD5kgBJ0wFfn_gzg=w2400"
         },
         {
             "id": "2",
-            "user_name": "Abhay Amin",
-            "user_image": "testimonial-img.png",
-            "location": "Office Design at Ghatkopar",
-            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+            "user_name": "Poonam Vikhare",
+            "user_image": "https://lh3.googleusercontent.com/MORuIodJyzPZlT6tk4a-g3WMJLKMeF516g1dQIJvI58nnVoDYwEotMN3IEhPrxoZ3QFQadinpCCYNQ11vYXHV87I5MQUzZJPNOjmJr2ppPH0h1oOKZrGpFXYTxwuzp1PBIm-M7loKg=w2400",
+            "location": "Office at Kharghar",
+            "content": "We have a beautiful Office Space thanks to Golden Design Interiors. It looks wonderful now. The colors they used really brighten the space. The designers understood exactly what we wanted and produced it.",
+            "work_image": "https://lh3.googleusercontent.com/SGfICdqCUkE2PDnZptu8a0oxUfXIr3kn-04Fihi7mGRm9ee8YeD1QVJVWyCcoCrLiiv_SmYjdhIwovV0jnpRlzkb8gJtLBPrDI6w8zQRa94YLMaY9UZP5zl0CIBj5odWdpc-p5H5EA=w2400"
         },
         {
             "id": "3",
-            "user_name": "Abhay Amin",
-            "user_image": "testimonial-img.png",
-            "location": "Office Design at Ghatkopar",
-            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+            "user_name": "Jyoti Pandey",
+            "user_image": "https://lh3.googleusercontent.com/VONcHGGwWHPdiGB9V9r3chO0uQGovfQu5yDntMpLrEikHbRjiAlDLSijpdwOnFb2imbhZlDgF74EFS6B7ILEbR-sxjAABwd9L96KTftn-iWcXh6xFwUBaBrPFEYAFF4wmoUhno4L-Q=w2400",
+            "location": "Commercial Space at Thane",
+            "content": "As well as helping my employees focus at work, I wanted my office to feel homely. But I wasn't sure how to achieve this. I am astonished by the results.",
+            "work_image": "https://lh3.googleusercontent.com/DxHEyhREaznkCTclG44w8VcqoDMYbL97QnytEcqyB0qsRAXPgYEAora6KJtvipizZgBNcJGyi5ZzFk40AuHf0VVfMWA7tD-lzGeT5xi66y2-hx79Vkw29ybp2KL-NMOkE0wegvxh4A=w2400"
         },
         {
             "id": "4",
-            "user_name": "Abhay Amin",
-            "user_image": "testimonial-img.png",
-            "location": "Office Design at Ghatkopar",
-            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+            "user_name": "Aliya Khan",
+            "user_image": "https://lh3.googleusercontent.com/bIc7ym-kaz4cqMDgi4XBpBGWq1zWBpvNGKMZ7qHccH92yrA8Qa_PWMDzIQmz13zDVHf_WMOGxlruuZKD8LJX9L0wUqYFtxRwQ76iFFNXTgItQJYkmAMP6B_eIxjdrnliXXnav6xPxg=w2400",
+            "location": "Residential Space at Govandi",
+            "content": "For myself and my cats, I needed a cat-friendly area. Since I own 2 cats, they need a separate area. Having my home built by such talented designers made me fall in love. It caused me to miss work.",
+            "work_image": "https://lh3.googleusercontent.com/tmk8SEsFNMKlBX0jY0vV2Iw06_nxsPHqk4DAg8gHMu5vVbu6zVSOc9V40_HXAavIphc8cTqOD0XUE9e0JRMzBTU-WRob62pIvnVpDdSGkzC8XLUVGseDOkEAqT-TOGPGPfSlZOCI_g=w2400"
         },
         {
             "id": "5",
-            "user_name": "Abhay Amin",
-            "user_image": "testimonial-img.png",
-            "location": "Office Design at Ghatkopar",
-            "content": "Golden Design Interiors created a beautiful Office Space for us. The space looks really ood now and amazing. The colors they used reall lit up the place. They clearly understood our requirements and produced exactly that."
+            "user_name": "Pooja Yadav",
+            "user_image": "https://lh3.googleusercontent.com/n8NnqeVeyiqK2ipAw4BhePxVMqXQz10kVjJycRqUg-Hme_0H7H7hL058qidjA_MUAvx0IcAYYs_bj8gpoP5YTUoGsdh135gmg1fp-NseXHZ_l9poMutP2qAGf2TP2snJpEnX5YQqzg=w2400",
+            "location": "Salon at Bhandup, Mumbai",
+            "content": "My salon opened in Bhandup. There isn't much room, so I wasn't sure what I could do. The place now appears to be twice as large as when I bought it. Moreover, it is very bright.",
+            "work_image": "https://lh3.googleusercontent.com/ZLmQTWAYVfmtMP_c3iHIXIOY8b92L9A9cZBImUdbrmZCw8sxJnUpdkqSBuWCOzOb4cLEuZpb7GIjM15FgMZTT_hwITmpZeHJrykYlIZk8yNnwI9zTh7XtipdAl74zjwAc82bwEw0PQ=w2400"
+        },
+        {
+            "id": "6",
+            "user_name": "Princeton Gomes",
+            "user_image": "https://lh3.googleusercontent.com/hyBEMrHnd2dT5ajxBSqcKHqvkXDLP4zj_tgzpHV3hrQRYINwkLK_Vkg3NimveZ5ogM6WwLzc1YzpfV_aYEV9y-EQbc5E7fq5LnTjZ9uMbztzYk-xJ4Wmvu4VMrt5TN5pfPkHm0daPA=w2400",
+            "location": "Bunglow in Lonavala",
+            "content": "The property I purchased for AirBNB is in Lonavala. Due to the vast amount of competition, my home wouldn't stand out if it wasn't unique. All I can say is, I have taken all the business in my area, just for the way my Bungalow looks.",
+            "work_image": "https://lh3.googleusercontent.com/-cl9MqZqy6qfHlmosaHKQL7vlSp_W3rC3BC7rYVhzn0X-xLXBBmJNuznUTV4MtpMgdl7TWyDiNoejQCtxjdK7Sage4QZvgAJlxV4rx1dxsDUyxcuT2tj5d44NWXT4cArR4NxFJ_K6w=w2400"
+        },
+        {
+            "id": "7",
+            "user_name": "Vinita Gujja",
+            "user_image": "https://lh3.googleusercontent.com/Nu_ylAGhEQk48wTboxbeaqiZrv3ETGmOW_CHPGm9zt9ht-CPN8U8O1lKdYGjwW0BcTUkPISz5I1eh2NI1t7CtMMkFfNMpOTYGJUl0W8HEd9eur86QYlY-r0iqpOpoIoQO3RFguRTFQ=w2400",
+            "location": "Showroom at Borivali",
+            "content": "Building a showroom for my new facial cream brand was my first step. Imagining a Facial Cream showroom, I thought of a very upscale market. Thank you for coming up with such a great idea. Golden Deesgin is definitely one I would recommend to others.",
+            "work_image": "https://lh3.googleusercontent.com/K_JekLuYJvXeVZAYxXA02y_OK_imjsy5cMkUevMgxFK8BlF6uVACtHZ2UuI2EZ1PBrX5LpZ-y6bdl1CVWBJFLoesl_bSRHHSKjF8E28ADwYaXEgGP5Y3KumN-O8ETMT8jGr00P-xBg=w2400"
         }
     ],
     "faqs": [
         {
-            "question": "What is a Futures Contract?\n",
-            "answer": "A Futures Contract is an agreement between a buyer and a seller to buy / sell a security in future (on the Expiry Day) at an agreed price. In case of a listed security, the agreed price is the traded price in a stock exchange (Exchange).\nCan the buyer / seller extinguish his side of the contract before the Expiry Day? Yes, he can by liquidating his position, fully or partially, in the Exchange."
+            "question": "Tell me about your catalogue products",
+            "answer": "To make your life easy, we have curated over 2.5 lakh products onto our catalogue. We’ve our own branded products as well as some of the best-in-category brands from India and abroad such as Gulmohar Lane, Rug Republic, Hettich and Hafele to name a few. From sofas, beds, chairs, tables, lighting and appliances to kitchens, wardrobes and storage units, you can find anything and everything for your home project here. "
         },
         {
-            "question": "What is the Expiry Day?\n",
-            "answer": "Expiry Day is the last day of the Settlement Period. On this day, all outstanding\ncontracts (except the Indices Contracts, or the options contracts where the\nContract Value has become zero) of that Settlement Period are settled through\ndelivery. (Seller to give delivery, while Buyer to take delivery at the agreed\nprice.) In case of Indian Equity Derivative markets, the Expiry Day for the most\nInstruments is the last Thursday of the month. Settlement Period therefore\nusually starts from the last Friday of the month and ends with last Thursday of\nthe next month. For example, if last Thursday of the month is on 27 th January,\nthen the Expiry Day would be on 27th January and the next Settlement Period\nwould start on 28 th January. However, if the last Thursday is on 31 st January,\nthen the next Settlement Period would start on 1st February."
+            "question": "What services do you offer? Why should I choose them?",
+            "answer": "Our services include civil work, custom furniture, false ceiling, flooring, tiling, cladding and so much more.\n\nWe consistently deliver high-quality interiors because we’ve a 100% in-house team, whose work we stringently monitor based on a 146-quality checklist. And that’s why we can even give you a full home warranty!"
         },
         {
-            "question": "What is the Lot Size?\n",
-            "answer": "Unlike in the equity market, trading in equity derivative markets takes place in\nLots. Lot size of a security is the minimum quantity in which the security can be\ntraded. For example, if the lot size of Reliance is 250, it means the Futures and\nOptions contracts of Reliance can be traded only in the multiples of 250.\nLot Size multiplied by the price gives us the Contract Value. Lot size multiplied\nby the Marked to Market (MTM) gives us the Profit / Loss Per Lot."
+            "question": "I understand orders, but what is the execution milestone?",
+            "answer": "At the execution milestone, 40 - 50% of the work in terms of the order value, is completed. Once the order reaches this milestone, the balance payment is due. "
         },
         {
-            "question": "\nWhat is Margin?\n",
-            "answer": "Margin is the amount which a buyer or a seller in a contract has to keep with\nthe Exchange before executing a Futures Contract. The Margin is specified as a\npercentage of the contract Value. The margin percentages are changed daily or\neven intra-day. For example,\n\nLot size of Reliance is 250\nPrice of reliance       Rs. 2000\nTherefore, the Contract Value = Rs. 5,00,000\nMargin % =20%\nMargin on one contract of Reliance = Rs. 1,00,000."
+            "question": "Do you charge a design fee?",
+            "answer": "Yes, we do have an 8% design and management fee. This fee covers the services of your designer, your project manager, and much more!"
         },
         {
-            "question": "\nWhat is Open Interest?\n",
-            "answer": "Simply stated, Open Interest is the number of outstanding contracts in Futures\nor in Options multiplied by its Lot Size. Every Instrument in Futures has Open\n\nInterest. Similarly, every Strike Price for an Option Contract has Open Interest.\nOpen Interest would undergo change as under: -\nExisting buyer sells to a new Buyer, Open Interest would not change.\nExisting buyer sells to an existing seller, Open Interest would REDUCE.\nNew Buyer buys from a new seller, Open interest would INCREASE.\nChange in Open Interest is a significant indicator of likely price movement in\nthe stock. Generally speaking, an increase in price with increase in Open\nInterest would mean the stock is bullish. Increase in price with decrease in\nOpen Interest would mean profit booking in long positions, or unwinding of\nshort positions. Decrease in price with increase in Open Interest would mean\nthe stock is bearish. Decrease in price with decrease in Open Interest would\nmean profit booking in short positions, or unwinding of long positions."
+            "question": "Can I get just get a part of my home designed?",
+            "answer": "Of course! We’d be happy to design just a part of your home for you - say a modular kitchen or living room or your kid’s bedroom. Get in touch with our designers. They can guide you through the process."
         },
         {
-            "question": "\nWhat is an Option? What is Call Option? What is Put Option?\n",
-            "answer": "An Option gives right to the option holder to buy or sell a stock at an agreed\nprice.\nIf you are bullish on a stock, you would pay premium to buy a Call Option.\nIf you are bearish on a stock, you would pay premium to buy a put option.\nIn case of an Option contract, your loss is limited to the extent of premium\npaid. But you gains are unlimited.\nTo facilitate smooth trading in options, each security has multiple Strike Prices.\nFor example, Nifty current Value is 17800. It would have Strike Prices from\n12000 to 20000 (or even beyond) for Calls and Puts.\nIf you are bullish on Nifty, you can buy 17700 Call (called In the Money Call), or\n17800 Call (called At the Money Call) or 17900 Call (called Out of the Money\nCall). Of course, other Strike prices such as, 17750, 17850, 18000, 18100 and so\non, are also available. Buying higher Strike Prices for Calls would mean lower\noutgo of premium, but with lower probability of earning profit, and vice versa."
-        },
-        {
-            "question": "What is Options Writing?",
-            "answer": "Options writing is the reverse of Options buying. The Options Writer sells a Call\nor a Put and pockets the premium. His gains are limited to the extent of\npremium collected, but his losses are limited.\n\nNeedless to state, Options writing carries high degree of risk and should be\nundertaken after thorough study and of course with strict stop loss."
-        },
-        {
-            "question": "\nHow can I trade in Options?\n",
-            "answer": "Multiple Options Strategies can be devised (examples below are for Nifty):-\nNaked Call or Put :- Buy 15800 Call (Higher Calls if you are not very sure) or 15800 Put (lower Put if you are not very sure)."
-        },
-        {
-            "question": "\nWhat does Bull Call Spread mean?\n",
-            "answer": "Buy 17800 Call Sell 18000 Call. Your gains and losses are limited."
-        },
-        {
-            "question": "\nWhat does Bear Call Spread mean?\n",
-            "answer": "Sell 17800 Call Buy 18000 Call. By Selling 17800 Call you pocket the premium\nbut expose yourself to unlimited losses. But buying 18000 Call serves the\npurpose of putting cap on your losses."
-        },
-        {
-            "question": "How to Buy Straddle?\n",
-            "answer": "Buy 17800 Call and 17800 Put. You pay premium on Call as well as Put. This\nstrategy is extremely useful, when an important event is round the corner, or\nwhen you expect significant movement in Nifty on either side. This strategy is\nalso useful in case of high beta stocks which are slated to declare their results."
-        },
-        {
-            "question": "How to Sell Straddle?\n",
-            "answer": "Sell 17800 Call and Sell 17800 Put You employ this strategy, if you expect Nifty\nto be range-bound. This strategy can be gainfully employed in the Weekly\nExpiries of Indices, when the market is expected to be range-bound."
+            "question": "I’m afraid I’ll have to cancel my project. Will I get a refund?",
+            "answer": "We’re sorry to see you go. But you sure will get a full refund, as long as the site measurement has not been done. Once site measurement is completed, the applicable refund is dependent on the number of days since the booking of the project "
         }
     ],
     "clients": [
         {
             "id": "1",
-            "title": "Designing of the most famous Ice Cream Chain",
-            "logo": "lg.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "title": "Daikin",
+            "logo": "https://lh3.googleusercontent.com/3DlewcrXPmToJLLCoArnZLJOjGoYZtTLL0eYk-Dl2ozJ7d77rxRu2ngkm6eSrG-V35o8RCjuJs5K4oFOit2lL3U87wK34ZYlM5UEEYDGjffhQgYxJz1piUCb_EBAvYCjuXU00XVwBQ=w2400",
+            "description": "Daikin Industries, Ltd. is a leading innovator and provider of advanced, high-quality air conditioning solutions for residential, commercial, and industrial applications.",
             "other_images": [
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg"
+                "https://lh3.googleusercontent.com/KwhWPU1EYp2EFStAjYGIdRjujuBNxGKsAiOJsJW3PeAgcdwniWxuhzZafiiwBOVIKg9WbMQudO_6xO-jQftTL-EjNiEr6VDR7vjcSJvmpAabB1f1C07Hi-0N4c4Gg55nseCl4LLiTw=w2400",
+                "https://lh3.googleusercontent.com/bMKAFQG7Ynx5VT30swK9f2grg_u1TkmylMdf4xeEZ0TITwxGoxSszmXsUHPL4vgAkLTHKscfFf0LPZ0SLygSaxroH6boeT-roUunf662WsCNMnATm89bt1KGqXlp3vJLYIx06daXbA=w2400",
+                "https://lh3.googleusercontent.com/GRdSY76gu_oSqkLzQSZCZFnKO_7QMdvr065cUjPHpcHVn447KOJT739hVnd3WjDFcE1-DSfnFTD91O5mewll9sdJw7au3J3GEY8PiOPhgBCd-ANkrVBNwBgPWsatpKbY7XXKTDJWKg=w2400",
+                "https://lh3.googleusercontent.com/gyvxCNetA7jXpeabDJVRuErI2azAjFA_m-AIXsoirgo5GJdeilTs4sa99qXa46hl6hs6Bq0BYgovsDMyq0qo943-qOSrwjjh4KD6Kb4sVpTUXsJv8fGbXI_h5IfRKu9tNGXWcBsL0A=w2400"
             ]
         },
         {
-            "id": "1",
-            "title": "Designing of the most famous Ice Cream Chain",
-            "logo": "lg.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "id": "2",
+            "title": "LG",
+            "logo": "https://lh3.googleusercontent.com/wR0P3OV0wakTN71BzeL26iR-jpT-TWItx_4-sbo2DuMntMq27zJk5n-kUJnlc2fhPVwl-HLpHNIGxhENusmFsf_hxDMouzyUHb1FYMpq5KWaslPb9V37zdpYNXa7Y2bb4i_AdovOBQ=w2400",
+            "description": "Explore the latest range of consumer electronics today from LG India including OLED TVs, Smartphones, ACs, Washing Machines, Fridge Freezers & More.",
             "other_images": [
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg",
-                "the-inside-of-the-shop.jpg"
+                "https://lh3.googleusercontent.com/Wt8HF2sUyRtTwcWdm-BStB5KUGyq04gZuzH3RKF4_uK2J3jXcgFYXGJvGSg-gU4gl3EFAeHgXux0S5xsiqgmsdmkkjL_xtuDkJA--v_WaeLsscR_JpHInNSFIz93jLQTVtJqSrvgBA=w2400",
+                "https://lh3.googleusercontent.com/NCBgaXsrhn2kHq18jXT0dt3UmrT5AWYSIUkz_17U3bDLRJz1iIA7St2FHD4UBfuBZR9lIhA7rWlv5e_hovb2qFlXwyjgE2hP2jiTQgqyAagRgjWS1n9Lj0YQIJITnyYQ3nzVDkpggA=w2400",
+                "https://lh3.googleusercontent.com/aG-kWV3lRtFkoyt2wDYzfMlyBvbq6dULvycHMo2eRiMC3S6YmMJYRafeu3xhXMFnU0PU1m7xNI5mvWbq8msfRlUq0Yo8Z5bhNwSWvqGNuI4kWH7kOX5xLEqIya4L2UfEg1DysEz0Ew=w2400",
+                "https://lh3.googleusercontent.com/RThoZMEdZ-EPJW3qThbjflXf20kHYyFZE1jCbydbF8NF8SyjWghWWo0dKdMDvcCJAdpWlmAxT6JYLb4Rq8kmoHJ7lxDHBXKY5m5YaX2mwOEkgywyPAwVn3FGk5BWStj9aCY9d2ypSA=s250-p-k"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Voltas",
+            "logo": "https://lh3.googleusercontent.com/AM8A3Hbmr6BhKyXmjFU1D2okugBD5maQRwIp8kWwIkxV-i36yzssdmNZZoVdLH7uIk8zxG8l7UKEMKuzvppc4YX1mENon7eWaeGPOW9oRLyyInfahes93TYOLKa2i44pIt2QHi-Q5g=w2400",
+            "description": "Voltas is leading cooling appliances brand in India which sells best AC like Voltas ac 1.5 ton up to 5 star, Air Coolers & Commercial Refrigerators. India's product available at affordable price.",
+            "other_images": [
+                "https://lh3.googleusercontent.com/v7-IdtyR1VcTZgOajniISVL97Fw1ic2She-zHDa8akamZ9Ncq7cCI7hO7FJWZCpQzGGWwrMA8Pj2ubsxSphhRASAqBLrjCibichwKcTRkEBkcsQ2--F5d3v9Uxeb0tEKGrYJkAFKrg=w2400",
+                "https://lh3.googleusercontent.com/4O3gfoNJo6OrfWLmNHZDGpq8U2EaZswvljxkieYgcMaAAY-0yjy6rF-JqV8Emfg5sQqg5cI_0iZWj8gYA1aqlxrKM45NhXn3Vz5vESTrR04bJt24P2wWaXsrySpP9AdvsU11ithq2Q=w2400",
+                "https://lh3.googleusercontent.com/2cdHgWDxcKxxAutG9YdhAGeRb59U_wTQ9L5BkyI7LIIUy-XzTymr0C7OpjNEgpBz3Uj0JPxUmF6p1ekdCkabJBQN5MS_6joe7IxWRrZmevH9VyoyeHpAANVIa46X1dxxBxHQhCJ8oQ=w2400",
+                "https://lh3.googleusercontent.com/86psrIH_46sxdALamWF-kBkXpKtF5p8MCykIyqin6y-ppRtbN4hW5QVnIZmxhb6eVKfSDKJQUQM__JsS1P3O0G1Dr4CoQknEe1cwB5TYx61LMvpfKQn2UwufQQoADk5ylrg63HGhGA=w2400"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Sparx",
+            "logo": "https://lh3.googleusercontent.com/CFP6lXMAj6Vily1GcDh4_HCwCy0jOYYQilufBYl_jtPAiMjMKX1_q2fLnyuc1-AJCZnE1WwsF3bwYBOYNHWnB39iwVrZZQWgWpkpeTsYbj3Jypi03XBPEt3c6hw7S5X69-ut0lcxsQ=w2400",
+            "description": "SPARX Group Co., Ltd. is an independent Asia-based equity and credit asset management services and Asian fund financial specialist with offices in Tokyo, Hong Kong and Seoul for global institutional and individual investors, including financial advisors and financial planners, with alternative strategies (including activist, short-enabled, private equity and quantitative and fund-of-funds) and mutual funds (through SPARX Asia Funds such as SPARX Asia Pacific Opportunities Fund, SPARX Asia Pacific Equity Income Fund, SPARX Japan Smaller Companies Fund and SPARX Japan Fund) managed or sub-advised by SPARX Asset Management Co. Ltd., SPARX Asia Investment Advisors Limited and Cosmo Asset Management Co., Ltd.",
+            "other_images": [
+                "https://lh3.googleusercontent.com/-SS_8tjtMjPam43m1d220d3KvuNpVyLqdjnMih186Cm6oFLjo_LbBLphaLwUa9WQckrsA8A3Tnvi8ersgnLwTkHXbvOU_cs7IfEB89F9GtLcouVxLdT8GVJi84yVW_gb34EKcKsDcg=w2400",
+                "https://lh3.googleusercontent.com/5svrnq9p1JfAteGSF3Gm80uYEqPyC4n-CfXgdPvNI5RDvdwW1qjAaZb5pXkhTWyCqrC4348QEj0GHhYUOHlBn06MBLk6g9j5SE5M35Tun8dAvcFcTeCLJVycAdZOlppNGjeLeI0e3Q=w2400",
+                "https://lh3.googleusercontent.com/ACZQg_acQ6ij6rDn1IwZY7iiXcicm-2qqOyXizcaSvtTbgCt0Eqhz-BdoNsyJ5soh5hNIEPa9veOcRICb2J48c1o_0slQdldFd3j0BebJ0eHE7WjAQNwR5H9Ppjq1XoHdKlC5cXFPw=w2400",
+                "https://lh3.googleusercontent.com/8WyP8s-Uh1BeqXZJOyQnOrdxmGSGyTUZvG3_eRNOJaFpxUZn4jP9L8IQBhIpfQUwiNKvTo1NQGAOwT8-9S4PM2B6_hQOtwl4H-lDrPu9bhMHpYV0vvKD1AK0i2OrozqtikunBkH7dg=w2400"
             ]
         }
     ],
     "expertise": [
         {
             "id": "1",
-            "name": "Residential Design",
-            "image": "",
-            "description": "",
+            "name": "Residences and Bungalows",
+            "image": "https://lh3.googleusercontent.com/4NW5EE3x5qiB1RNGh3XIEtgr5IYcQOSNl5vLDK5ABez2vO-R3Bygm4jbm-rHxKg1zEqzys6O_wE_SKf8kJkm5MTKjwMFnHzRzJMw62vTazTv9cJInRrp4OdbiYQ_dm5oDw91aRzdRQ=w2400",
+            "description": "The living room is the place where we truly live. Your house is the place where you make memories with your family and friends. Who doesn't want those memories to look good?",
             "services": [
-                "We make something in home",
-                "We make something ",
-                "We make something "
+                "We design new bunglows, Villas etc",
+                "We work on renovation projects",
+                "We design Apartments, 2bhk, 3bhk, 4bhk we have done it all.",
+                "We can design small and effective spaces",
+                "We provide furnitures, plumbing, and tiiling too."
             ]
         },
         {
             "id": "2",
-            "name": "Office Design",
-            "image": "",
-            "description": "",
+            "name": "Office Environments",
+            "image": "https://lh3.googleusercontent.com/4F7ap9G1cQXR6XqXMie_1QKVQNbVP8Wczl3DFGm4jsNou2D2ydIkaxRlEZFrKYNvMsw9hxZZMt01FxWLU-TFC8LlxTY7fNtLdyCevkbOqoKO8bappAfTkkKcZBwhUPGs1lYIRrU74w=w2400",
+            "description": "We earn our living in offices. It is imperative that the environment is calm and pleasant for you to work effectively. We create those environments for you.",
             "services": [
-                "We make something in home",
-                "We make something ",
-                "We make something "
+                "Office environments with desk setup",
+                "Executive Cabins designed to perfection",
+                "Themed Office Spaces",
+                "Small or Large spaces",
+                "We provide customised furnitures too."
             ]
         },
         {
-            "id": "2",
-            "name": "Salon Design",
-            "image": "",
-            "description": "",
+            "id": "3",
+            "name": "Salon Spaces",
+            "image": "https://lh3.googleusercontent.com/X-A0RB-8ZlzlN9rPwqjNM4aPZfTHL4QyNsdJLmtKqchmIiOvK6hrCiFL-oPxAcd1JHmVPJQ5D6BpN8_iPkGsHwRUW7u15sSN5TwPdFu2Ppq1o4phpQt78Uz98d-H6TNqkxJLSXAtCw=w2400",
+            "description": "When we want to look good, we go to a salon. Then why shouldn't the salon also look good? We are the Salon for you Salons, we give them a makeover.",
             "services": [
-                "We make something in home",
-                "We make something ",
-                "We make something "
+                "We desgin Salons from scratch",
+                "We made Floor plans and Wall Plans",
+                "2D and 3D Designs before starting the Project Execution"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Showrooms",
+            "image": "https://lh3.googleusercontent.com/A8MTPAd56inn6ib-JHALA-3gkxI0hnOcc2bdQH6YxnOaBqsBn1MHQadHNV8fooUyNL3Un8aPPd9bl9U7_gtQpbYTOzRpIun2jrWxEP2VqR1XOzwmxs1Ywsrg_V3zg-88Ib7XaK9GNQ=w2400",
+            "description": "Showrooms are where we display our products. Golden Design Interiors makes your products stand out. We understand the value of presentation.",
+            "services": [
+                "Showrooms with proper presentable areas",
+                "2D and 3D Designs before starting the Project Execution"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Hospital's & Hotels",
+            "image": "https://lh3.googleusercontent.com/FbCFLiQwYKaaPzcRb6jUZ07UWr2nasSOfCNn7LPL95wqjMzhGRGj8We7YUrZSY7kYUMiNgzlpXBL3jbS6mR7OJ4l7L9UDigO-7zcsOfZKGAnKpSEeWMbswg9BY77YvBdDw6W7N_XdA=w2400",
+            "description": "Although we can't prevent people from getting sick, we can make them feel at home. Hospitals require design as well. In addition, great food deserves a great atmosphere.",
+            "services": [
+                "We provide furnitures, plumbing and tiling too.",
+                "Design with good qualuty",
+                "Service is most important for us"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Other Spaces",
+            "image": "https://lh3.googleusercontent.com/5-N38wXCqaNIEi_XymXZ9vyGDFqU-l27Li60YEF9fzk_0VJzhGSCzL2t9Tpo8VoRDmLgExwjh0Fd-GgrGf33RWE_ZebqDfy7xhLNhSe4831Rwp6mLgufMawGe6rSarlxqVkYSZv30A=w2400",
+            "description": "Sometimes it's hard to say what might need Interior Design. We design any and every space worth living. Click below to know more.",
+            "services": [
+                "We provide furnitures, plumbing and tiling too.",
+                "Service is most important for us"
             ]
         }
     ],
     "numbers": [
         {
-            "title": "residential",
-            "value": "150"
+            "title": "Residential",
+            "value": "70"
         },
         {
-            "title": "commercial",
-            "value": "150"
+            "title": "Commercial",
+            "value": "61"
         },
         {
-            "title": "total projects",
-            "value": "300"
+            "title": "Total Projects",
+            "value": "152"
+        },
+        {
+            "title": "Cities",
+            "value": "12"
         }
     ],
     "ads": [
         {
             "id": "1",
-            "title": "Modular kitchen",
-            "description": "test modular ",
-            "category": "1"
-        },
-        {
-            "id": "test.png",
-            "title": "test.png",
-            "description": "test.png"
+            "title": "Residential Designs like never seen before",
+            "description": "We design apartments, unglows, villas of all shapes and sizes and give them a heart.",
+            "category": "1",
+            "images": [
+                "https://lh3.googleusercontent.com/K_JekLuYJvXeVZAYxXA02y_OK_imjsy5cMkUevMgxFK8BlF6uVACtHZ2UuI2EZ1PBrX5LpZ-y6bdl1CVWBJFLoesl_bSRHHSKjF8E28ADwYaXEgGP5Y3KumN-O8ETMT8jGr00P-xBg=w2400",
+                "https://lh3.googleusercontent.com/K_JekLuYJvXeVZAYxXA02y_OK_imjsy5cMkUevMgxFK8BlF6uVACtHZ2UuI2EZ1PBrX5LpZ-y6bdl1CVWBJFLoesl_bSRHHSKjF8E28ADwYaXEgGP5Y3KumN-O8ETMT8jGr00P-xBg=w2400",
+                "https://lh3.googleusercontent.com/K_JekLuYJvXeVZAYxXA02y_OK_imjsy5cMkUevMgxFK8BlF6uVACtHZ2UuI2EZ1PBrX5LpZ-y6bdl1CVWBJFLoesl_bSRHHSKjF8E28ADwYaXEgGP5Y3KumN-O8ETMT8jGr00P-xBg=w2400",
+                "https://lh3.googleusercontent.com/K_JekLuYJvXeVZAYxXA02y_OK_imjsy5cMkUevMgxFK8BlF6uVACtHZ2UuI2EZ1PBrX5LpZ-y6bdl1CVWBJFLoesl_bSRHHSKjF8E28ADwYaXEgGP5Y3KumN-O8ETMT8jGr00P-xBg=w2400"
+            ]
         },
         {
             "id": "2",
-            "title": "Modular kitchen",
-            "description": "test modular ",
-            "category": "2"
-        },
-        {
-            "id": "test.png",
-            "title": "test.png",
-            "description": "test.png"
+            "title": "Office Designs to make places where work really happens",
+            "description": "Give your employees the positive vibes they need while working hard on the job.",
+            "category": "2",
+            "images": [
+                "https://lh3.googleusercontent.com/Ff80BuMjVhFxBl6j6kcRAXvkkJDGGgRckj6SIk0BH_jvWWywDRFnzfergG2lmR97rw15IWtNrTVuhe1qR8V_ykTZxxfzpuZmgJrhi6z1XuRhc01euyFaGLehEa8W3yw1ejdVA0RgxQ=w2400",
+                "https://lh3.googleusercontent.com/Qyta7UFNRugfEGOKeA-iXlOLOSb74W5JfNHDOytaQQAP6dOBsB77tHoZ56Pga6JyinOkzi29DWN07zeO8kB3TZUbxY18rqBTZmDfuUDOYCaqyKX8ee8WY94nDMyHmQ0czej0oOo3cw=w2400",
+                "https://lh3.googleusercontent.com/gYowso3rV8tEK_0NHqiLaA7ZPRkNnTJbZfwsrYjffmi7ISUye9yYPgobQ3Z3QgkgGQGU3NpLenpTrSVz6lOd7qncoEK1mmWlj04b3RDHMc9CSXe9k3Fdm-BxCJOZApL8IHRFINxy2g=w2400",
+                "https://lh3.googleusercontent.com/Ccuk8R5aOjRppO0-y-9mY87TQmPiqyJvM0huCcW4q6SODpJ3Xuv4XnwZh3eeBRl6kwmu6lWy3lN5LnVbg8v2YP0b2hvl1Jwy9Cjm4kTdL4Uy-UGIQMTTOauLP6wFtOsNdXeHiIaopg=w2400"
+            ]
         },
         {
             "id": "3",
-            "title": "Modular kitchen",
-            "description": "test modular ",
-            "category": "3"
-        },
-        {
-            "id": "test.png",
-            "title": "test.png",
-            "description": "test.png"
+            "title": "Salon's are where people come for a makeover",
+            "description": "We design trendy and beautiful looking Salons to make your customers happy.",
+            "category": "3",
+            "images": [
+                "https://lh3.googleusercontent.com/S_mIsCKXWEBQ_7hRL1GF3p_MRMMVqVDIAkHTlXc1yr--Z_ibuqJ-tN60Y5I90RpmZ5H2T90iOB-wTrVlHBS60B10OxcrhACrl_nbt3_ggG04AVgF-JhTFsMymRVmxjoLTxWV_5jgqA=w2400",
+                "https://lh3.googleusercontent.com/E4hgmEX0tdmxUv1OUMyK-iOwHp2qt0x0ZUsZVqDBuVebtpSmvdKZ9Aq-dsAQuiAND5O3wembaruyb3NVvKA22r2IB-tMuqODMWIR6DyUiXAWDZfhgyMSoGXZt6v44DNpvM6p06wuaQ=w2400",
+                "https://lh3.googleusercontent.com/hSbaGI3gNUtUe75o0qgOyBc_Hiaj8xeApggtjAmaBo-YpDwa4Xq8w9uSp6PrzDVOt1Mhn_xh3uaMVHjnkJPWWEo0DzLV94gOhOOCsUCTVIzlwlw28yIqBb-5vi9XfvXFEQBnr6rbpw=w2400",
+                "https://lh3.googleusercontent.com/6hqXEsWuoQxqpqB3TvX4ADDpUGd9KiZ-x4WRcg0hNSuS2Tm3MaoT1Q4NOf2Hgxsfi79fa4nsXmB4y3RFFOw3NQKo9CXyq6OwMDtlLJXW3oroK-9Q3RaZnu83n9khXtSgU9r3dKHrLw=w2400"
+            ]
         }
     ],
-    "video_testimonials": [
-        {
-            "id": "1",
-            "client_name": "test",
-            "location": "test location",
-            "description": "test description",
-            "thumbnail": "test.png",
-            "url": "https://youtube.com"
-        }
-    ],
+    "video_testimonials": [],
     "client_logos": [
-        "lg.png",
-        "daikin.png",
-        "adda.png",
-        "voltas.png",
-        "sparx.png"
+        "https://lh3.googleusercontent.com/CFP6lXMAj6Vily1GcDh4_HCwCy0jOYYQilufBYl_jtPAiMjMKX1_q2fLnyuc1-AJCZnE1WwsF3bwYBOYNHWnB39iwVrZZQWgWpkpeTsYbj3Jypi03XBPEt3c6hw7S5X69-ut0lcxsQ=w2400",
+        "https://lh3.googleusercontent.com/AM8A3Hbmr6BhKyXmjFU1D2okugBD5maQRwIp8kWwIkxV-i36yzssdmNZZoVdLH7uIk8zxG8l7UKEMKuzvppc4YX1mENon7eWaeGPOW9oRLyyInfahes93TYOLKa2i44pIt2QHi-Q5g=w2400",
+        "https://lh3.googleusercontent.com/wR0P3OV0wakTN71BzeL26iR-jpT-TWItx_4-sbo2DuMntMq27zJk5n-kUJnlc2fhPVwl-HLpHNIGxhENusmFsf_hxDMouzyUHb1FYMpq5KWaslPb9V37zdpYNXa7Y2bb4i_AdovOBQ=w2400"
     ],
     "projects": [
         {
@@ -264,9 +317,9 @@
             "title": "Relaxology Salon",
             "location": "Panvel",
             "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/1JhMEj0NlFWdasE6TwQPnpA0XMO4sFwLYsKpW65dpPqfCGtc7uply7nbrIC_Pjcj1Mt5rezaRERG5AyllrNyMG3TtOqq-5svIAMhqTeNlvNEAg6xGciKlPo787kkN52sAB7c8nCGgQ=w2400",
+            "category": "3",
             "client_image": "",
             "client_name": "",
             "is_featured": "1",
@@ -277,106 +330,141 @@
             ]
         },
         {
-            "id": "1",
-            "title": "Relaxology Salon",
+            "id": "2",
+            "title": "Prayag Office",
             "location": "Panvel",
             "description": "",
-            "date": "2022-12-10",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/e1yw0Y8cxVS17tGzGmBcSo3C3tgRLP5wMMDzIKrYjFDuJkL_vU-RbQnZALuVDnxO9AsLyi3gPpfWq-UVcv00dkzQEPZwDAmkgrKc27gNv_cEQ-KKi6ZD_4oI0Y2Kz69NnWE6EtmM0w=w2400",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "",
+            "other_images": [
+                "https://lh3.googleusercontent.com/TOl61ZPEOnefskpXHJEiW6yy8E_om3pUGhpYdP6Ey8Eugha3_FqPSBnpjl9eJ7YW0gPhF4AU6h1M80IU_Wo4Nc66LTkw4seFgwIgEqlklU17eT0VNN3iKD2WASMggzHppLGz4mP3aw=w2400",
+                "https://lh3.googleusercontent.com/eRLH_VXtlS2fod8dCLWRu-mj6UrVuAHSEslVbyel4cF09Yv3s9mjms6D3QnKa8Gow0neMlevWM-18Pq4mB2AOXL-pibdNo6mbT1I_KF3zmLVgnK_cOFWm0ikyQ4GGk8cT6W9R_rw7A=w2400"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Office Snaps",
+            "location": "Karjat",
+            "description": "",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/gnhpEaILXw6hJ2KKovrlfLopYDVZqvDgGq5v1ct_974d7K9QSYeYiqEQm2SK0mVlteVno5zTZ9xFUDZ3eDHWPfAPR3jVedL2iV_AJ5lLRfNHp9f19GXOuB59cqeQQo30K6KvXM6h-g=w2400",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "",
+            "other_images": [
+                "https://lh3.googleusercontent.com/3wConufGM8FYAvuNsoVukx10QzSNJHE8Rzu_APRIh-hQI6Qm3PwCGev5NBqTeeQGo-LSt3U4vMhJHYH-1B_RddKtHcBkKQthoppfergj82KybgZ32lNHRtYoH-_854FLmuLerxdoQA=w2400",
+                "https://lh3.googleusercontent.com/lvLXM-OvYdrcx0-mQw6kADPqA4l2v3b5flWKX0LejGcSpIW_6BlNs0WgvASJ7SxxhAdOJJYXu8MTzqaKVeau17rUYOgw6T_d7lMqrTvlvWTjgu3JLPrtUsWH0-7xXUqxsjRmITsmeA=w2400"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Happy Hair Salon",
+            "location": "Seawood",
+            "description": "",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/L-l0w87SQJvoODANHbMLewSbUzCtcoek5XYGTm-fAyNmfmZ9Hcz9czDcOlVD224dlQP1HLXwR37Mvw_88nzRkQikz4bmPu_wvpj--IrYRV16E4tGd9FJ9gyCKfGRDmWmAcnjv_Hg1g=w2400",
+            "category": "3",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "",
+            "other_images": [
+                "https://lh3.googleusercontent.com/55uSv1BdCTLoNZFQtaFTPfVi8WGS2NJN2TN5z8P8R0aW56UIcuMob1a5jBrKehK8dF9DR12Xqpk-YdP9Jo2amZUDDfxOkt2I743fjjA5eDe6Muat9raD-8EEpTkFrzWmf2QfsIp1yA=w24000",
+                "https://lh3.googleusercontent.com/7UyO0zYsvnbd0MzAZw-pp0pnZdSgBn0oIXpJJU_lcdSKeoE073ZuXV8IBGaL1YnW8gBUkLO5QptgvqbIDKcDTK63ZKDzMrpqNgiCauDs9PPHyAx7Uuatdf5EcxqcDitw3e-ny7GLag=w2400"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Anjali Enterprises",
+            "location": "Belapur",
+            "description": "",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/NslQv_oaLv4lqyYgU3TjTswGrFEMvp3dTQ7E0SbLC1d2kGByNebvCMZdFA4rA28vfsAaDfAx9Cy5VBrx8EgyJ-1uWX5k8oWGs62JJ4ZJV8wjjyMkiXo6kEF5_F08mjzYxJkUuyfhjQ=w2400",
+            "category": "2",
+            "client_image": "",
+            "client_name": "",
+            "is_featured": "",
+            "other_images": [
+                "https://lh3.googleusercontent.com/qspQg-sJv8yUK5y_B2H8JHzJS6d95cC8RAkUOtwtEXHdZA_dDPEzQTEDcv5JqpfaRrmLg8BGJy7R5hQ9YGZh-Rr8pa0vYHs-XhmSeeaAY0lh9_ErLxt6kdCLDcaqiF_Ei6pPY0OUgw=w2400",
+                "https://lh3.googleusercontent.com/1sMyjIiCk0EllOuEq32BH_VgOduyMckbTMy5KGE5P0HiyE3Q3G3M60IM-9eb2-lAAo3cSUzJPSrBohFCxx055yt7UgAanHavIAUJJ7aU_zzxwnptBvch1qDeDb_59o0rpNoqM-Qq_g=w2400"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Deepak Jain",
+            "location": "Kharghar",
+            "description": "",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/Tv9nAuqu-QdPNdZiayDBE5IJPXj-J38d0hf8Ns5hDjjFhoXGd7oUn1tMeVLY21jpYxFalpXzvzGcMsjGGVuliAonki7U1OrYkOTn0TgRlNoMtAqow20klsAsA2XZLIhsL2eNpoMbLA=w2400",
             "category": "1",
             "client_image": "",
             "client_name": "",
-            "is_featured": "1",
+            "is_featured": "",
             "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+                "https://lh3.googleusercontent.com/aNCSnRXCk8wkq9IRXnT_PZ7WTv_eIZ5dt-ClQhHsuhmW8yUwHdUljgCr5v9YsveBoCjyuLTHbb4K5DVUOrHYtfQeWURnfqdPPeFkt9WPOOnzdznaEFHiRYnXWFUNwSCt6nPWdG8p2g=w2400",
+                "https://lh3.googleusercontent.com/CsMe1RCtyERYxH7wNSC_qUVnBIOxFYAhJSJJIBO4j3_Bew2Ic2USLde50KivZRAMKmnHGzAMMNyK7E9BZ-wQyVzFBOV-Zcq942dApmh-fDc1DNBehN1rwG02IkCuegXiW0aUqKQX4A=w2400"
             ]
         },
         {
-            "id": "1",
-            "title": "Relaxology Salon",
+            "id": "7",
+            "title": "Krishna Rao",
             "location": "Panvel",
             "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/jyksYf5rrPRD26aIR5J9nqFlRdOev6BAzMVSpi7oRRMdXY8r61Bo_GFXmldvDbHhvCTIUSKY5VALwFnVEToObmSTD2zXPS5UERXfZHKPbFCjakVuY_eSeTKnUykohIxW229ZG3f6Fg=w2400",
+            "category": "1",
             "client_image": "",
             "client_name": "",
-            "is_featured": "1",
+            "is_featured": "",
             "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+                "https://lh3.googleusercontent.com/DKDrPeUvKp0NjNa0DersodLkPU53uFqhINlL8tWRDbfoGDQ5ReUPAuj9yw7iJi7xVKUpwob-Y47-omtn3MMd1EBL_IWXRH5awecF4rsrRT8hOZkRZOIJXPPwRZYAfnaq4toq00Lszw=w2400",
+                "https://lh3.googleusercontent.com/SXtC3ZJtQyu7aW9oOVsTe190oLH14VjMz0IDhtJ-PuapsfzhXHdVb96CBBQwnOipiyBt0nLBFiowgFDiWkHaJeNWDSgUjkMjlD1VwsMAbQ37Ral4A8Ht0hqV13rUsGpnvKVuxrtxRg=w2400"
             ]
         },
         {
-            "id": "1",
-            "title": "Relaxology Salon",
-            "location": "Panvel",
+            "id": "8",
+            "title": "Sameer Phadtare",
+            "location": "Kolhapur",
             "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/-IUc7XgNPyTd0_9BV6ZrRgKkx_LSZo-QcDRfxKjyJYMG1nVSEPyAVRTzG13my5BmoQrrFEuyMs7vaJs3RgMjq4rb3UkHc0kRjxT1ZUE0pkOFzmww24A5vA-8XXkG_1Opyo3QnXPLzw=w2400",
+            "category": "1",
             "client_image": "",
             "client_name": "",
-            "is_featured": "1",
+            "is_featured": "",
             "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+                "https://lh3.googleusercontent.com/X5mPMD_Gbl_FJQB8rs797n6Ii9QlJUd6XIneS1DlHeszZTPGORUGtr1TS-wa2Dk0kDX6u8kd3p1vzdu0FtclOniKEN2HtNGgSbgyebXSV38tV_GdvGbC9onFHLQ9cpYoQSETpg5mNw=w2400",
+                "https://lh3.googleusercontent.com/Xd_dtXYigoZT5r9-tsyCkYHSYSy2G40vG04XqdThqvPEnR9Ge_eXWe-8zK9EHygqIGBlYR8wO8J0Q0vO9s7-IhGWq3s_oKrSwvevK8bv50QmgR4v-nszFqCcC9sszN_memA2p7zy-g=w2400"
             ]
         },
         {
-            "id": "1",
-            "title": "Relaxology Salon",
-            "location": "Panvel",
+            "id": "9",
+            "title": "Sanjay Sahu",
+            "location": "Nerul",
             "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/z0OtdcKnSh53dwFR-HXTppWKHbc20zSZ6c8iQ_cZTvezKjFLHqlQLbSkwoU87HHtpOJ36UclHPXU16n6-7Si9FrQCn751uFufUFv-2Vt-R8D-moswhzw0Udwg_wWnwxjUUR5uVxlnQ=w2400",
+            "category": "1",
             "client_image": "",
             "client_name": "",
-            "is_featured": "1",
+            "is_featured": "",
             "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
+                "https://lh3.googleusercontent.com/oG4wCyzq5ZSltpzKGyTVUVoS0f2vk1z7m3V9-yua5FTwT9prenuYDmD9PUhySFNH1NKB7bI0LslI2T0IwmdL1hn0PTg_QL67g8LamxoUMlSP6t1KRUSxnZ1c3Cuy-XaqS3j_jaqh7g=w2400",
+                "https://lh3.googleusercontent.com/uvRIsOvRlbFLPFzx0BVHfLWy8fkm2qCpOVHgFMQZm8keRgAGKunhPbXDj8Y-acUU6g79KoqByPtnZife5ysKoF4V4MPPRj_GTh7XK_ASVYxEOwYi9gP45NjbeYOF1kcw_bfEtPArWA=w2400"
             ]
         },
         {
-            "id": "1",
-            "title": "Relaxology Salon",
-            "location": "Panvel",
+            "id": "10",
+            "title": "Hospital's & Hotels",
+            "location": "",
             "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
-            "client_image": "",
-            "client_name": "",
-            "is_featured": "1",
-            "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
-            ]
-        },
-        {
-            "id": "1",
-            "title": "Relaxology Salon",
-            "location": "Panvel",
-            "description": "",
-            "date": "2022-10-07",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-            "category": "2",
-            "client_image": "",
-            "client_name": "",
-            "is_featured": "1",
-            "other_images": [
-                "",
-                "https://lh3.googleusercontent.com/zMvyDWvutY_t00xmlG461L8sntrNFRJDguJ2i0w3SRT0SxDmTO43SChXLJjtgKKybbRZXHmZ5rONyZJNGI0wSAqRyFw9NKR-WlJgSUcBsfftsaukGjSGZT1wwF1MOtfR5PKkYpHymw=w2400",
-                "https://lh3.googleusercontent.com/FBtzCsiw13-O6WmISaeS_4bY-KJMxGZOKBut-gOSD2ixW_R-T_yFThdhtSthTtZkSSJ9n85X6bvxIU9Nqm7fnw2ZAzZ8LBBy_FPIj-bfPzUBqPj1uOSVkXKqYhgHzYqNJ_H5bYfb1w=w2400"
-            ]
+            "date": "",
+            "image": "https://lh3.googleusercontent.com/FbCFLiQwYKaaPzcRb6jUZ07UWr2nasSOfCNn7LPL95wqjMzhGRGj8We7YUrZSY7kYUMiNgzlpXBL3jbS6mR7OJ4l7L9UDigO-7zcsOfZKGAnKpSEeWMbswg9BY77YvBdDw6W7N_XdA=w2400",
+            "category": "5"
         }
     ]
 }

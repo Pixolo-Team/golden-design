@@ -1,16 +1,18 @@
 <!--Expertise ad section start-->
 <div class="tint-section {{sectionClass}}">
-<div class="section section3">
-    <div class="sec3-image-wrapper">
-        {% for img in data.images %}
-            <img class="sec3-image lb-target progressive__img progressive--not-loaded" src="assets/images/home/home-sec3/progressive/{{ img }}" data-progressive="assets/images/home/home-sec3/{{ img }}" alt="Kitchen Design"/>
-        {% endfor %}
+    <div class="section section3">
+        <div class="sec3-image-wrapper">
+            {% for img in data.images %}
+            {% if img %}
+            <img class="sec3-image lb-target " src="{{ img }}" alt="Kitchen Design" />
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="sec3-paragraph">
+            <p class="sec3-line1">{{ data.title }}</p>
+            <p class="sec3-line2">{{ data.description }}</p>
+            <a href="about-us" class="primary-link exp-link">Read More</a>
+        </div>
     </div>
-    <div class="sec3-paragraph">
-        <p class="sec3-line1">{{ data.title }}</p>
-        <p class="sec3-line2">{{ data.description }}</p>
-        <a href="about-us" class="primary-link exp-link">Read More</a>
-    </div>
-</div>
 </div>
 <!--Expertise ad section end-->

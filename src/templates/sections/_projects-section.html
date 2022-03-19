@@ -1,4 +1,17 @@
 <!--projects section start-->
+{% verbatim %}
+{% set hasFeaturedProduct= false %}
+<!-- It will check if featured product is available to show the section  -->
+<!-- Filter for loop -->
+{% for project in webdata.projects %}
+{% if project.is_featured=='1' %}
+<!-- Found the featured project to show  the section -->
+{% set hasFeaturedProduct= true %}
+{% endif %}
+{% endfor %}
+<!-- Filter for loop ended -->
+<!-- If featured product is available  -->
+{% if hasFeaturedProduct %}
 <div class="section">
   <div class="project-discription">
     <div class="project-lines">
@@ -12,10 +25,11 @@
       class="rounded-button mobile-hide">Get free consultation</button>
   </div>
   <div class="project-image-section">
-    {% verbatim %}
+
     {% for project in webdata.projects %}
     {% if project.is_featured=='1' %}
-    <div class="project-bg-image" style="background-image:url({{project.image}})">
+    <div class="project-bg-image" style="background-image:url({{project.image}})"
+      onclick="window.open('project-consumption?p={{project.id}}','_new')">
       <div class="project-image-lines">
         <p class="image-line-1">{{project.title}}</p>
         <p class="image-line-2">{{project.location}}</p>
@@ -23,7 +37,7 @@
     </div>
     {% endif %}
     {% endfor %}
-    {% endverbatim %}
+
   </div>
   <button type="button" name="projects button" onclick="window.location='projects'" class="rectangular-button">VIEW ALL
     PROJECTS</button>
@@ -31,4 +45,6 @@
 <button type="button" name="contact button" onclick="window.location='contact'" class="rounded-button desktop-hide">Get
   free consultation</button>
 </div>
+{% endif %}
+{% endverbatim %}
 <!--projects section end-->
