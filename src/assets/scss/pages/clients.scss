@@ -11,7 +11,7 @@
   color: var(--color-text-primary);
   font: var(--font-primary-semi-bold);
   font-size: var(--font-large);
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .clients-logo-slider {
@@ -71,6 +71,8 @@
     display: block;
     margin: 10px 0;
     width: 48%;
+    height: 215px;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 697px) {
