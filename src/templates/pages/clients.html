@@ -8,12 +8,12 @@
   '../sections/_client-hero.html' %}
 
   <div class="section">
-    <p class="clients-title">Our Major Clients</p>
+    <h1 class="clients-title">Our Major Clients</h1>
     <div class="clients-logo-slider">
       {% verbatim %}
       {% for logo in webdata.client_logos %}
       <div class="clients-slider-img">
-        <img class="client-logo" src="{{ logo }}" alt="Client Logo" />
+        <img class="client-logo" src="{{ logo }}" alt="{{ client.title }}" />
       </div>
       {% endfor %}
       {% endverbatim %}
@@ -30,14 +30,14 @@
         <p class="client-title">
           {{ client.title }}
         </p>
-        <img class="client-img " src="{{ client.logo }}" alt="Client Image" />
+        <img class="client-img " src="{{ client.logo }}" alt="{{ client.title }}" />
         <p class="client-desc">
           {{ client.description }}
         </p>
       </div>
       <div class="client-images">
         {% for image in client.other_images %}
-        <img class="client-img " src="{{ image }}" alt="Client Image" />
+        <img class="client-img " src="{{ image }}" alt="{{ client.title }}" />
         {% endfor %}
       </div>
     </div>

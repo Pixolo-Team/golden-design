@@ -4,7 +4,7 @@
         <div class="sec3-image-wrapper">
             {% for img in data.images %}
             {% if img %}
-            <img class="sec3-image lb-target " src="{{ img }}" alt="Kitchen Design" />
+            <img class="sec3-image lb-target " src="{{ img }}" alt="{{ data.title }}" />
             {% endif %}
             {% endfor %}
         </div>

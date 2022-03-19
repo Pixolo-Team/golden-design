@@ -26,7 +26,7 @@
     <img class="project-img " src="{{ project.image }}" />
     <div class="project-user">
       {% if project.client_image %}
-      <img class="project-user-img " src="{{ project.client_image }}" />
+      <img class="project-user-img " src="{{ project.client_image }}" alt="{{ project.client_name }}" />
       {% endif %}
       <div class="project-user-info">
         <p class="project-u-name">{{ project.client_name }}</p>

@@ -117,28 +117,7 @@ $(document).ready(function () {
   // FAQ Open - Close
   $(".faq-quaries").on("click", function () {
     $(this).children(".quaries-answers").slideToggle(300);
-
-    // Show Plus or Minus
-
-    // Wait for 400 ms
-    setTimeout(() => {
-      console.log($(this).find(".quaries-answers").children("#plus-icon"));
-      // 1 : Check if quris-answers is block or none
-      if ($(this).find(".quaries-answers").is(":visible")) {
-        // If it is block then show minus and hide plus
-        $(this).find("#plus-icon").fadeOut("fast", () => {
-          console.log("Hi");
-          $(this).find("#minus-icon").fadeIn("fast");
-        });
-        // $(this).find("#minus-icon").delay(100).fadeIn();
-      }
-      else {
-        $(this).find("#minus-icon").fadeOut("fast", () => {
-          console.log("Hi");
-          $(this).find("#plus-icon").fadeIn("fast");
-        });
-      }
-    }, 400);
+    $(this).find(".icon").toggleClass("open");
   });
 
   $('.section-6-scroll').slick({
@@ -221,4 +200,10 @@ $(".lb-target").click(function () {
     var imgSrc = $(this).attr("src");
     $('.modal-content').html('<img class="light-box-image" src="' + imgSrc + '">');
   }
+});
+
+
+
+$(".faq-quaries").on("click", function () {
+  
 });
