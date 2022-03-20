@@ -13,7 +13,7 @@ $propertyCategory = isset($_POST['propertyCategory']) ? $_POST['propertyCategory
 
 $from = "contact@goldendesigninteriors.com";
 $to = "contact@goldendesigninteriors.com";
-$subject = "Enquiry On Website From " . $organization;
+$subject = "Enquiry On Website";
 // Always set content-type when sending HTML email
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
