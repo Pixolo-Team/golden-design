@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-{% verbatim %}
-{% include "components/_head.html" with {css:'project-consumption',title:'{{ project.title }}'} %}
-{% endverbatim %}
+
+{% include "../components/_head.html" with {css:'project-consumption',title:'{{ project.title }}'} %}
+
 
 <body>
   {% include '../components/_page-loader.html' %}
-  {% include '../components/_menu.html' with {activeMenu:'projct-consumption'} %} {% include
+  {% include '../components/_menu.html' with {activeMenu:'projects'} %} {% include
   '../sections/_project-con-hero.html' %}
   {% include
   '../sections/_project-images.html' %}

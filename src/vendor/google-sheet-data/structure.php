@@ -76,9 +76,8 @@ $structure = (object)array(
         "id"=>"",
         "title"=>"",
         "description"=>"",
-        "description"=>"",
         "category"=>"",
-        "other_images"=>[""]
+        "images"=>[""]
         ]),
     "video_testimonials"=>array((object)[
         "id"=>"",

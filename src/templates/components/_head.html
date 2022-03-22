@@ -10,12 +10,10 @@
   <meta http-equiv="expires" content="0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="canonical" href="https://goldendesigninteriors.com/" />
-  <title>{{title}} | Golden Design Interior</title>
-
+  {% if title %}<title>{{title}} | Golden Design Interior</title>{% endif %}
   <link rel="stylesheet" type="text/css" href="lib/progressive-load/progressively.css" />
   <!-- Style -->
   <link rel="stylesheet" href="assets/css/{{css}}.css" />
-
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
