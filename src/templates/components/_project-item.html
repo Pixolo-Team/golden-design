@@ -21,29 +21,31 @@
 <p class="design-type history">Our History of Designs</p>
 {% endif%}
 {% for project in projects %}
-<div class="project-item">
-  <div class="project-img-wrapper">
-    <img class="project-img " src="{{ project.image }}" />
-    <div class="project-user">
-      {% if project.client_image %}
-      <img class="project-user-img " src="{{ project.client_image }}" alt="{{ project.client_name }}" />
-      {% endif %}
-      <div class="project-user-info">
-        <p class="project-u-name">{{ project.client_name }}</p>
-        <p class="project-u-date">{{ project.client_date }}</p>
+<a href="./project-consumption?p={{project.id}}">
+  <div class="project-item">
+    <div class="project-img-wrapper">
+      <img class="project-img " src="{{ project.image }}" />
+      <div class="project-user">
+        {% if project.client_image %}
+        <img class="project-user-img " src="{{ project.client_image }}" alt="{{ project.client_name }}" />
+        {% endif %}
+        <div class="project-user-info">
+          <p class="project-u-name">{{ project.client_name }}</p>
+          <p class="project-u-date">{{ project.client_date }}</p>
+        </div>
       </div>
+      <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo" />
     </div>
-    <img class="image-over-logo" src="assets/images/brand/logo.svg" alt="golden design logo" />
+    <div class="project-info">
+      <p class="project-title">{{ project.title }}</p>
+      <p class="project-addr">{{ project.location }}</p>
+    </div>
+    <p class="project-desc">
+      {{ project.description }}
+    </p>
+    <a href="./project-consumption?p={{project.id}}" class="primary-link">View Project</a>
   </div>
-  <div class="project-info">
-    <p class="project-title">{{ project.title }}</p>
-    <p class="project-addr">{{ project.location }}</p>
-  </div>
-  <p class="project-desc">
-    {{ project.description }}
-  </p>
-  <a href="./project-consumption?p={{project.id}}" class="primary-link">View Project</a>
-</div>
+</a>
 {% endfor %}
 {% endverbatim %}
 <!--Project-item Start-->

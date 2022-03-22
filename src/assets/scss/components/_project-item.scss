@@ -71,10 +71,12 @@
   font: var(--font-primary-bold);
   font-size: var(--font-large);
   margin-top: 20px;
+  color: var(--color-text-primary);
 }
 .project-addr {
   font: var(--font-primary-medium);
   margin: 4px 0 13px;
+  color: var(--color-text-primary);
 }
 .project-desc {
   color: var(--color-text-primary-light);
